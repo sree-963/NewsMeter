@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Newmeter</title>
+
+<!-- //font awesome cdn link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- roboto fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="../css/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <!---------------------------sidebar-start ---------------------------------->
+  <div class="sidenav" id="mySidenav">
+    <div class="d-flex sidenav-header justify-content-end">
+      <!-- <a href="#" class=""><img src="./img/newsmeter-logo.png" class="img-fluid" /></a> -->
+      <button type="button" class="closebtn btn btn-light" onclick="closeNav()">
+        <i class="bi bi-x-lg"></i></button>
+    </div>
+
+    <ul class="nav flex-column">
+
+    <li class="nav-item">
+      <a class="nav-link active" href="../TopStories.html">TOP STORIES</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../Hyderabad.html">HYDERABAD</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../Crime.html">CRIME</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="../FactCheckEnglish.html">FACT CHECK ENGLISH</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../ConsumerVoice.html">CONSUMER VOICE</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../DataStrories.html">DATA STORIES</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../StatielliteJournalism.html">SATELLITE JOURNALISM</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="../Health.html">HEALTH</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../Educationand jobs.html">EDUCATION/JOBS</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="../BusinessandTechJobs.html">BUSINESS/TECH & STARTUPS</a>
+    </li>
+    <div class="Dropdown">
+      <button class="Dropbtn">REGIONAL <span class="fa fa-caret-down"></span></button>
+      <div class="Dropdown-Content">
+        <a class="nav-link" href="../FactCheckEnglish.html">Andhra Pradesh</a>
+        <a class="nav-link" href="#">Hyderabad</a>
+        <a class="nav-link" href="#">South India</a>
+        <a class="nav-link" href="#">Telangana</a>
+        <a class="nav-link" href="#">Tirupathi</a>
+        <a class="nav-link" href="#">Vishakapatnam</a>
+        <a class="nav-link" href="#">Vijayawada/Amaravati</a>
+        <a class="nav-link" href="#">Warangal</a>
+        <a class="nav-link" href="#">World / NRI News</a>
+      </div>
+    </div>
+  </ul>
+
+  </div>
+  <!------------------------sidebar-End--------------------------------------->
+  <!------------------------Main-content-start--------------------------------------->
+  <div id="main  border">
+
+    <!------------------------Top-Banner-End--------------------------------------->
+    <!------------------------Header-start--------------------------------------->
+    <div class="container px-0">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- <img class="add-banner shadow-sm" src="./img/banner-ad-example-online.png" alt="Advertisement"> -->
+        </div>
+
+        <div class="telugu-btn">
+          <button type="button" class="btn btn-danger" href="#">Telugu</button>
+        </div>
+        <div class="icfn-logo">
+          <a href="#"><img src="../img/icfn-logo.png" class="w-100" /></a>
+        </div>
+      </div>
+    </div>
+    <!------------------------Top-Banner-End--------------------------------------->
+    <!------------------------Header-start--------------------------------------->
+    <section id="mainNav">
+
+
+      <!------------------------Header-End--------------------------------------->
+      <!------------------------Navigation Links start--------------------------------------->
+      <div class="container-fluid px-0">
+        <nav class="navbar navbar-expand-md navbar-light  main-nav bg-white border-bottom">
+
+
+
+          <a class="menu btn btn-danger shadow-sm  mr-3" href="#" onclick="openNav()"><i class="bi bi-list"></i></a>
+          <a class="navbar-brand">
+            <img class="img" src="../img/newsmeter-logo.png" class="logo" alt="logo"></a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto center-item-space pt-4 justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="../TopStories.html">TOP STORIES</a>
+              </li>
+              <!--<li class="nav-item">
+                <a class="nav-link" href="#">Politics</a>
+              </li>-->
+              <div class="dropdown">
+                <button class="dropbtn">FACT CHECK <span class="fa fa-caret-down"></span></button>
+                <div class="dropdown-content">
+                  <a href="../FactCheckEnglish.html">Fact Check English</a>
+                  <a href="#">Fact Check Malayalam</a>
+                  <a href="#">Fact Check Tamil</a>
+                  <a href="#">Fact Check Kannada</a>
+                  <a href="#">Fact Check Health</a>
+                </div>
+              </div>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../Entertainment.html">ENTERTAINMENT</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../Health.html"> HEALTH</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-danger">Subscribe</button>
+              </li>
+              <li class="nav-item">
+                <a class=" pl-2 fa fa-search"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary btn-fb"><i class="bi bi-facebook"></i></button>
+                    <button type="button" class="btn btn-danger btn-insta"><i class="bi bi-instagram"></i></button>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-twitter"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="bi bi-youtube"></i></button>
+
+                  </div>
+                </a>
+              </li>
+             
+            </ul>
+ 
+          </div>
+
+        </nav>
+      </div>
+    </section>
+    
+      <!------------------------slider-content-start--------------------------------------->
+      
+      <div class="custom_container align-items-center my-3">
+        
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8">
+              
+                <h1 class="col-lg-12 my-5"> <a href="" class=''> Bheemili beach in Visakhapatnam is glowing: Here’s why</a></h1>
+                <h2 class="col-lg-12 newsdescription my-4">     The phenomenon known as ‘Bioluminescence’ is seen only in a few places in India. Now, Bheemili beach in Visakhapatnam has joined the list</h2>
+                <span class="text-left col-lg-12"> By <a href="" class="text-danger"> Sri Lakshmi Muttevi 
+                    </a></span>Published on 9 April 2023 1:35 PM
+
+                <div class="row justify-content-between"
+                    style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+                    <!--mb-5-->
+                    <div class="col-lg-11">
+                      <div class="text-right mb-3">
+                        <a href=""><button type="button" class="btn btn-primary btn-fb facebook-color mx-1"><i class="bi bi-facebook"></i></button></a>
+                        <a href=""><button type="button" class="btn btn-success btn-insta whatsapp-color mx-1"><i class="bi bi-whatsapp"></i></button></a>
+                        <a href=""><button type="button" class="btn btn-primary twitter-color mx-1"><i class="bi bi-twitter"></i></button></a>
+                        <a href=""><button type="button" class="btn btn-primary linkedin-color mx-1"><i class="bi bi-linkedin"></i></button></a>
+                        <a href=""><button type="button" class="btn btn-warning ml-1 koo-social">
+                          <img src="https://newsmeter.in/images/social/Koo_Logo_white.png" width="15px" height="auto"></button></a>
+                      </div>
+                      
+                        <img src="https://newsmeter.in/h-upload/2023/04/09/343350-2023-04-09-123846.webp"
+                            class="img-fluid d-block mx-auto presentaion-img" alt="presentation">
+                    </div>
+
+                    <div class="col-lg-11 news-story my-4">
+                        <p>Visakhapatnam: Residents of Visakhapatnam are witnessing a rare sight—glowing beaches. The phenomenon known as ‘Bioluminescence’ is seen only in a few places in India. Now, Visakhapatnam in Andhra Pradesh has joined the list.</p>
+                        <p>In the last few days, the Bheemili beach in Visakhapatnam witnessed this rare sight as the beach waters glowed at night. Videos and photos shared by weather forecasters are trending on social media. </p>
+                        <p>Photos tweeted by Sai Kiran, popularly known as Vizag Weatherman, show the rare phenomena at Bheemili beach at night. The phenomena is also seen at the beach stretch from Kailasagiri to Bheemili. </p>
+                        <div class="hocal-draggable" draggable="true"><div class="h-embed" contenteditable="false"><div class="h-embed-wrapper"><div class="twitter-tweet twitter-tweet-rendered" style="display: flex; max-width: 550px; width: 100%; margin-top: 10px; margin-bottom: 10px;"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="" style="position: static; visibility: visible; width: 550px; height: 766px; display: block; flex-grow: 1;" title="Twitter Tweet" src="https://platform.twitter.com/embed/Tweet.html?dnt=false&amp;embedId=twitter-widget-0&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfbWl4ZWRfbWVkaWFfMTU4OTciOnsiYnVja2V0IjoidHJlYXRtZW50IiwidmVyc2lvbiI6bnVsbH0sInRmd19leHBlcmltZW50c19jb29raWVfZXhwaXJhdGlvbiI6eyJidWNrZXQiOjEyMDk2MDAsInZlcnNpb24iOm51bGx9LCJ0ZndfZHVwbGljYXRlX3NjcmliZXNfdG9fc2V0dGluZ3MiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3ZpZGVvX2hsc19keW5hbWljX21hbmlmZXN0c18xNTA4MiI6eyJidWNrZXQiOiJ0cnVlX2JpdHJhdGUiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2xlZ2FjeV90aW1lbGluZV9zdW5zZXQiOnsiYnVja2V0Ijp0cnVlLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3R3ZWV0X2VkaXRfZnJvbnRlbmQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfX0%3D&amp;frame=false&amp;hideCard=false&amp;hideThread=false&amp;id=1644626534467276800&amp;lang=en&amp;origin=https%3A%2F%2Fnewsmeter.in%2Fregional%2Fandhra-pradesh%2Fbheemili-beach-visakhapatnam-glowing-here-why-710696&amp;sessionId=ae6ff4fc4c80adcd7b10c66bc4d3db40ec848a68&amp;theme=light&amp;widgetsVersion=aaf4084522e3a%3A1674595607486&amp;width=550px" data-tweet-id="1644626534467276800"></iframe></div>  </div></div></div>
+
+                        <p><br></p>
+                        <p>Speaking to NewsMeter, Kiran said, “We cannot confirm if this phenomenon can be seen daily, but I believe it happens only during particular seasons. It usually depends on the concentration of a particular alga at the coast. While this phenomenon is seen after 9 p.m., some witnessed light emission increase during midnights at the Bheemili beach.”</p>
+
+                        <div class="h-embed-wrapper"><div class="twitter-tweet twitter-tweet-rendered" style="display: flex; max-width: 550px; width: 100%; margin-top: 10px; margin-bottom: 10px;"><iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="" style="position: static; visibility: visible; width: 550px; height: 802px; display: block; flex-grow: 1;" title="Twitter Tweet" src="https://platform.twitter.com/embed/Tweet.html?dnt=false&amp;embedId=twitter-widget-1&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfbWl4ZWRfbWVkaWFfMTU4OTciOnsiYnVja2V0IjoidHJlYXRtZW50IiwidmVyc2lvbiI6bnVsbH0sInRmd19leHBlcmltZW50c19jb29raWVfZXhwaXJhdGlvbiI6eyJidWNrZXQiOjEyMDk2MDAsInZlcnNpb24iOm51bGx9LCJ0ZndfZHVwbGljYXRlX3NjcmliZXNfdG9fc2V0dGluZ3MiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3ZpZGVvX2hsc19keW5hbWljX21hbmlmZXN0c18xNTA4MiI6eyJidWNrZXQiOiJ0cnVlX2JpdHJhdGUiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2xlZ2FjeV90aW1lbGluZV9zdW5zZXQiOnsiYnVja2V0Ijp0cnVlLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3R3ZWV0X2VkaXRfZnJvbnRlbmQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfX0%3D&amp;frame=false&amp;hideCard=false&amp;hideThread=false&amp;id=1644749841745211393&amp;lang=en&amp;origin=https%3A%2F%2Fnewsmeter.in%2Fregional%2Fandhra-pradesh%2Fbheemili-beach-visakhapatnam-glowing-here-why-710696&amp;sessionId=ae6ff4fc4c80adcd7b10c66bc4d3db40ec848a68&amp;theme=light&amp;widgetsVersion=aaf4084522e3a%3A1674595607486&amp;width=550px" data-tweet-id="1644749841745211393"></iframe></div>  </div>
+
+                        <p><br></p>
+                        <p>According to Kiran, a similar kind of phenomenon was witnessed at RK beach and Yarada beach in 2019.<br></p>
+                        <p><b>What is Bioluminescence?</b></p>
+                        <p>Bioluminescence is caused by living organisms like bacteria, fungi, algae, insects and, in some cases, aquatic animals. It is a type of chemiluminescence or a chemical reaction that occurs within these organisms, where chemical energy is converted into radiant energy, thereby producing light.</p>
+                        <div style="width:100%"><img src="https://newsmeter.in/h-upload/2023/04/09/343351-2023-04-09-123549.webp" style="width: 100%;" class="img-fluid mx-auto"> <div><br></div></div>
+                        <p>Luciferin, a molecule found in these organisms, is responsible for this phenomenon, where it reacts with oxygen and produces light. Commonly called sea sparkle, the marine-dwelling species of dinoflagellate exhibits blue light when disturbed.<br></p>
+                        <p><b>Is it toxic?</b></p>
+                        <p>According to weather experts, contacting them is toxic and risky, but particularly on the Visakhapatnam coast, the Bioluminescence phenomena are shown as less concentration.</p>
+                        <p><b>Where do we see it in India?</b></p>
+                        <p>In India, we see this phenomenon only in a few places—Goa, Karnataka, Maharashtra, Andaman, and Lakshadweep, to date. Now, Visakhapatnam has been added to the list. </p>
+                        <p><i>1. Mattu Beach, Karnataka</i></p>
+                        <p>Located 10 km from Udupi, Mattu beach is a place where we can see the waters glow at night due to the bioluminescence created by the microorganism called Noctiluca.</p>
+                        <p><i>2. Radhanagar beach, Andaman &amp; Nicobar</i></p>
+                        <p>This beach on Havelock Island is known for its turquoise waters and pristine sand. During certain times of the year, people can see glowing beaches due to bioluminescence phenomena.</p>
+                        <p><i>3. Palolem Beach, Goa</i></p>
+                        <p>Palolem beach is one of the beaches in India known for its glowing beaches.</p>
+                        <p>4. Mandarmani Beach, West Bengal</p>
+                        <p>Located in the East Midnapore district of West Bengal, this is one of the few beaches in eastern India where you can witness bioluminescence.</p>
+                        <p><i>5. Bangaram Island, Lakshadweep</i></p>
+                        <p>Bangaram, a small island shaped like a teardrop in the Lakshadweep, lights up during the night. This phenomenon is due to phytoplankton, algae, and other aquatic creatures, such as jellyfish, in the waters.</p>
+
+                    </div>
+
+                    <div class="my-5">
+
+                        <a href="">
+                            <button type="button" class="m-2 btn btn-outline-danger">Vizag beach
+                            </button></a>
+                        <a href="">
+                            <button type="button" class="m-2 btn btn-outline-danger">glowing beach
+                            </button></a>
+
+                        <a href="">
+                            <button type="button" class="m-2 btn btn-outline-danger">bioluminescence
+                            </button></a>
+                            <a href="">
+                                <button type="button" class="m-2 btn btn-outline-danger">bheemili beach
+                                </button></a>
+                       
+                    </div>
+                </div>
+
+            </div>
+            <div class="Entertainment col-lg-4 mt-3 ">
+                <div class="mb-4 row">
+                    <div class="col-lg-12">
+                        <h2 class="block-title title-border">
+                            <span class="title-bg">
+                                Latest News
+                            </span>
+                        </h2>
+                        <!-- <img class="rounded img-fluid w-100" src="./img/add-banner.jpg" alt="Advertisement"> -->
+
+                    </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-lg-6">
+                        <img src="https://newsmeter.in/h-upload/2023/04/11/500x300_343472-2023-04-11-100804.webp"
+                            class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                    </div>
+                    <div class="col-lg-6 presentation-headline pl-lg-0">
+                        <a>
+                            Covid resurgence: Andhra health department put on alert</a>
+                    </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-lg-6">
+                        <img src="https://newsmeter.in/h-upload/2023/04/11/500x300_343469-2023-04-11-090835.webp"
+                            class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                    </div>
+                    <div class="col-lg-6 presentation-headline pl-lg-0">
+                        <a>
+                            Sweet mango turns sour for Andhra farmers: Unseasonal rains hit fruit production, quality</a>
+                    </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-lg-6">
+                        <img src="https://newsmeter.in/h-upload/2023/04/10/500x300_343451-2023-04-10-224022.webp"
+                            class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                    </div>
+                    <div class="col-lg-6 presentation-headline pl-lg-0">
+                        <a>
+                            Andhra Pradesh bans marine fishing for two months amid annual breeding season </a>
+                    </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-lg-6">
+                        <img src="https://newsmeter.in/h-upload/2023/04/10/500x300_343448-2023-04-10-222131.webp"
+                            class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                    </div>
+                    <div class="col-lg-6 presentation-headline pl-lg-0">
+                        <a>
+                            Andhra Pradesh: CM Jagan to lay foundation for Bhogapuram airport on May 3
+                        </a>
+                    </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-lg-6">
+                        <img src="https://newsmeter.in/h-upload/2023/03/17/500x300_341667-picsart23-03-1717-45-07-744.webp"
+                            class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                    </div>
+                    <div class="col-lg-6 presentation-headline pl-lg-0">
+                        <a>
+                            BJP MP Dharmapuri Arvind gets anticipatory bail in SC, ST atrocities case </a>
+                    </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-lg-6">
+                        <img src="https://newsmeter.in/h-upload/2023/04/11/500x300_343461-2023-04-11-074647.webp"
+                            class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                    </div>
+                    <div class="col-lg-6 presentation-headline pl-lg-0">
+                        <a>
+                            SSC paper leak: Telangana govt says Bandi Sanjay not cooperating with investigation </a>
+                    </div>
+                </div>
+                <div class="section-heading mb-3">
+                    <a href="">
+                    <h2 class="block-title title-border">
+                        <span class="title-bg">Video stories</span>
+                    </h2>
+                </a>
+            </div>
+            <div id="carouselExampleIndicators" height="" data-ride="carousel" class="carousel slide hyderbad-carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img data-class="h-custom-image" height="200px" width="100%" class="img-fluid mx-auto" src="https://newsmeter.in/h-upload/2023/04/02/750x450_342878-web.webp",="" data-src="https://newsmeter.in/h-upload/2023/04/02/750x450_342878-web.webp" alt="Intertidal Walks: Come, take a stroll on Vizag beach to explore rich marine life" 
+                    title="Intertidal Walks: Come, take a stroll on Vizag beach to explore rich marine life" old-src="/images/placeholder.jpg"></div>
+
+                <div class="carousel-item">
+                    <img data-class="h-custom-image" height="200px" width="100%" class="img-fluid mx-auto" src="https://newsmeter.in/h-upload/2023/03/25/750x450_342283-web.webp" ,="" data-src="https://newsmeter.in/h-upload/2023/04/01/750x450_342807-web.webp" alt=""
+                     title="Rampuri Chaku: A 20-foot Rampuri knife installed in Uttar Pradesh"></div>
+
+                <div class="carousel-item">
+                    <img data-class="h-custom-image" height="200px" width="100%" class="img-fluid mx-auto" src="https://newsmeter.in/h-upload/2023/03/30/750x450_342645-web.webp" ,="" 
+                    data-src="https://newsmeter.in/h-upload/2023/03/31/750x450_342706-web.webp" alt=""
+                     title="Hyderabadi Swiggy user spent whopping Rs 6L on 8,428 plates of idlis"></div>
+
+                     <div class="carousel-item"><img data-class="h-custom-image" src="/images/placeholder.jpg" ,=""
+                         data-src="https://newsmeter.in/h-upload/2023/03/25/750x450_342283-web.webp" alt=""
+                          title="Memories and Magnets: Two Hyderabadis explore the world through magnets"></div></div>
+
+                          <a href="#carouselExampleIndicators" role="button" data-slide="prev" class="carousel-control-prev"><span aria-hidden="true" class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a href="#carouselExampleIndicators" role="button" data-slide="next" class="carousel-control-next"><span aria-hidden="true" class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div class="footer">
+      <div class="img-footer">
+        <img src="../img/footer.png" alt="">
+        <div class="join-us">
+          <p>Join us in Our Fight Against Mis-Information</p>
+          <button class="btn btn-danger">Join</button>
+        </div>
+      </div>
+      <div class="footer-links">
+       <div class="follow">
+        <p style="color:aliceblue; font-size: 17px;">Follow Us On </p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-primary btn-fb"><i class="bi bi-facebook"></i></button>
+          <button type="button" class="btn btn-danger btn-insta"><i class="bi bi-instagram"></i></button>
+          <button type="button" class="btn btn-primary"><i class="bi bi-twitter"></i></button>
+          <button type="button" class="btn btn-danger"><i class="bi bi-youtube"></i></button>
+        </div>
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link active" href="#">About NewsMeter</a>
+          <a class="nav-link" href="#">Editorial Staff</a>
+          <a class="nav-link" href="#">Fact Check Methodology</a>
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link" style="color:aliceblue">Terms&Condition</a>
+          <a class="nav-link active" href="#">Correction Policy</a>
+          <a class="nav-link" href="#">Privacy Policy</a>
+          <a class="nav-link" href="#">Cookie Policy</a>
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link" style="color:aliceblue">Non Partnership Policy</a>
+          <a class="nav-link active" href="#">Grievance Addressal</a>
+          <a class="nav-link" href="#">Contact News Meter</a>
+          <a class="nav-link" href="#">Advertise With Us</a>
+  
+  
+  
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-2 bg-dark">
+      <p class="text-center mb-0 text-white text-left">&copy; 2023 All rights reserved</p>
+
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="../js/sidebr.js"></script>
+  <script src="../js/sticky-header.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Newmeter</title>
+
+<!-- //font awesome cdn link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- roboto fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="../css/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <!---------------------------sidebar-start ---------------------------------->
+  <div class="sidenav" id="mySidenav">
+    <div class="d-flex sidenav-header justify-content-end">
+      <!-- <a href="#" class=""><img src="./img/newsmeter-logo.png" class="img-fluid" /></a> -->
+      <button type="button" class="closebtn btn btn-light" onclick="closeNav()">
+        <i class="bi bi-x-lg"></i></button>
+    </div>
+
+    <ul class="nav flex-column">
+
+    <li class="nav-item">
+      <a class="nav-link active" href="../TopStories.html">TOP STORIES</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../Hyderabad.html">HYDERABAD</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../Crime.html">CRIME</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="../FactCheckEnglish.html">FACT CHECK ENGLISH</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../ConsumerVoice.html">CONSUMER VOICE</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../DataStrories.html">DATA STORIES</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../StatielliteJournalism.html">SATELLITE JOURNALISM</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="../Health.html">HEALTH</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../Educationand jobs.html">EDUCATION/JOBS</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="../BusinessandTechJobs.html">BUSINESS/TECH & STARTUPS</a>
+    </li>
+    <div class="Dropdown">
+      <button class="Dropbtn">REGIONAL <span class="fa fa-caret-down"></span></button>
+      <div class="Dropdown-Content">
+        <a class="nav-link" href="../FactCheckEnglish.html">Andhra Pradesh</a>
+        <a class="nav-link" href="#">Hyderabad</a>
+        <a class="nav-link" href="#">South India</a>
+        <a class="nav-link" href="#">Telangana</a>
+        <a class="nav-link" href="#">Tirupathi</a>
+        <a class="nav-link" href="#">Vishakapatnam</a>
+        <a class="nav-link" href="#">Vijayawada/Amaravati</a>
+        <a class="nav-link" href="#">Warangal</a>
+        <a class="nav-link" href="#">World / NRI News</a>
+      </div>
+    </div>
+  </ul>
+
+  </div>
+  <!------------------------sidebar-End--------------------------------------->
+  <!------------------------Main-content-start--------------------------------------->
+  <div id="main  border">
+
+    <!------------------------Top-Banner-End--------------------------------------->
+    <!------------------------Header-start--------------------------------------->
+    <div class="container px-0">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- <img class="add-banner shadow-sm" src="./img/banner-ad-example-online.png" alt="Advertisement"> -->
+        </div>
+
+        <div class="telugu-btn">
+          <button type="button" class="btn btn-danger" href="#">Telugu</button>
+        </div>
+        <div class="icfn-logo">
+          <a href="#"><img src="../img/icfn-logo.png" class="w-100" /></a>
+        </div>
+      </div>
+    </div>
+    <!------------------------Top-Banner-End--------------------------------------->
+    <!------------------------Header-start--------------------------------------->
+    <section id="mainNav">
+
+
+      <!------------------------Header-End--------------------------------------->
+      <!------------------------Navigation Links start--------------------------------------->
+      <div class="container-fluid px-0">
+        <nav class="navbar navbar-expand-md navbar-light  main-nav bg-white border-bottom">
+
+
+
+          <a class="menu btn btn-danger shadow-sm  mr-3" href="#" onclick="openNav()"><i class="bi bi-list"></i></a>
+          <a class="navbar-brand">
+            <img class="img" src="../img/newsmeter-logo.png" class="logo" alt="logo"></a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto center-item-space pt-4 justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="../TopStories.html">TOP STORIES</a>
+              </li>
+              <!--<li class="nav-item">
+                <a class="nav-link" href="#">Politics</a>
+              </li>-->
+              <div class="dropdown">
+                <button class="dropbtn">FACT CHECK <span class="fa fa-caret-down"></span></button>
+                <div class="dropdown-content">
+                  <a href="../FactCheckEnglish.html">Fact Check English</a>
+                  <a href="#">Fact Check Malayalam</a>
+                  <a href="#">Fact Check Tamil</a>
+                  <a href="#">Fact Check Kannada</a>
+                  <a href="#">Fact Check Health</a>
+                </div>
+              </div>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../Entertainment.html">ENTERTAINMENT</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../Health.html"> HEALTH</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-danger">Subscribe</button>
+              </li>
+              <li class="nav-item">
+                <a class=" pl-2 fa fa-search"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary btn-fb"><i class="bi bi-facebook"></i></button>
+                    <button type="button" class="btn btn-danger btn-insta"><i class="bi bi-instagram"></i></button>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-twitter"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="bi bi-youtube"></i></button>
+
+                  </div>
+                </a>
+              </li>
+             
+            </ul>
+ 
+          </div>
+
+        </nav>
+      </div>
+    </section>
+    
+      <!------------------------slider-content-start--------------------------------------->
+      
+      <div class="custom_container align-items-center my-3">
+        
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8">
+              
+                <h1 class="col-lg-12 my-5"> <a href="" class=''> Did you know? These are the different types of biryani in Hyderabad</a></h1>
+                <h2 class="col-lg-12 newsdescription my-4">  Allama Aijaz Farruq, the author of the book ‘Matbakh-e-Asifia’ (The Asif Jahi Kitchens), says “Biryani is biryani only if it is Hyderabadi, and all other variations without the actual Hyderabadi flavour are pulao.” </h2>
+                <span class="text-left col-lg-12"> By <a href="" class="text-danger"> Syed Khaled Shahbaaz 
+                    </a></span>Published on 28 Jan 2023 10:00 AM
+
+                <div class="row justify-content-between"
+                    style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+                    <!--mb-5-->
+                    <div class="col-lg-11">
+                      <div class="text-right mb-3">
+                        <a href=""><button type="button" class="btn btn-primary btn-fb facebook-color mx-1"><i class="bi bi-facebook"></i></button></a>
+                        <a href=""><button type="button" class="btn btn-success btn-insta whatsapp-color mx-1"><i class="bi bi-whatsapp"></i></button></a>
+                        <a href=""><button type="button" class="btn btn-primary twitter-color mx-1"><i class="bi bi-twitter"></i></button></a>
+                        <a href=""><button type="button" class="btn btn-primary linkedin-color mx-1"><i class="bi bi-linkedin"></i></button></a>
+                        <a href=""><button type="button" class="btn btn-warning ml-1 koo-social">
+                          <img src="https://newsmeter.in/images/social/Koo_Logo_white.png" width="15px" height="auto"></button></a>
+                      </div>
+                      
+                        <img src="https://newsmeter.in/h-upload/2023/01/28/337952-whatsapp-image-2023-01-28-at-94404-am.webp"
+                            class="img-fluid d-block mx-auto presentaion-img" alt="presentation">
+                    </div>
+
+                    <div class="col-lg-11 news-story my-4">
+                        <p>Hyderabad: “<i>Hyderabadi biryani aur Gandipet ka paani</i>” goes a popular saying in Hyderabad. The mere mention of biryani sets the taste buds flowing and the mind is filled with images of the long-grained rice mixed with pieces of meat and aromatic spices. But did you know that most ingredients used in biryani—the rice, the many different spices, curd—did not originate in India? Or that it isn’t biryani but pulao if it’s not made the Hyderabadi way? Nonetheless, this world-famous delicacy has a strong influence of Irani and Moghal spices but has acquired a distinct Hyderabadi flavor.<br></p>
+                        <p>The origins of biryani may well be traced to Persia, but it was during the reign of the fourth Nizam of Hyderabad, Nasir ud Dowlah Asif Jah IV, that biryani found its way to Hyderabad. Nasir ud Dowlah saw it as an easy mix of rice and meat to fulfill the nutritional requirements of his army on the move. Over the years, the scrumptious dish attained maturity and popularity, particularly during the times of the sixth Nizam of Hyderabad, Mir Mehboob Ali Khan. Since then, biryani grew in variety and popularity in Hyderabad Deccan and is now one of the most loved dishes in India.</p>
+                        <p>Allama Aijaz Farruq, the author of the book ‘Matbakh-e-Asifia’ (The Asif Jahi Kitchens), says “Biryani is biryani only if it is Hyderabadi, and all other variations without the actual Hyderabadi flavour are pulao.” No wedding or get-together is complete without biryani on the menu. The Old City of Hyderabad is a hub of eateries that dish out at least a dozen different types of biryanis. While a lot depends on the cooking process, the proportions of spices, meat, and rice, their chronology, and the type of gosht selected, the authentic Hyderabadi biryani uses Amritsari rice and nearly 300 grams of pure ghee for a kilo of rice, siyah zeera (shah jeera), cloves, cardamom, yogurt, and the choicest selection of saffron and meat. Once cooked, it is served with two accompaniments—Mirch ka Salan and Dahi ki Chutney.</p>
+                        <p>From a small roadside booth to a five-star hotel, from dine-in and take-aways to online orders, biryani is one of the most sought-after foods. In fact, biryani was the most-ordered dish in India according to the Swiggy 2022 report. Let’s take a look at the different types of biryanis, as we know them.</p>
+                        <p><b>Kachchi Biryani</b>: Originally known as ‘Kham Biryani’, the Kacchi biryani or Kacchi Akhni ki biryani is one of Hyderabad’s most popular biryani type. It is cooked with tender meat marinated in yogurt for a few hours and mixed with spices, fried onion, and lemon juice added as a garnish. The rice is semi-cooked and arranged in layers with the marinated mixture. When the dish is almost ready, it is garnished with mint leaves and fried onion. According to Aijaz Farruq, the Kachchi Akhni ki biryani originated in the kitchens of the sixth Nizam of Hyderabad, Nawab Mir Mehboob Ali Khan. Today, it is the most popular type of briyani.</p>
+                        <p><b>Pakki Akhni Ki Biryani</b>: This biryani is the same as Kachchi biryani, except that the marinated mutton is cooked separately and layered with Basmati rice. Fried onions and mint leaves are added as a garnish.</p>
+                        <p><b>Chane Ki Biryani</b>: Otherwise known as ‘Qubooli,’ Chane ki Biryani is incredibly popular in the Old City of Hyderabad and is particularly cooked in most households during Moharram. One of the dominating ingredients in this type of biryani is chana daal. Some food joints near Darul Shifa in the Old City of Hyderabad make this biryani around the year.</p>
+                        <p><b>Do Pyaza Biryani</b>: Also known as Patli (juicy) biryani, this biryani gets its name from the two different types of onions used in the making process. It is rich in gravy, has more cooked (not fried) onion, and is rare to find these days. The recipe dates back to the times of the sixth Nizam, once again.</p>
+                        <p><b>Mehboobi Biryani</b>: This particular type of biryani was a particular favorite of the sixth Nizam Mir Mehboob Ali Khan, hence the moniker.</p>
+                        <p><b>Zafraani Biryani</b>: Known for its dominating fragrance of Zafraan (saffron), this type of biryani more or less forms the base for all types of biryanis with Saffron as an ingredient. According to Farruq, the asli Zafraan used for such dishes cost nearly Rs. 10,000 per tola. Most restaurateurs and party chefs use saffron which is available for one-tenth of this price in most restaurants today.</p>
+                        <p><b>Dhepe Ki Biryani</b>: This is not an entirely different type of biryani, it’s just served differently. Some connoisseurs love a particular serving of biryani where the serving is dominated by a mix of meat and cooked meat, often extensively draped in cooked spices. Seasoned connoisseurs and old timers especially ask for this type of biryani. If you ask for it, the ‘ustaad’ (the cook) will happily dish it out for you at most biryani joints and even Hyderabadi weddings.</p>
+                        <p><b>Double Gosht Ki Biryani</b>: This type of biryani uses two parts of meat with one part of rice, hence the name. Similarly, with the varying proportions of meat used, Teen Goshta Biryani and Char Goshta Biryani, corresponding to three and four parts of meat respectively, were also prepared in the old times.</p>
+                        <p><b>Kalyani Biryani</b>: This is Beef biryani usually made with regular rice and available for nearly half the price of mutton or chicken biryani. It is available in the Old City of Hyderabad in particular and is also known to be available in parts of Maharashtra or Karnataka states. Some food joints also serve this dish cooked with Basmati rice.</p>
+                        <p><b>Veg Biryani</b>: This type of biryani originated in Hyderabad relatively recently, but it is incredibly popular among the southern states of India and the Telugu diaspora across the world. It has all the ingredients of a mutton biryani except that fried vegetables are used instead of mutton. It is available at different South Indian restaurants and also as an inflight meal in most airlines.</p>
+                    </div>
+
+                    <div class="my-5">
+                        <a href="">
+                            <button type="button" class="m-2 btn btn-outline-danger">Hyderabadi Biryani
+                            </button></a>
+                            <a href="">
+                                <button type="button" class="m-2 btn btn-outline-danger">Matbakh-e-Asifi
+                                </button></a>
+                    </div>
+                </div>
+           
+            </div>
+            <div class="Entertainment col-lg-4 mt-3 ">
+                <div class="mb-4 row">
+                    <div class="col-lg-12">
+                        <h2 class="block-title title-border">
+                            <span class="title-bg">
+                                Latest News
+                            </span>
+                        </h2>
+                        <!-- <img class="rounded img-fluid w-100" src="./img/add-banner.jpg" alt="Advertisement"> -->
+
+                    </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-lg-6">
+                        <img src="https://newsmeter.in/h-upload/2023/04/11/500x300_343472-2023-04-11-100804.webp"
+                            class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                    </div>
+                    <div class="col-lg-6 presentation-headline pl-lg-0">
+                        <a>
+                            Covid resurgence: Andhra health department put on alert</a>
+                    </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-lg-6">
+                        <img src="https://newsmeter.in/h-upload/2023/04/11/500x300_343469-2023-04-11-090835.webp"
+                            class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                    </div>
+                    <div class="col-lg-6 presentation-headline pl-lg-0">
+                        <a>
+                            Sweet mango turns sour for Andhra farmers: Unseasonal rains hit fruit production, quality</a>
+                    </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-lg-6">
+                        <img src="https://newsmeter.in/h-upload/2023/04/10/500x300_343451-2023-04-10-224022.webp"
+                            class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                    </div>
+                    <div class="col-lg-6 presentation-headline pl-lg-0">
+                        <a>
+                            Andhra Pradesh bans marine fishing for two months amid annual breeding season </a>
+                    </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-lg-6">
+                        <img src="https://newsmeter.in/h-upload/2023/04/10/500x300_343448-2023-04-10-222131.webp"
+                            class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                    </div>
+                    <div class="col-lg-6 presentation-headline pl-lg-0">
+                        <a>
+                            Andhra Pradesh: CM Jagan to lay foundation for Bhogapuram airport on May 3
+                        </a>
+                    </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-lg-6">
+                        <img src="https://newsmeter.in/h-upload/2023/03/17/500x300_341667-picsart23-03-1717-45-07-744.webp"
+                            class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                    </div>
+                    <div class="col-lg-6 presentation-headline pl-lg-0">
+                        <a>
+                            BJP MP Dharmapuri Arvind gets anticipatory bail in SC, ST atrocities case </a>
+                    </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-lg-6">
+                        <img src="https://newsmeter.in/h-upload/2023/04/11/500x300_343461-2023-04-11-074647.webp"
+                            class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                    </div>
+                    <div class="col-lg-6 presentation-headline pl-lg-0">
+                        <a>
+                            SSC paper leak: Telangana govt says Bandi Sanjay not cooperating with investigation </a>
+                    </div>
+                </div>
+                <div class="section-heading mb-3">
+                    <a href="">
+                    <h2 class="block-title title-border">
+                        <span class="title-bg">Video stories</span>
+                    </h2>
+                </a>
+            </div>
+            <div id="carouselExampleIndicators" height="" data-ride="carousel" class="carousel slide hyderbad-carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img data-class="h-custom-image" height="200px" width="100%" class="img-fluid mx-auto" src="https://newsmeter.in/h-upload/2023/04/02/750x450_342878-web.webp",="" data-src="https://newsmeter.in/h-upload/2023/04/02/750x450_342878-web.webp" alt="Intertidal Walks: Come, take a stroll on Vizag beach to explore rich marine life" 
+                    title="Intertidal Walks: Come, take a stroll on Vizag beach to explore rich marine life" old-src="/images/placeholder.jpg"></div>
+
+                <div class="carousel-item">
+                    <img data-class="h-custom-image" height="200px" width="100%" class="img-fluid mx-auto" src="https://newsmeter.in/h-upload/2023/03/25/750x450_342283-web.webp" ,="" data-src="https://newsmeter.in/h-upload/2023/04/01/750x450_342807-web.webp" alt=""
+                     title="Rampuri Chaku: A 20-foot Rampuri knife installed in Uttar Pradesh"></div>
+
+                <div class="carousel-item">
+                    <img data-class="h-custom-image" height="200px" width="100%" class="img-fluid mx-auto" src="https://newsmeter.in/h-upload/2023/03/30/750x450_342645-web.webp" ,="" 
+                    data-src="https://newsmeter.in/h-upload/2023/03/31/750x450_342706-web.webp" alt=""
+                     title="Hyderabadi Swiggy user spent whopping Rs 6L on 8,428 plates of idlis"></div>
+
+                     <div class="carousel-item"><img data-class="h-custom-image" src="/images/placeholder.jpg" ,=""
+                         data-src="https://newsmeter.in/h-upload/2023/03/25/750x450_342283-web.webp" alt=""
+                          title="Memories and Magnets: Two Hyderabadis explore the world through magnets"></div></div>
+
+                          <a href="#carouselExampleIndicators" role="button" data-slide="prev" class="carousel-control-prev"><span aria-hidden="true" class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a href="#carouselExampleIndicators" role="button" data-slide="next" class="carousel-control-next"><span aria-hidden="true" class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div class="footer">
+      <div class="img-footer">
+        <img src="../img/footer.png" alt="">
+        <div class="join-us">
+          <p>Join us in Our Fight Against Mis-Information</p>
+          <button class="btn btn-danger">Join</button>
+        </div>
+      </div>
+      <div class="footer-links">
+       <div class="follow">
+        <p style="color:aliceblue; font-size: 17px;">Follow Us On </p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-primary btn-fb"><i class="bi bi-facebook"></i></button>
+          <button type="button" class="btn btn-danger btn-insta"><i class="bi bi-instagram"></i></button>
+          <button type="button" class="btn btn-primary"><i class="bi bi-twitter"></i></button>
+          <button type="button" class="btn btn-danger"><i class="bi bi-youtube"></i></button>
+        </div>
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link active" href="#">About NewsMeter</a>
+          <a class="nav-link" href="#">Editorial Staff</a>
+          <a class="nav-link" href="#">Fact Check Methodology</a>
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link" style="color:aliceblue">Terms&Condition</a>
+          <a class="nav-link active" href="#">Correction Policy</a>
+          <a class="nav-link" href="#">Privacy Policy</a>
+          <a class="nav-link" href="#">Cookie Policy</a>
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link" style="color:aliceblue">Non Partnership Policy</a>
+          <a class="nav-link active" href="#">Grievance Addressal</a>
+          <a class="nav-link" href="#">Contact News Meter</a>
+          <a class="nav-link" href="#">Advertise With Us</a>
+  
+  
+  
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-2 bg-dark">
+      <p class="text-center mb-0 text-white text-left">&copy; 2023 All rights reserved</p>
+
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="../js/sidebr.js"></script>
+  <script src="../js/sticky-header.js"></script>
+
+</body>
+
+</html>

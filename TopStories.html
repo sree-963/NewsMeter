@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Newmeter</title>
+  <!-- //font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- roboto fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="./css/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <!---------------------------sidebar-start ---------------------------------->
+  <div class="sidenav" id="mySidenav">
+    <div class="d-flex sidenav-header justify-content-end">
+      <!-- <a href="#" class=""><img src="./img/newsmeter-logo.png" class="img-fluid" /></a> -->
+      <button type="button" class="closebtn btn btn-light" onclick="closeNav()">
+        <i class="bi bi-x-lg"></i></button>
+    </div>
+
+    <ul class="nav flex-column">
+
+      <li class="nav-item">
+        <a class="nav-link active" href="TopStories.html">TOP STORIES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Hyderabad.html">HYDERABAD</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Crime.html">CRIME</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="FactCheckEnglish.html">FACT CHECK ENGLISH</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ConsumerVoice.html">CONSUMER VOICE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="DataStrories.html">DATA STORIES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="StatielliteJournalism.html">SATELLITE JOURNALISM</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Lifestyle.html">LIFE STYLE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="Health.html">HEALTH</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Educationand jobs.html">EDUCATION/JOBS</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="BusinessandTechJobs.html">BUSINESS/TECH & STARTUPS</a>
+      </li>
+      <div class="Dropdown">
+        <button class="Dropbtn">REGIONAL <span class="fa fa-caret-down"></span></button>
+        <div class="Dropdown-Content">
+          <a class="nav-link" href="FactCheckEnglish.html">Andhra Pradesh</a>
+          <a class="nav-link" href="#">Hyderabad</a>
+          <a class="nav-link" href="#">South India</a>
+          <a class="nav-link" href="#">Telangana</a>
+          <a class="nav-link" href="#">Tirupathi</a>
+          <a class="nav-link" href="#">Vishakapatnam</a>
+          <a class="nav-link" href="#">Vijayawada/Amaravati</a>
+          <a class="nav-link" href="#">Warangal</a>
+          <a class="nav-link" href="#">World / NRI News</a>
+        </div>
+      </div>
+    </ul>
+  </div>
+  <!------------------------sidebar-End--------------------------------------->
+  <!------------------------Main-content-start--------------------------------------->
+  <div id="main  border">
+
+    <!------------------------Top-Banner-End--------------------------------------->
+    <!------------------------Header-start--------------------------------------->
+    <div class="container px-0">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- <img class="add-banner shadow-sm" src="./img/banner-ad-example-online.png" alt="Advertisement"> -->
+        </div>
+
+        <div class="telugu-btn">
+          <button type="button" class="btn btn-danger" href="#">Telugu</button>
+        </div>
+        <div class="icfn-logo">
+          <a href="#"><img src="./img/icfn-logo.png" class="w-100" /></a>
+        </div>
+      </div>
+    </div>
+    <!------------------------Top-Banner-End--------------------------------------->
+    <!------------------------Header-start--------------------------------------->
+    <section id="mainNav">
+
+
+      <!------------------------Header-End--------------------------------------->
+      <!------------------------Navigation Links start--------------------------------------->
+      <div class="container-fluid px-0">
+        <nav class="navbar navbar-expand-md navbar-light  main-nav bg-white border-bottom">
+
+
+
+          <a class="menu btn btn-danger shadow-sm  mr-3" href="#" onclick="openNav()"><i class="bi bi-list"></i></a>
+          <a class="navbar-brand">
+            <img class="img" src="./img/newsmeter-logo.png" class="logo" alt="logo"></a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto center-item-space pt-4 justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="TopStories.html">TOP STORIES</a>
+              </li>
+              
+              <div class="dropdown">
+                <button class="dropbtn">FACT CHECK <span class="fa fa-caret-down"></span></button>
+                <div class="dropdown-content">
+                  <a href="FactCheckEnglish.html">Fact Check English</a>
+                  <a href="#">Fact Check Malayalam</a>
+                  <a href="#">Fact Check Tamil</a>
+                  <a href="#">Fact Check Kannada</a>
+                  <a href="#">Fact Check Health</a>
+                </div>
+              </div>
+
+              <li class="nav-item">
+                <a class="nav-link" href="Entertainment.html">ENTERTAINMENT</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="Lifestyle.html">LIFE STYLE</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="Health.html"> HEALTH</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-danger">Subscribe</button>
+              </li>
+              <li class="nav-item">
+                <a class=" pl-2 fa fa-search"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary btn-fb"><i class="bi bi-facebook"></i></button>
+                    <button type="button" class="btn btn-danger btn-insta"><i class="bi bi-instagram"></i></button>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-twitter"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="bi bi-youtube"></i></button>
+
+                  </div>
+                </a>
+              </li>
+             
+            </ul>
+ 
+          </div>
+
+        </nav>
+      </div>
+    </section>
+    <styl>
+      </style>
+      <!------------------------slider-content-start--------------------------------------->
+      <div class="custom_container  my-5">
+        <h2 class="block-title title-border">
+          <span class="title-bg">
+        Top Stories
+          </span>
+        </h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 mt-3">
+
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <!--mb-5-->
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/04/04/500x300_342974-whatsapp-image-2023-04-04-at-101834-am.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0 font-weight-bold"><a href="#" class="font-weight-bold">Attn selected Haj pilgrims: Deposit first installment of Rs 81,800</a></h5>
+                <p>Haj Committee has started the process to select assistant to pilgrims from each state/UT to 1:300 pilgrims</p>
+                <p> By <span class="text-danger">Newsmeter Network </span>Published on 04 Apr 2023 2:00 PM</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/04/04/500x300_342983-whatsapp-image-2023-04-04-at-122800-pm.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">I-T dept seizes assets worth over Rs 4,800 Cr in last 4 years: Centre</a></h5>
+                <p> The highest seizure of assets took place during 2022-23</p>
+                <p> By <span class="text-danger">Newsmeter Network </span>Published on 04 Apr 2023 12:30 PM</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/04/03/500x300_342926-whatsapp-image-2023-04-03-at-53957-pm.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">Rahul gets bail in defamation case till 13 Apr</a></h5>
+                <p> Congress leader Rahul Gandhi after he filed an appeal against his conviction in a criminal defamation case</p>
+                <p> By <span class="text-danger">Newsmeter Network </span>Published on 03 Apr 2023 5:45 PM</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/04/03/500x300_342895-whatsapp-image-2023-04-03-at-125057-pm.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">IPL Ticket Advisory: No CAA/NRC protest banners allowed during matches</a></h5>
+                <p>It is understood that the advisory has been issued by the franchises, that manage the ticketing business of their respective home matches </p>
+                <p> By <span class="text-danger">Newsmeter Network </span>Published on 03 Apr 2023 1:45 PM</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/03/28/500x300_342449-2023-03-28-104639.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">Margadarsi chit fund scam: CID questions Eenadu chairman Ramoji Rao, Cherukuri Sailaja</a></h5>
+                <p> Andhra Pradesh began questioning of Eenadu Chairman Cherukuri Ramoji Rao in Margadarsi chit fund scam</p>
+                  <p> By <span class="text-danger">Newsmeter Network </span>Published on 03 Apr 2023 1:30 PM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/04/03/500x300_342889-whatsapp-image-2023-04-03-at-101712-am.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">Rahul Gandhi to file appeal in Surat court at 2 o'clock today</a></h5>
+                <p> Gandhi's lawyers said the matter is likely to be taken up for hearing by the sessions court on Monday itself</p>
+                  <p> By <span class="text-danger">Newsmeter Network </span>Published on 03 Apr 2023 11:00 AM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/04/03/500x300_342887-whatsapp-image-2023-04-03-at-91757-am.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">PM Modi to launch projects worth Rs 11,355 crores in Telangana on April 8</a></h5>
+                <p>Modi will also dedicate to the nation 85 kilometres of doubling works that was completed on the Secunderabad-Mahabubnagar Railway Line</p>
+                  <p> By <span class="text-danger">Newsmeter Network </span>Published on 03 Apr 2023 09:19 AM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/04/02/500x300_342869-whatsapp-image-2023-04-02-at-45625-pm.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">Centre warns of melting glaciers: What does it mean & why should we be worried</a></h5>
+                <p>The majority of Himalayan glaciers have been recorded melting/retreating at differing speeds in different places</p>
+                  <p> By <span class="text-danger">Newsmeter Network </span>Published on 03 Apr 2023 09:00 PM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/04/02/500x300_342863-whatsapp-image-2023-04-02-at-44119-pm.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">KTR writes to Centre opposing privatisation of Vizag Steel Plant</a></h5>
+<p>"Vizag steel is the right of Telugu people and the responsibility is on us to save the steel plant" said KTR</p>                  
+<p> By <span class="text-danger">Newsmeter Network </span>Published on 02 Apr 2023 04:42 PM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/04/02/500x300_342856-whatsapp-image-2023-04-02-at-12627-pm.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">Identification of Indian migrant family found dead near Canada-US border pending: officials</a></h5>
+                <p>Bodies of eight persons were found on Friday in a marsh on the riverbank near Akwesasne </p>
+                  <p> By <span class="text-danger">Newsmeter Network </span>Published on 02 Apr 2023 3:00 PM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/03/31/500x300_342720-1673421821modi.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">Vande Bharat Express: PM Modi in Hyderabad on 8 April</a></h5>
+                <p> Details related to the fare and timings are yet to be officially disclosed</p>
+                  <p> By <span class="text-danger">Newsmeter Network </span>Published on 01 Apr 2023 06:30 PM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/04/01/500x300_342811-whatsapp-image-2023-04-01-at-50643-pm.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">Data theft: Cyberabad cops nab man who stole personal info of 66.9 cr people in 24 states</a></h5>
+                <p> The accused was operating through a website called “Inspire Webz” in Faridabad, Haryana, and was selling the data to clients through cloud drive</p>
+                  <p> By <span class="text-danger">Newsmeter Network </span>Published on 01 Apr 2023 05:17 PM</p>
+                </div>
+            </div>
+            <hr>
+          </div>
+
+
+
+          <div class="entertainment col-lg-4 mt-3 ">
+            <div class="mb-4 row">
+              <div class="col-lg-12">
+                <h2 class="block-title title-border">
+                  <span class="title-bg">
+                Latest News
+                  </span>
+                </h2>
+                <!-- <img class="rounded img-fluid w-100" src="./img/add-banner.jpg" alt="Advertisement"> -->
+
+              </div>
+            </div>
+            <div class="mb-4 row">
+              <div class="col-lg-6">
+                <img src="https://newsmeter.in/h-upload/2023/04/04/500x300_343011-untitled-design-66.webp" class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+              </div>
+              <div class="col-lg-6 presentation-headline pl-lg-0">
+                <a>
+                  Madurai court did not give clean chit to YouTuber Manish Kashyap </a>
+              </div>
+            </div>
+            <div class="mb-4 row">
+              <div class="col-lg-6">
+                <img src="https://newsmeter.in/h-upload/2023/04/04/500x300_343010-whatsapp-image-2023-04-04-at-122601-pm.webp" class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+              </div>
+              <div class="col-lg-6 presentation-headline pl-lg-0">
+                <a>
+                  Kisi Ka Bhai… back with another Telugu song; Ram Charan’s cameo ...
+                </a>
+              </div>
+            </div>
+            <div class="mb-4 row">
+              <div class="col-lg-6">
+                <img src="https://newsmeter.in/h-upload/2023/04/04/500x300_343008-whatsapp-image-2023-04-04-at-34936-pm.webp" class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+              </div>
+              <div class="col-lg-6 presentation-headline pl-lg-0">
+                <a>
+                  Tirupati: Ganja smuggling gang; 20 held, ganja worth Rs 9L seized
+                </a>
+              </div>
+            </div>
+      </div>
+
+  </div>
+  
+ 
+
+    </div>
+    <div class="footer">
+      <div class="img-footer">
+        <img src="./img/footer.png" alt="">
+        <div class="join-us">
+          <p>Join us in Our Fight Against Mis-Information</p>
+          <button class="btn btn-danger">Join</button>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-primary btn-fb"><i class="bi bi-facebook"></i></button>
+          <button type="button" class="btn btn-danger btn-insta"><i class="bi bi-instagram"></i></button>
+          <button type="button" class="btn btn-primary"><i class="bi bi-twitter"></i></button>
+          <button type="button" class="btn btn-danger"><i class="bi bi-youtube"></i></button>
+  
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link active" href="#">About NewsMeter</a>
+          <a class="nav-link" href="#">Editorial Staff</a>
+          <a class="nav-link" href="#">Fact Check Methodology</a>
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link" style="color:aliceblue">Terms&Condition</a>
+          <a class="nav-link active" href="#">Correction Policy</a>
+          <a class="nav-link" href="#">Privacy Policy</a>
+          <a class="nav-link" href="#">Cookie Policy</a>
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link" style="color:aliceblue">Non Partnership Policy</a>
+          <a class="nav-link active" href="#">Grievance Addressal</a>
+          <a class="nav-link" href="#">Contact News Meter</a>
+          <a class="nav-link" href="#">Advertise With Us</a>
+  
+  
+  
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-2 bg-dark">
+      <p class="text-center mb-0 text-white text-left">&copy; 2023 All rights reserved</p>
+
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="./js/sidebr.js"></script>
+  <script src="./js/sticky-header.js"></script>
+
+</body>
+
+</html>

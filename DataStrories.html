@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Newmeter</title>
+
+<!-- //font awesome cdn link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- roboto fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="./css/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <!---------------------------sidebar-start ---------------------------------->
+  <div class="sidenav" id="mySidenav">
+    <div class="d-flex sidenav-header justify-content-end">
+      <!-- <a href="#" class=""><img src="./img/newsmeter-logo.png" class="img-fluid" /></a> -->
+      <button type="button" class="closebtn btn btn-light" onclick="closeNav()">
+        <i class="bi bi-x-lg"></i></button>
+    </div>
+
+    <ul class="nav flex-column">
+
+      <li class="nav-item">
+        <a class="nav-link active" href="TopStories.html">TOP STORIES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Hyderabad.html">HYDERABAD</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Crime.html">CRIME</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="FactCheckEnglish.html">FACT CHECK ENGLISH</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ConsumerVoice.html">CONSUMER VOICE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="DataStrories.html">DATA STORIES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="StatielliteJournalism.html">SATELLITE JOURNALISM</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Lifestyle.html">LIFE STYLE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="Health.html">HEALTH</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Educationand jobs.html">EDUCATION/JOBS</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="BusinessandTechJobs.html">BUSINESS/TECH & STARTUPS</a>
+      </li>
+      <div class="Dropdown">
+        <button class="Dropbtn">REGIONAL <span class="fa fa-caret-down"></span></button>
+        <div class="Dropdown-Content">
+          <a class="nav-link" href="FactCheckEnglish.html">Andhra Pradesh</a>
+          <a class="nav-link" href="#">Hyderabad</a>
+          <a class="nav-link" href="#">South India</a>
+          <a class="nav-link" href="#">Telangana</a>
+          <a class="nav-link" href="#">Tirupathi</a>
+          <a class="nav-link" href="#">Vishakapatnam</a>
+          <a class="nav-link" href="#">Vijayawada/Amaravati</a>
+          <a class="nav-link" href="#">Warangal</a>
+          <a class="nav-link" href="#">World / NRI News</a>
+        </div>
+      </div>
+    </ul>
+
+  </div>
+  <!------------------------sidebar-End--------------------------------------->
+  <!------------------------Main-content-start--------------------------------------->
+  <div id="main  border">
+
+    <!------------------------Top-Banner-End--------------------------------------->
+    <!------------------------Header-start--------------------------------------->
+    <div class="container px-0">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- <img class="add-banner shadow-sm" src="./img/banner-ad-example-online.png" alt="Advertisement"> -->
+        </div>
+
+        <div class="telugu-btn">
+          <button type="button" class="btn btn-danger" href="#">Telugu</button>
+        </div>
+        <div class="icfn-logo">
+          <a href="#"><img src="./img/icfn-logo.png" class="w-100" /></a>
+        </div>
+      </div>
+    </div>
+    <!------------------------Top-Banner-End--------------------------------------->
+    <!------------------------Header-start--------------------------------------->
+    <section id="mainNav">
+
+
+      <!------------------------Header-End--------------------------------------->
+      <!------------------------Navigation Links start--------------------------------------->
+      <div class="container-fluid px-0">
+        <nav class="navbar navbar-expand-md navbar-light  main-nav bg-white border-bottom">
+
+          <a class="menu btn btn-danger shadow-sm  mr-3" href="#" onclick="openNav()"><i class="bi bi-list"></i></a>
+          <a class="navbar-brand">
+            <img class="img" src="./img/newsmeter-logo.png" class="logo" alt="logo"></a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto center-item-space pt-4 justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="TopStories.html">TOP STORIES</a>
+              </li>
+              <!--<li class="nav-item">
+                <a class="nav-link" href="#">Politics</a>
+              </li>-->
+              <div class="dropdown">
+                <button class="dropbtn">FACT CHECK <span class="fa fa-caret-down"></span></button>
+                <div class="dropdown-content">
+                  <a href="FactCheckEnglish.html">Fact Check English</a>
+                  <a href="#">Fact Check Malayalam</a>
+                  <a href="#">Fact Check Tamil</a>
+                  <a href="#">Fact Check Kannada</a>
+                  <a href="#">Fact Check Health</a>
+                </div>
+              </div>
+
+              <li class="nav-item">
+                <a class="nav-link" href="Entertainment.html">ENTERTAINMENT</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="Lifestyle.html">LIFE STYLE</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="Health.html"> HEALTH</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-danger">Subscribe</button>
+              </li>
+              <li class="nav-item">
+                <a class=" pl-2 fa fa-search"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary btn-fb"><i class="bi bi-facebook"></i></button>
+                    <button type="button" class="btn btn-danger btn-insta"><i class="bi bi-instagram"></i></button>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-twitter"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="bi bi-youtube"></i></button>
+
+                  </div>
+                </a>
+              </li>
+             
+            </ul>
+ 
+          </div>
+
+        </nav>
+      </div>
+    </section>
+    <styl>
+      </style>
+      <!------------------------slider-content-start--------------------------------------->
+      <div class="custom_container  my-5">
+        <h2 class="block-title title-border">
+          <span class="title-bg">
+        Data Stories
+          </span>
+        </h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 mt-3">
+
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <!--mb-5-->
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/03/23/500x300_342061-2023-03-23-152946.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0 font-weight-bold"><a href="#" class="font-weight-bold">Urban Mobility Happiness Study: Longer travel times, costly gas prices bothering commuters</a></h5>
+                <p>The poll was carried out in eight Indian cities including Hyderabad</p>
+                <p> By <span class="text-danger">Newsmeter Network </span>Published on 23 Mar 2023 4:12 PM</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/03/13/500x300_341309-2023-03-13-093533.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">Andhra MLC election: All set for polling; over 10.57L people to exercise franchise</a></h5>
+                <p>The polling will be from 8 am to 4 pm </p>
+                <p> By <span class="text-danger">Newsmeter Network </span>Published on 13 Mar 2023 9:47 AM</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/03/01/500x300_340486-2023-03-01-165226.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">Is sudden cardiac arrest in young new? Telangana records 4 cases in ten days</a></h5>
+                <p>Sudden collapse of young males in public spaces have led to an alarm.</p>
+                <p> By <span class="text-danger">Newsmeter Network  </span>Published on 1 Mar 2023 5:26 PM</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/02/20/500x300_339790-2023-02-20-183430.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">Andhra Pradesh: After two years, mango yield likely to soar this season</a></h5>
+                <p>Farmers raise Banginapalli, Rasalu, Totapuri, and Suvarnarekha varieties in Andhra Pradesh. </p>
+                  <p> By <span class="text-danger">Newsmeter Network </span>Published on 23 Feb 2023 9:30 AM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/02/14/500x300_339272-2023-02-14-145424.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">IT seizes assets worth Rs 1179 Cr, highest to date; opposition ruled states biggest target</a></h5>
+                <p>Hyderabad:  The Income Tax (IT) department has seized assets worth Rs 1179.53 crore from April to November 2022. It is the highest seizure of IT to... </p>
+                  <p> By <span class="text-danger">Coreena Suares </span>Published on 14 Feb 2023 2:00 PM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/02/06/500x300_338637-all-you-need-to-know-about-rti-act.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">Don’t destroy RTI, it's another ‘Data Protection Authority'</a></h5>
+                <p>The RTI Amendment Act, 2019 which brought about similar changes like DPAI, has seriously damaged both the RTI and DPAI. Similarly, executive officers...</p>
+                  <p> By <span class="text-danger"> M Sridhar </span>Published on 6 Feb 2023 10:30 AM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/02/01/500x300_338265-student-21-1.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">`Educate her':  77% girls in 11-14 age group enrolled in Andhra govt schools</a></h5>
+             <p>The survey has revealed that 2022 recorded the highest enrollment in government schools after 2006 in the age group of 6-14 years.</p>                  
+               <p> By <span class="text-danger"> Anoushka Caroline Williams  </span>Published on 1 Feb 2023 10:17 AM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+                <div class="col-lg-5">
+                  <img src="https://newsmeter.in/h-upload/2023/01/31/500x300_338172-img-20230131-wa0023.webp" class="img-fluid d-block mx-auto presentaion-img"
+                    alt="presentation">
+                </div>
+  
+                <div class="col-lg-7">
+  
+                  <h5 class="mt-0"><a href="#" class="font-weight-bold">`Why should boys have all the fun’:  76.2% girls in 15-16 group enrolled in TS govt schools</a></h5>
+                  <p>The survey has revealed that 2022 recorded the highest enrollment in government schools in the age group of 6 to 14 years. Nearly 70.1 percent of...</p>
+                  <p> By <span class="text-danger">Anoushka Caroline Williams  </span>Published on 31 Jan 2023 10:58 AM</p>
+                </div>
+              </div>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/01/30/500x300_338132-2023-01-30-214937.webp " class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">Publicity blitzkrieg: BJP spent Rs 313.17 Cr, BRS Rs 7.7 Cr, YSRCP zero</a></h5>
+                <p>The party disclosed it its annual audit report submitted to the Election Commission of India on January 17, 2023.</p>
+                  <p> By <span class="text-danger">Coreena Suares  </span>Published on 31 Jan 2023 7:41 AM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/01/24/500x300_337648-1294906-kt.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">Davos: Telangana does 'Naatu Naatu' at WEF, secures Rs 21K Cr investment</a></h5>
+                <p>Telangana delegation led by KTR was able to showcase the business potential of the state which struck a chord with the investors at the World Economic...</p>
+                  <p> By <span class="text-danger">Newsmeter Network </span>Published on 24 Jan 2023 7:46 AM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/01/05/500x300_336396-new-project-2023-01-05t195848955.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">A city for women: Hyderabad 4th among top women-friendly cities, Chennai tops list</a></h5>
+                <p>The city secured a City Inclusion Score of 62.47. Chennai, Pune, and Bangalore ranked first, second, and third with a City Inclusion Score of 78.41,...</p>
+                  <p> By <span class="text-danger">Nimisha S Pradeep </span>Published on 6 Jan 2023 8:30 AM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+                <div class="col-lg-5">
+                  <img src="https://newsmeter.in/h-upload/2023/01/04/500x300_336293-new-project-2023-01-04t101054795.webp" class="img-fluid d-block mx-auto presentaion-img"
+                    alt="presentation">
+                </div>
+  
+                <div class="col-lg-7">
+  
+                  <h5 class="mt-0"><a href="#" class="font-weight-bold">Vizag: Vehicle population reaches 14L; 75% of them 2-wheelers</a></h5>
+                  <p> Two-wheeler continues to dominate on Vizag roads, accounting for over 75 percent of the total vehicular population, followed by cars at 15 percent.</p>
+                    <p> By <span class="text-danger">Newsmeter Network </span>Published on 4 Jan 2023 5:00 PM</p>
+                  </div>
+              </div>
+          </div>
+
+
+
+          <div class="entertainment col-lg-4 mt-3 ">
+            <div class="mb-4 row">
+              <div class="col-lg-12">
+                <h2 class="block-title title-border">
+                  <span class="title-bg">
+                Latest News
+                  </span>
+                </h2>
+                <!-- <img class="rounded img-fluid w-100" src="./img/add-banner.jpg" alt="Advertisement"> -->
+
+              </div>
+            </div>
+            <div class="mb-4 row">
+              <div class="col-lg-6">
+                <img src="https://newsmeter.in/h-upload/2023/04/05/500x300_343065-whatsapp-image-2023-04-05-at-124058-pm.webp" class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+              </div>
+              <div class="col-lg-6 presentation-headline pl-lg-0">
+                <a>
+                    4,435 Covid 19 cases, 15 deaths, single highest surge in 163 days in India</a>
+              </div>
+            </div>
+            <div class="mb-4 row">
+              <div class="col-lg-6">
+                <img src="https://newsmeter.in/h-upload/2023/04/05/500x300_343063-whatsapp-image-2023-04-05-at-100225-am.webp" class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+              </div>
+              <div class="col-lg-6 presentation-headline pl-lg-0">
+                <a>
+                    Bandi Sanjay arrest: Tension grips Telangana; BJP calls for state-wide protests
+                </a>
+              </div>
+            </div>
+            <div class="mb-4 row">
+              <div class="col-lg-6">
+                <img src="https://newsmeter.in/h-upload/2023/04/05/500x300_343059-whatsapp-image-2023-04-05-at-113844-am.webp" class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+              </div>
+              <div class="col-lg-6 presentation-headline pl-lg-0">
+                <a>
+                    Summer blues: Hyderabad sizzles at 40 degree Celcius
+                </a>
+              </div>
+            </div>
+      </div>
+
+  </div>
+  
+ 
+
+    </div>
+    <div class="footer">
+      <div class="img-footer">
+        <img src="./img/footer.png" alt="">
+        <div class="join-us">
+          <p>Join us in Our Fight Against Mis-Information</p>
+          <button class="btn btn-danger">Join</button>
+        </div>
+      </div>
+      <div class="footer-links">
+       <div class="follow">
+        <p style="color:aliceblue; font-size: 17px;">Follow Us On </p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-primary btn-fb"><i class="bi bi-facebook"></i></button>
+          <button type="button" class="btn btn-danger btn-insta"><i class="bi bi-instagram"></i></button>
+          <button type="button" class="btn btn-primary"><i class="bi bi-twitter"></i></button>
+          <button type="button" class="btn btn-danger"><i class="bi bi-youtube"></i></button>
+        </div>
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link active" href="#">About NewsMeter</a>
+          <a class="nav-link" href="#">Editorial Staff</a>
+          <a class="nav-link" href="#">Fact Check Methodology</a>
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link" style="color:aliceblue">Terms&Condition</a>
+          <a class="nav-link active" href="#">Correction Policy</a>
+          <a class="nav-link" href="#">Privacy Policy</a>
+          <a class="nav-link" href="#">Cookie Policy</a>
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link" style="color:aliceblue">Non Partnership Policy</a>
+          <a class="nav-link active" href="#">Grievance Addressal</a>
+          <a class="nav-link" href="#">Contact News Meter</a>
+          <a class="nav-link" href="#">Advertise With Us</a>
+  
+  
+  
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-2 bg-dark">
+      <p class="text-center mb-0 text-white text-left">&copy; 2023 All rights reserved</p>
+
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="./js/sidebr.js"></script>
+  <script src="./js/sticky-header.js"></script>
+
+</body>
+
+</html>

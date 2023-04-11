@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Newmeter</title>
+
+<!-- //font awesome cdn link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- roboto fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="../css/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <!---------------------------sidebar-start ---------------------------------->
+  <div class="sidenav" id="mySidenav">
+    <div class="d-flex sidenav-header justify-content-end">
+      <!-- <a href="#" class=""><img src="./img/newsmeter-logo.png" class="img-fluid" /></a> -->
+      <button type="button" class="closebtn btn btn-light" onclick="closeNav()">
+        <i class="bi bi-x-lg"></i></button>
+    </div>
+
+    <ul class="nav flex-column">
+
+    <li class="nav-item">
+      <a class="nav-link active" href="../TopStories.html">TOP STORIES</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../Hyderabad.html">HYDERABAD</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../Crime.html">CRIME</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="../FactCheckEnglish.html">FACT CHECK ENGLISH</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../ConsumerVoice.html">CONSUMER VOICE</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../DataStrories.html">DATA STORIES</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../StatielliteJournalism.html">SATELLITE JOURNALISM</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="../Health.html">HEALTH</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../Educationand jobs.html">EDUCATION/JOBS</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="../BusinessandTechJobs.html">BUSINESS/TECH & STARTUPS</a>
+    </li>
+    <div class="Dropdown">
+      <button class="Dropbtn">REGIONAL <span class="fa fa-caret-down"></span></button>
+      <div class="Dropdown-Content">
+        <a class="nav-link" href="../FactCheckEnglish.html">Andhra Pradesh</a>
+        <a class="nav-link" href="#">Hyderabad</a>
+        <a class="nav-link" href="#">South India</a>
+        <a class="nav-link" href="#">Telangana</a>
+        <a class="nav-link" href="#">Tirupathi</a>
+        <a class="nav-link" href="#">Vishakapatnam</a>
+        <a class="nav-link" href="#">Vijayawada/Amaravati</a>
+        <a class="nav-link" href="#">Warangal</a>
+        <a class="nav-link" href="#">World / NRI News</a>
+      </div>
+    </div>
+  </ul>
+
+  </div>
+  <!------------------------sidebar-End--------------------------------------->
+  <!------------------------Main-content-start--------------------------------------->
+  <div id="main  border">
+
+    <!------------------------Top-Banner-End--------------------------------------->
+    <!------------------------Header-start--------------------------------------->
+    <div class="container px-0">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- <img class="add-banner shadow-sm" src="./img/banner-ad-example-online.png" alt="Advertisement"> -->
+        </div>
+
+        <div class="telugu-btn">
+          <button type="button" class="btn btn-danger" href="#">Telugu</button>
+        </div>
+        <div class="icfn-logo">
+          <a href="#"><img src="../img/icfn-logo.png" class="w-100" /></a>
+        </div>
+      </div>
+    </div>
+    <!------------------------Top-Banner-End--------------------------------------->
+    <!------------------------Header-start--------------------------------------->
+    <section id="mainNav">
+
+
+      <!------------------------Header-End--------------------------------------->
+      <!------------------------Navigation Links start--------------------------------------->
+      <div class="container-fluid px-0">
+        <nav class="navbar navbar-expand-md navbar-light  main-nav bg-white border-bottom">
+
+
+
+          <a class="menu btn btn-danger shadow-sm  mr-3" href="#" onclick="openNav()"><i class="bi bi-list"></i></a>
+          <a class="navbar-brand">
+            <img class="img" src="../img/newsmeter-logo.png" class="logo" alt="logo"></a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto center-item-space pt-4 justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="../TopStories.html">TOP STORIES</a>
+              </li>
+              <!--<li class="nav-item">
+                <a class="nav-link" href="#">Politics</a>
+              </li>-->
+              <div class="dropdown">
+                <button class="dropbtn">FACT CHECK <span class="fa fa-caret-down"></span></button>
+                <div class="dropdown-content">
+                  <a href="../FactCheckEnglish.html">Fact Check English</a>
+                  <a href="#">Fact Check Malayalam</a>
+                  <a href="#">Fact Check Tamil</a>
+                  <a href="#">Fact Check Kannada</a>
+                  <a href="#">Fact Check Health</a>
+                </div>
+              </div>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../Entertainment.html">ENTERTAINMENT</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../Health.html"> HEALTH</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-danger">Subscribe</button>
+              </li>
+              <li class="nav-item">
+                <a class=" pl-2 fa fa-search"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary btn-fb"><i class="bi bi-facebook"></i></button>
+                    <button type="button" class="btn btn-danger btn-insta"><i class="bi bi-instagram"></i></button>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-twitter"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="bi bi-youtube"></i></button>
+
+                  </div>
+                </a>
+              </li>
+             
+            </ul>
+ 
+          </div>
+
+        </nav>
+      </div>
+    </section>
+    
+      <!------------------------slider-content-start--------------------------------------->
+      
+      <div class="custom_container align-items-center my-3">
+        
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8">
+              
+                <h1 class="col-lg-12 my-5"> <a href="" class=''>World TB day: What is ocular tuberculosis? How can it be prevented?</a></h1>
+                <h2 class="col-lg-12 newsdescription my-4">TB bacteria can spread from the lungs to any part of the body including the eyes </h2>
+                <span class="text-left col-lg-12"> By <a href="" class="text-danger">Anoushka Caroline Williams 
+                    </a></span>Published on 24 Mar 2023 8:32 AM
+
+                <div class="row justify-content-between"
+                    style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+                    <!--mb-5-->
+                    <div class="col-lg-11">
+                      <div class="text-right mb-3">
+                        <a href=""><button type="button" class="btn btn-primary btn-fb facebook-color mx-1"><i class="bi bi-facebook"></i></button></a>
+                        <a href=""><button type="button" class="btn btn-success btn-insta whatsapp-color mx-1"><i class="bi bi-whatsapp"></i></button></a>
+                        <a href=""><button type="button" class="btn btn-primary twitter-color mx-1"><i class="bi bi-twitter"></i></button></a>
+                        <a href=""><button type="button" class="btn btn-primary linkedin-color mx-1"><i class="bi bi-linkedin"></i></button></a>
+                        <a href=""><button type="button" class="btn btn-warning ml-1 koo-social">
+                          <img src="https://newsmeter.in/images/social/Koo_Logo_white.png" width="15px" height="auto"></button></a>
+                      </div>
+                      
+                        <img src="https://newsmeter.in/h-upload/2023/03/24/342114-istock-1083316464-concept-of-laser-eye-surgery-810x455.webp"
+                          style="width:100%"  class="img-fluid d-block mx-auto presentaion-img" alt="presentation">
+                    </div>
+
+                    <div class="col-lg-11 news-story my-4">
+                        <p>Hyderabad: TB bacteria can spread from the lungs to any part of the body including the eyes. With the rise in TB cases worldwide, Ocular (eye) TB cases are also on the rise. Ocular TB must be treated with a full course of anti-TB medications after evaluation by an expert Ophthalmologist.</p>
+                        <p>Ocular TB can be difficult to diagnose through the standard TB test, and much depends on an ophthalmologist estimating its probability accurately. In a year, LVPEI manages over 1000 cases of Ocular TB across its network centres.</p>
+                        <p>Centre is taking specific steps to standardize the diagnosis and treatment of ocular tuberculosis, such as the Indian Extrapulmonary Tuberculosis (INDEX-TB) recommendations, which are also supported by WHO. Ocular TB has emerged as one of the most extensively explored areas of ophthalmology. The new Zebrafish model was utilized to investigate the presence of tuberculosis bacteria in the eye. LVPEI is the only institute in the country with a zebrafish research lab dedicated to studying the etiology and diagnosis of Ocular TB.</p>
+                        <p>"Does the eye have tuberculosis (TB)?" How can TB enter the eye? This is a question that is frequently posed not only by the general population but also by clinicians who treat TB patients. "This is remarkable because the TB bacteria was detected in the eye for the first time in 1884," says Dr. Soumyava Basu, Network Head, Uveitis Services, L V Prasad Eye Institute.</p>
+                        <p>On March 24, 1882, Dr. Robert Koch reported the identification of the bacteria that causes tuberculosis, Mycobacterium tuberculosis. The World Health Organization has designated March 24 as World Tuberculosis Day (WHO).</p>
+                        <p>"Tuberculosis bacteria can move from the lungs to any area of the body, including the eyes." In India, more than 2.5 million new cases of tuberculosis are detected each year. With the increase in TB cases comes an increase in Ocular (eye) TB. "It is one of the most common causes of eye irritation (Uveitis)," Dr. Basu explains.</p>
+                        <p> L V Prasad Eye Institute sees about 1000 ocular TB patients each year across its network of centres. The symptoms might range from eye pain and redness to blurred vision, or a mix of the two. Following an evaluation by an expert ophthalmologist, ocular TB must be treated with a full course of anti-TB drugs.</p>
+                        <p><b>Diagnosis of Ocular TB</b></p>
+                        <p>The TB bacteria are rarely discovered in eye secretions, making diagnosis and treatment challenging. The majority of people with ocular TB show no indications of TB in the lungs or elsewhere in the body. The conventional tests used to diagnose TB in other regions of the body cannot detect TB in the eye. As a result, most of it is dependent on an ophthalmologist accurately evaluating the likelihood of having ocular TB.</p>
+                        <p>Most individuals with ocular TB (though not all), at least in TB-endemic areas, have very distinct clinical signs that can be picked up by an ophthalmologist who, after ruling out any other infection with a blood or skin test, can establish the presence of TB in the patient.</p>
+                        <p>Although this method is not without flaws, research conducted throughout the world has demonstrated that anti-TB medicines perform well for people identified with ocular TB in this manner. Patients who go untreated, or who are treated incorrectly, might acquire moderate to severe visual impairment, which can be difficult to reverse.</p>
+                        <p><b>Research in Ocular TB</b></p>
+                        <p>One of the most important scientific problems in ocular TB is how these bacteria enter the eye. Researchers in the United States attempted to answer this question in the early 1900s when they put TB germs into rabbit blood and discovered that bacteria could enter the eye and cause sickness comparable to what is seen in humans. There was no therapy for tuberculosis at the time, and public cleanliness was also lacking in the Western world. As a result, a considerable number of people in those countries became infected with tuberculosis, and many of them got ocular tuberculosis. </p>
+                        <p> The first anti-TB medications were introduced in the 1940s, and public hygiene also improved. As a result, Western academics lost interest in tuberculosis, and ocular TB research ceased, leaving the subject unresolved for nearly 100 years.</p>
+                        <p>Prof Narsing Rao of the University of Southern California in Los Angeles decided to look at tuberculosis through the eyes of a guinea pig in 2009. Researchers at Johns Hopkins University (Baltimore, Maryland) were examining the mechanics of tuberculosis in guinea pigs at the time.</p>
+                        <p>The guinea pig model was unique in that the animals were infected with TB bacteria via aerosol through their lungs. This mimicked the 'natural' path of tuberculosis infection in humans. These guinea pigs' eyeballs were moved from the east coast (Baltimore) to the west coast (Los Angeles), where Prof Rao's team examined them for symptoms of ocular infection.</p>
+                        <p>They discovered that guinea pigs treated early with anti-TB medications did not develop an eye infection, whereas untreated guinea pigs developed eye infections approximately two months after being infected. As a result, the tale of how TB bacteria got into people's eyes began to unfold. The bacteria that infected the lungs appeared to penetrate the circulation before the body's immune system could manage them and settle in the eye.</p>
+                        <p><b>How do the TB bacteria enter the eye?</b></p>
+                        <p>Prof Ramakrishnan created a TB infection model in the zebrafish embryo that provided novel insights into the mechanics of TB. The zebrafish (a tiny, striped fish approximately two inches long) that was discovered in Gangetic waters is currently used in numerous fields of research.</p>
+                        <p>These fish embryos are extremely amazing. At three days of fertilization, their eyes become anatomically equivalent to adult eyes (complete with all layers of the retina). Researchers can also use chemicals to keep the embryo translucent and fluorescent tags to their immune cells.</p>
+                        <p>If you add a fluorescent tag of a different colour to the TB bacteria, you can now monitor how these bacteria interact with different cells in the body live under the microscope. Prof Ramakrishnan agreed to examine the eyes of the zebrafish embryos Dr. Basu was infecting in her lab. They discovered that over 60% of the infected embryos not only had an infection in the eye but that some of them were also growing granulomas in the retina to manage the infection.</p>
+                        <p>To study further how the TB bacteria entered the eye, the Zebrafish lab was established at L V Prasad Eye Institute in 2016 at its Bhubaneswar campus</p>
+                        <p>The only institute in the country with these dedicated facilities is LVPEI. "Our investigations in the Zebrafish Lab demonstrated that the TB bacteria may overcome the eye barriers on their own or by hitchhiking on immune cells" (called the Trojan Horse mechanism after the Greek mythological story). "There was enough evidence to suspect that these bacteria may breach the eye's defences and cause potentially blinding diseases like ocular tuberculosis, choroiditis, or retinal vasculitis," Dr. Basu continues.</p>
+                        <p> Dr. Basu's latest study has focused on determining how to distinguish real ocular TB patients (who require anti-TB therapy) from those with other kinds of uveitis but positive TB testing (not requiring anti-TB therapy).</p>
+                        <p>"Ocular tuberculosis has become one of the most extensively researched issues in ophthalmology worldwide. The future certainly holds hope for patients with this illness to have their vision restored and to live a healthy life," Dr. Basu says.</p>
+                        <p>Ophthalmologists from all over the world are also collaborating and learning about this condition from one another. The government has attempted to standardize the diagnosis and treatment of ocular TB through initiatives such as the Indian Extrapulmonary TB (INDEX-TB) guidelines, which have also been endorsed by the WHO.</p>
+
+
+
+                    </div>
+
+                    <div class="my-5">
+
+                        <a href="">
+                            <button type="button" class="m-2 btn btn-outline-danger">TB
+                            </button></a>
+                                <a href="">
+                                    <button type="button" class="m-2 btn btn-outline-danger">Health
+                                    </button></a>  
+                                    <a href="">
+                                        <button type="button" class="m-2 btn btn-outline-danger">ophthalmologist
+                                        </button></a>
+                    </div>
+                </div>
+           
+            </div>
+            <div class="Entertainment col-lg-4 mt-3 ">
+              <div class="mb-4 row">
+                  <div class="col-lg-12">
+                      <h2 class="block-title title-border">
+                          <span class="title-bg">
+                              Latest News
+                          </span>
+                      </h2>
+                      <!-- <img class="rounded img-fluid w-100" src="./img/add-banner.jpg" alt="Advertisement"> -->
+
+                  </div>
+              </div>
+              <div class="mb-4 row">
+                  <div class="col-lg-6">
+                      <img src="https://newsmeter.in/h-upload/2023/03/09/500x300_341068-img-20230309-wa0019.webp"
+                          class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                  </div>
+                  <div class="col-lg-6 presentation-headline pl-lg-0">
+                      <a>
+                        MLC Kavitha suffers avulsion fracture after she slips & falls at home</a>
+                  </div>
+              </div>
+              <div class="mb-4 row">
+                  <div class="col-lg-6">
+                      <img src="https://newsmeter.in/h-upload/2023/04/11/500x300_343511-2023-04-11-155123.webp"
+                          class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                  </div>
+                  <div class="col-lg-6 presentation-headline pl-lg-0">
+                      <a>
+                        Modi handing PSUs to his two ‘Ishtaratnas’ from Gujarat: KTR slams Centre</a>
+                  </div>
+              </div>
+              <div class="mb-4 row">
+                  <div class="col-lg-6">
+                      <img src="https://newsmeter.in/h-upload/2023/04/11/500x300_343508-untitled-design-76.webp"
+                          class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                  </div>
+                  <div class="col-lg-6 presentation-headline pl-lg-0">
+                      <a>
+                        Morphed opinion poll graphic shows BJP winning majority in 2023 Karnataka polls </a>
+                  </div>
+              </div>
+              <div class="mb-4 row">
+                  <div class="col-lg-6">
+                      <img src="https://newsmeter.in/h-upload/2023/04/11/500x300_343505-2023-04-11-151735.webp"
+                          class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                  </div>
+                  <div class="col-lg-6 presentation-headline pl-lg-0">
+                      <a>
+                        Union minister Hardeep Singh in Tirupati; offers prayers, visits TTD hospital
+                      </a>
+                  </div>
+              </div>
+              <div class="mb-4 row">
+                  <div class="col-lg-6">
+                      <img src="https://newsmeter.in/h-upload/2023/04/11/500x300_343499-2023-04-11-135046.webp"
+                          class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                  </div>
+                  <div class="col-lg-6 presentation-headline pl-lg-0">
+                      <a>
+                        El Nino conditions to develop during the monsoon season: IMD </a>
+                  </div>
+              </div>
+              <div class="mb-4 row">
+                  <div class="col-lg-6">
+                      <img src="https://newsmeter.in/h-upload/2023/04/11/500x300_343490-2023-04-11-113936.webp"
+                          class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                  </div>
+                  <div class="col-lg-6 presentation-headline pl-lg-0">
+                      <a>
+                        Trinamool Congress lost national party status, looking at legal options</a>
+                  </div>
+              </div>
+              <div class="section-heading mb-3">
+                  <a href="">
+                  <h2 class="block-title title-border">
+                      <span class="title-bg">Video stories</span>
+                  </h2>
+              </a>
+          </div>
+          <div id="carouselExampleIndicators" height="" data-ride="carousel" class="carousel slide hyderbad-carousel">
+              <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img data-class="h-custom-image" height="200px" width="100%" class="img-fluid mx-auto" src="https://newsmeter.in/h-upload/2023/04/02/750x450_342878-web.webp",="" data-src="https://newsmeter.in/h-upload/2023/04/02/750x450_342878-web.webp" alt="Intertidal Walks: Come, take a stroll on Vizag beach to explore rich marine life" 
+                  title="Intertidal Walks: Come, take a stroll on Vizag beach to explore rich marine life" old-src="/images/placeholder.jpg"></div>
+
+              <div class="carousel-item">
+                  <img data-class="h-custom-image" height="200px" width="100%" class="img-fluid mx-auto" src="https://newsmeter.in/h-upload/2023/03/25/750x450_342283-web.webp" ,="" data-src="https://newsmeter.in/h-upload/2023/04/01/750x450_342807-web.webp" alt=""
+                   title="Rampuri Chaku: A 20-foot Rampuri knife installed in Uttar Pradesh"></div>
+
+              <div class="carousel-item">
+                  <img data-class="h-custom-image" height="200px" width="100%" class="img-fluid mx-auto" src="https://newsmeter.in/h-upload/2023/03/30/750x450_342645-web.webp" ,="" 
+                  data-src="https://newsmeter.in/h-upload/2023/03/31/750x450_342706-web.webp" alt=""
+                   title="Hyderabadi Swiggy user spent whopping Rs 6L on 8,428 plates of idlis"></div>
+
+                   <div class="carousel-item"><img data-class="h-custom-image" src="/images/placeholder.jpg" ,=""
+                       data-src="https://newsmeter.in/h-upload/2023/03/25/750x450_342283-web.webp" alt=""
+                        title="Memories and Magnets: Two Hyderabadis explore the world through magnets"></div></div>
+
+                        <a href="#carouselExampleIndicators" role="button" data-slide="prev" class="carousel-control-prev"><span aria-hidden="true" class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a href="#carouselExampleIndicators" role="button" data-slide="next" class="carousel-control-next"><span aria-hidden="true" class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+          </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div class="footer">
+      <div class="img-footer">
+        <img src="../img/footer.png" alt="">
+        <div class="join-us">
+          <p>Join us in Our Fight Against Mis-Information</p>
+          <button class="btn btn-danger">Join</button>
+        </div>
+      </div>
+      <div class="footer-links">
+       <div class="follow">
+        <p style="color:aliceblue; font-size: 17px;">Follow Us On </p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-primary btn-fb"><i class="bi bi-facebook"></i></button>
+          <button type="button" class="btn btn-danger btn-insta"><i class="bi bi-instagram"></i></button>
+          <button type="button" class="btn btn-primary"><i class="bi bi-twitter"></i></button>
+          <button type="button" class="btn btn-danger"><i class="bi bi-youtube"></i></button>
+        </div>
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link active" href="#">About NewsMeter</a>
+          <a class="nav-link" href="#">Editorial Staff</a>
+          <a class="nav-link" href="#">Fact Check Methodology</a>
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link" style="color:aliceblue">Terms&Condition</a>
+          <a class="nav-link active" href="#">Correction Policy</a>
+          <a class="nav-link" href="#">Privacy Policy</a>
+          <a class="nav-link" href="#">Cookie Policy</a>
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link" style="color:aliceblue">Non Partnership Policy</a>
+          <a class="nav-link active" href="#">Grievance Addressal</a>
+          <a class="nav-link" href="#">Contact News Meter</a>
+          <a class="nav-link" href="#">Advertise With Us</a>
+  
+  
+  
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-2 bg-dark">
+      <p class="text-center mb-0 text-white text-left">&copy; 2023 All rights reserved</p>
+
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="../js/sidebr.js"></script>
+  <script src="../js/sticky-header.js"></script>
+
+</body>
+
+</html>

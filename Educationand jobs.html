@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Newmeter</title>
+<!-- //font awesome cdn link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- roboto fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="./css/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <!---------------------------sidebar-start ---------------------------------->
+  <div class="sidenav" id="mySidenav">
+    <div class="d-flex sidenav-header justify-content-end">
+      <!-- <a href="#" class=""><img src="./img/newsmeter-logo.png" class="img-fluid" /></a> -->
+      <button type="button" class="closebtn btn btn-light" onclick="closeNav()">
+        <i class="bi bi-x-lg"></i></button>
+    </div>
+
+    <ul class="nav flex-column">
+
+      <li class="nav-item">
+        <a class="nav-link active" href="TopStories.html">TOP STORIES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Hyderabad.html">HYDERABAD</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Crime.html">CRIME</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="FactCheckEnglish.html">FACT CHECK ENGLISH</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ConsumerVoice.html">CONSUMER VOICE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="DataStrories.html">DATA STORIES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="StatielliteJournalism.html">SATELLITE JOURNALISM</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Lifestyle.html">LIFE STYLE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="Health.html">HEALTH</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Educationand jobs.html">EDUCATION/JOBS</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="BusinessandTechJobs.html">BUSINESS/TECH & STARTUPS</a>
+      </li>
+      <div class="Dropdown">
+        <button class="Dropbtn">REGIONAL <span class="fa fa-caret-down"></span></button>
+        <div class="Dropdown-Content">
+          <a class="nav-link" href="FactCheckEnglish.html">Andhra Pradesh</a>
+          <a class="nav-link" href="#">Hyderabad</a>
+          <a class="nav-link" href="#">South India</a>
+          <a class="nav-link" href="#">Telangana</a>
+          <a class="nav-link" href="#">Tirupathi</a>
+          <a class="nav-link" href="#">Vishakapatnam</a>
+          <a class="nav-link" href="#">Vijayawada/Amaravati</a>
+          <a class="nav-link" href="#">Warangal</a>
+          <a class="nav-link" href="#">World / NRI News</a>
+        </div>
+      </div>
+    </ul>
+
+  </div>
+  <!------------------------sidebar-End--------------------------------------->
+  <!------------------------Main-content-start--------------------------------------->
+  <div id="main  border">
+
+    <!------------------------Top-Banner-End--------------------------------------->
+    <!------------------------Header-start--------------------------------------->
+    <div class="container px-0">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- <img class="add-banner shadow-sm" src="./img/banner-ad-example-online.png" alt="Advertisement"> -->
+        </div>
+
+        <div class="telugu-btn">
+          <button type="button" class="btn btn-danger" href="#">Telugu</button>
+        </div>
+        <div class="icfn-logo">
+          <a href="#"><img src="./img/icfn-logo.png" class="w-100" /></a>
+        </div>
+      </div>
+    </div>
+    <!------------------------Top-Banner-End--------------------------------------->
+    <!------------------------Header-start--------------------------------------->
+    <section id="mainNav">
+
+
+      <!------------------------Header-End--------------------------------------->
+      <!------------------------Navigation Links start--------------------------------------->
+      <div class="container-fluid px-0">
+        <nav class="navbar navbar-expand-md navbar-light  main-nav bg-white border-bottom">
+
+
+
+          <a class="menu btn btn-danger shadow-sm  mr-3" href="#" onclick="openNav()"><i class="bi bi-list"></i></a>
+          <a class="navbar-brand">
+            <img class="img" src="./img/newsmeter-logo.png" class="logo" alt="logo"></a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto center-item-space pt-4 justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="TopStories.html">TOP STORIES</a>
+              </li>
+              <!--<li class="nav-item">
+                <a class="nav-link" href="#">Politics</a>
+              </li>-->
+              <div class="dropdown">
+                <button class="dropbtn">FACT CHECK <span class="fa fa-caret-down"></span></button>
+                <div class="dropdown-content">
+                  <a href="FactCheckEnglish.html">Fact Check English</a>
+                  <a href="#">Fact Check Malayalam</a>
+                  <a href="#">Fact Check Tamil</a>
+                  <a href="#">Fact Check Kannada</a>
+                  <a href="#">Fact Check Health</a>
+                </div>
+              </div>
+
+              <li class="nav-item">
+                <a class="nav-link" href="Entertainment.html">ENTERTAINMENT</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="Lifestyle.html">LIFE STYLE</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="Health.html"> HEALTH</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-danger">Subscribe</button>
+              </li>
+              <li class="nav-item">
+                <a class=" pl-2 fa fa-search"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary btn-fb"><i class="bi bi-facebook"></i></button>
+                    <button type="button" class="btn btn-danger btn-insta"><i class="bi bi-instagram"></i></button>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-twitter"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="bi bi-youtube"></i></button>
+
+                  </div>
+                </a>
+              </li>
+             
+            </ul>
+ 
+          </div>
+
+        </nav>
+      </div>
+    </section>
+    <styl>
+      </style>
+      <!------------------------slider-content-start--------------------------------------->
+      <div class="custom_container  my-5">
+        <h2 class="block-title title-border">
+          <span class="title-bg">
+  Education/jobs
+          </span>
+        </h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 mt-3">
+
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <!--mb-5-->
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/04/03/500x300_342886-whatsapp-image-2023-04-03-at-85118-am.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0 font-weight-bold"><a href="#" class="font-weight-bold">Hyderabad to house India's first Alternative Dispute Resolution Centre</a></h5>
+                <p>ICSI plans to open India's first ADR Center in Hyderabad in the next three months</p>
+                <p> By <span class="text-danger">Newsmeter Network </span>Published on 3 Apr 2023 9:01 AM</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/04/01/500x300_342784-whatsapp-image-2023-04-01-at-23324-pm.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">CBSE launches special drive for continuous professional development of teachers</a></h5>
+                <p>CBSE has established 16 Centres of Excellence (COEs) across the country with a focus on in-service training of teachers</p>
+                <p> By <span class="text-danger">Newsmeter Network </span>Published on 1 Apr 2023 2:35 PM</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/04/01/500x300_342749-exam-rules-410x205.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">TS EAMCET-2023 rescheduled: Here are new dates</a></h5>
+                <p> The examination was originally scheduled from May 7 to 9</p>
+                <p> By <span class="text-danger">Newsmeter Network </span>Published on 1 Apr 2023 11:03 AM</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/04/01/500x300_342787-whatsapp-image-2023-04-01-at-24622-pm.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">Centre allows Ukraine-returned students to write MBBS final but guidelines unclear</a></h5>
+                <p>The Centre announced that medical students who have returned from Ukraine will be able to take the MBBS exam in the nation</p>
+                <p> By <span class="text-danger">Anoushka Caroline Williams  </span>Published on 1 Apr 2023 10:00 AM</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/03/29/500x300_342516-2023-03-29-085312.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">SC allows foreign return medical students to clear MBBS final exam in 2 attempts</a></h5>
+                <p>The top court was hearing a batch of pleas fled by medical students who completed seven semesters </p>
+                  <p> By <span class="text-danger">Nimisha S Pradeep   </span>Published on 29 Mar 2023 9:36 AM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/03/27/500x300_342411-2023-03-27-192338.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">QS World University Rankings by Subject: IIT Hyderabad jumps 100 places</a></h5>
+                <p> IIT-H has improved its QS ranking from over 1,300 to one of the top 600 globally</p>
+                  <p> By <span class="text-danger">KANIZA GARARI </span>Published on 27 Mar 2023 7:24 AM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/03/03/500x300_340647-whatsapp-image-2023-03-03-at-44843-pm.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold"> Telangana class X board exams to begin from 3 April </a></h5>
+                <p>A total of 4,94,620 students will appear for class X exams, in 2,652 centres across Telangana</p>
+                  <p> By <span class="text-danger">Newsmeter Network </span> Published on 25 Mar 2023 5:55 PM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/03/16/500x300_341512-whatsapp-image-2023-03-16-at-75235-am.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">In the paper leak case, 9 were arrested including two employees</a></h5>
+                <p>In the paper leak case, 9 were arrested including two employees</p>
+                  <p> By <span class="text-danger"> Newsmeter Network </span>Published on 16 Mar 2023 8:01 AM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/03/11/500x300_341210-2023-03-11-163457.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">Telangana intermediate board exams: Here are guidelines & measures issued</a></h5>
+             <p>Intermediate exams in Telangana will be held from March 15 to  April 4</p>                  
+               <p> By <span class="text-danger"> Newsmeter Network  </span>Published on 14 Mar 2023 5:14 PM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/03/14/500x300_341388-2023-03-14-091930.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">Telangana: All government, private schools to operate for half day from Mar 15</a></h5>
+                <p> Schools would function from 8 am to 12:30 pm</p>
+                  <p> By <span class="text-danger">Newsmeter Network </span>Published on 14 Mar 2023 9:20 AM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/03/11/500x300_341210-2023-03-11-163457.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">From first-aid kits to RTC buses, Andhra Pradesh prepares for intermediate exams</a></h5>
+                <p>Intermediate examinations in Andhra Pradesh will be held from 15 March to 4 April</p>
+                  <p> By <span class="text-danger">Newsmeter Network </span>Published on 11 Mar 2023 4:50 PM</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between" style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+              <div class="col-lg-5">
+                <img src="https://newsmeter.in/h-upload/2023/03/03/500x300_340647-whatsapp-image-2023-03-03-at-44843-pm.webp" class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation">
+              </div>
+
+              <div class="col-lg-7">
+
+                <h5 class="mt-0"><a href="#" class="font-weight-bold">Telangana intermediate exam 2023 timetable out</a></h5>
+                <p>Students taking the Telangana board inter 1st and 2nd-year examinations can obtain exam date sheets from the official website.</p>
+                  <p> By <span class="text-danger">Newsmeter Network  </span>Published on 3 Mar 2023 5:32 PM</p>
+                </div>
+            </div>
+            <hr>
+          </div>
+
+
+
+          <div class="entertainment col-lg-4 mt-3 ">
+            <div class="mb-4 row">
+              <div class="col-lg-12">
+                <h2 class="block-title title-border">
+                  <span class="title-bg">
+                Latest News
+                  </span>
+                </h2>
+                <!-- <img class="rounded img-fluid w-100" src="./img/add-banner.jpg" alt="Advertisement"> -->
+
+              </div>
+            </div>
+            <div class="mb-4 row">
+              <div class="col-lg-6">
+                <img src="https://newsmeter.in/h-upload/2023/04/05/500x300_343059-whatsapp-image-2023-04-05-at-113844-am.webp" class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+              </div>
+              <div class="col-lg-6 presentation-headline pl-lg-0">
+                <a>
+                    Summer blues: Hyderabad sizzles at 40 degree Celcius </a>
+              </div>
+            </div>
+            <div class="mb-4 row">
+              <div class="col-lg-6">
+                <img src="https://newsmeter.in/h-upload/2023/04/05/500x300_343048-whatsapp-image-2023-04-05-at-90957-am-2.webp" class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+              </div>
+              <div class="col-lg-6 presentation-headline pl-lg-0">
+                <a>
+                    Why was Bandi Sanjay taken into preventive custody in SSC..
+                </a>
+              </div>
+            </div>
+            <div class="mb-4 row">
+              <div class="col-lg-6">
+                <img src="https://newsmeter.in/h-upload/2023/04/05/500x300_343047-whatsapp-image-2023-04-05-at-95737-am.webp" class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+              </div>
+              <div class="col-lg-6 presentation-headline pl-lg-0">
+                <a>
+                    KCR gives go-ahead for inaugurating BR Ambedkar on ..
+                </a>
+              </div>
+            </div>
+      </div>
+
+  </div>
+  
+ 
+
+    </div>
+    <div class="footer">
+      <div class="img-footer">
+        <img src="./img/footer.png" alt="">
+        <div class="join-us">
+          <p>Join us in Our Fight Against Mis-Information</p>
+          <button class="btn btn-danger">Join</button>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-primary btn-fb"><i class="bi bi-facebook"></i></button>
+          <button type="button" class="btn btn-danger btn-insta"><i class="bi bi-instagram"></i></button>
+          <button type="button" class="btn btn-primary"><i class="bi bi-twitter"></i></button>
+          <button type="button" class="btn btn-danger"><i class="bi bi-youtube"></i></button>
+  
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link active" href="#">About NewsMeter</a>
+          <a class="nav-link" href="#">Editorial Staff</a>
+          <a class="nav-link" href="#">Fact Check Methodology</a>
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link" style="color:aliceblue">Terms&Condition</a>
+          <a class="nav-link active" href="#">Correction Policy</a>
+          <a class="nav-link" href="#">Privacy Policy</a>
+          <a class="nav-link" href="#">Cookie Policy</a>
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link" style="color:aliceblue">Non Partnership Policy</a>
+          <a class="nav-link active" href="#">Grievance Addressal</a>
+          <a class="nav-link" href="#">Contact News Meter</a>
+          <a class="nav-link" href="#">Advertise With Us</a>
+  
+  
+  
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-2 bg-dark">
+      <p class="text-center mb-0 text-white text-left">&copy; 2023 All rights reserved</p>
+
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="./js/sidebr.js"></script>
+  <script src="./js/sticky-header.js"></script>
+
+</body>
+
+</html>
