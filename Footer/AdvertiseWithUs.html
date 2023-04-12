@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Newmeter</title>
+
+    <!-- //font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- roboto fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link href="../css/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!---------------------------sidebar-start ---------------------------------->
+    <div class="sidenav" id="mySidenav">
+      <div class="d-flex sidenav-header justify-content-end">
+        <!-- <a href="#" class=""><img src="./img/newsmeter-logo.png" class="img-fluid" /></a> -->
+        <button
+          type="button"
+          class="closebtn btn btn-light"
+          onclick="closeNav()"
+        >
+          <i class="bi bi-x-lg"></i>
+        </button>
+      </div>
+
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="../TopStories.html">TOP STORIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Hyderabad.html">HYDERABAD</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Crime.html">CRIME</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../FactCheckEnglish.html">
+            FACT CHECK ENGLISH
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../ConsumerVoice.html">CONSUMER VOICE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../DataStrories.html">DATA STORIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../StatielliteJournalism.html">
+            SATELLITE JOURNALISM
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../Health.html">HEALTH</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Educationand jobs.html">
+            EDUCATION/JOBS
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../BusinessandTechJobs.html">
+            BUSINESS/TECH & STARTUPS
+          </a>
+        </li>
+        <div class="Dropdown">
+          <button class="Dropbtn">
+            REGIONAL
+            <span class="fa fa-caret-down"></span>
+          </button>
+          <div class="Dropdown-Content">
+            <a class="nav-link" href="../FactCheckEnglish.html">
+              Andhra Pradesh
+            </a>
+            <a class="nav-link" href="#">Hyderabad</a>
+            <a class="nav-link" href="#">South India</a>
+            <a class="nav-link" href="#">Telangana</a>
+            <a class="nav-link" href="#">Tirupathi</a>
+            <a class="nav-link" href="#">Vishakapatnam</a>
+            <a class="nav-link" href="#">Vijayawada/Amaravati</a>
+            <a class="nav-link" href="#">Warangal</a>
+            <a class="nav-link" href="#">World / NRI News</a>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <!------------------------sidebar-End--------------------------------------->
+    <!------------------------Main-content-start--------------------------------------->
+    <div id="main  border">
+      <!------------------------Top-Banner-End--------------------------------------->
+      <!------------------------Header-start--------------------------------------->
+      <div class="container px-0">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- <img class="add-banner shadow-sm" src="./img/banner-ad-example-online.png" alt="Advertisement"> -->
+          </div>
+
+          <div class="telugu-btn">
+            <button type="button" class="btn btn-danger" href="#">
+              Telugu
+            </button>
+          </div>
+          <div class="icfn-logo">
+            <a href="#"><img src="../img/icfn-logo.png" class="w-100" /></a>
+          </div>
+        </div>
+      </div>
+      <!------------------------Top-Banner-End--------------------------------------->
+      <!------------------------Header-start--------------------------------------->
+      <section id="mainNav">
+        <!------------------------Header-End--------------------------------------->
+        <!------------------------Navigation Links start--------------------------------------->
+        <div class="container-fluid px-0">
+          <nav
+            class="navbar navbar-expand-md navbar-light main-nav bg-white border-bottom"
+          >
+            <a
+              class="menu btn btn-danger shadow-sm mr-3"
+              href="#"
+              onclick="openNav()"
+            >
+              <i class="bi bi-list"></i>
+            </a>
+            <a class="navbar-brand">
+              <img
+                class="img"
+                src="../img/newsmeter-logo.png"
+                class="logo"
+                alt="logo"
+              />
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul
+                class="navbar-nav ml-auto center-item-space pt-4 justify-content-center align-items-center"
+              >
+                <li class="nav-item">
+                  <a class="nav-link" href="../TopStories.html">TOP STORIES</a>
+                </li>
+                <!--<li class="nav-item">
+                <a class="nav-link" href="#">Politics</a>
+              </li>-->
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    FACT CHECK
+                    <span class="fa fa-caret-down"></span>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="../FactCheckEnglish.html">Fact Check English</a>
+                    <a href="#">Fact Check Malayalam</a>
+                    <a href="#">Fact Check Tamil</a>
+                    <a href="#">Fact Check Kannada</a>
+                    <a href="#">Fact Check Health</a>
+                  </div>
+                </div>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../Entertainment.html">
+                    ENTERTAINMENT
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../Health.html">HEALTH</a>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-danger">Subscribe</button>
+                </li>
+                <li class="nav-item">
+                  <a class="pl-2 fa fa-search"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <div
+                      class="btn-group"
+                      role="group"
+                      aria-label="Basic example"
+                    >
+                      <button type="button" class="btn btn-primary btn-fb">
+                        <i class="bi bi-facebook"></i>
+                      </button>
+                      <button type="button" class="btn btn-danger btn-insta">
+                        <i class="bi bi-instagram"></i>
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        <i class="bi bi-twitter"></i>
+                      </button>
+                      <button type="button" class="btn btn-danger">
+                        <i class="bi bi-youtube"></i>
+                      </button>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="static_page_content">
+          <b
+            style="
+              font-family: inherit;
+              font-weight: 500;
+              line-height: 7rem;
+              color: inherit;
+              font-size: 38px;
+            "
+          >
+            Advertise with us
+          </b>
+          <span style="font-size: 24px;"></span>
+          <span style="font-size: 24px;"></span>
+          <p></p>
+          <p>
+            Dear advertisers, NewsMeter offers you to advertise your product/
+            service on our website. Please fill in the form below containing the
+            basic details for advertising with us so that our advertising
+            executive can get in touch with you.
+          </p>
+          <div class="row">
+            <div class="col-sm-6 ads">
+              <p>Types of advertisements we provide:</p>
+              <ol>
+                <li>Leaderboard (728×90)</li>
+
+                <li>Banner (468×60)</li>
+
+                <li>Half banner (234×60)</li>
+
+                <li>Button (125×125)</li>
+
+                <li>Skyscraper (120×600)</li>
+
+                <li>Small rectangle (180×150)</li>
+
+                <li>Vertical banner (120×240)</li>
+
+                <li>Small square (200×250)</li>
+
+                <li>Square (250×250)</li>
+
+                <li>Wide skyscraper (160×600)</li>
+
+                <li>Medium rectangle (300×250)</li>
+
+                <li>Large rectangle (336×280)</li>
+
+                <li>Half page (300×600)</li>
+
+                <li>Portrait (300×1050)</li>
+
+                <li>Mobile banner (320×50)</li>
+
+                <li>Large leaderboard (970×90)</li>
+
+                <li>Billboard (970×250)</li>
+              </ol>
+            </div>
+            <div class="col-sm-6 ads-form">
+              <form id="advertise_form" class="wpcf7-form init">
+                <input
+                  class="form-control"
+                  type="hidden"
+                  name="form_name"
+                  value="advertise_with_us"
+                  style="display: none;"
+                />
+                <div class="form-wrapper mb25">
+                  <div
+                    role="form"
+                    class="wpcf7"
+                    id="wpcf7-f40061-p3575-o1"
+                    lang="en-US"
+                    dir="ltr"
+                  >
+                    <div
+                      class="screen-reader-response"
+                      role="alert"
+                      aria-live="polite"
+                    ></div>
+                    <p>
+                      <label>
+                        Your Name (required)
+                        <br />
+                        <span class="wpcf7-form-control-wrap your-name">
+                          <input
+                            name="name"
+                            id="name"
+                            type="text"
+                            size="40"
+                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                          />
+                        </span>
+                      </label>
+                    </p>
+                    <p>
+                      <label>
+                        Your Phone (required)
+                        <br />
+                        <span class="wpcf7-form-control-wrap phone">
+                          <input
+                            name="phone_no"
+                            id="phone_no"
+                            type="tel"
+                            size="40"
+                            class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel"
+                          />
+                        </span>
+                      </label>
+                    </p>
+                    <p>
+                      <label>
+                        Your Email (required)
+                        <br />
+                        <span class="wpcf7-form-control-wrap your-email">
+                          <input
+                            name="email"
+                            id="email"
+                            type="email"
+                            size="40"
+                            class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                          />
+                        </span>
+                      </label>
+                    </p>
+                    <p>
+                      <label>
+                        Type of Ad (required)
+                        <br />
+                        <span class="wpcf7-form-control-wrap type-of-ad">
+                          <select
+                            name="type-of-ad"
+                            class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
+                          >
+                            <option value="">---</option>
+                            <option value="Leaderboard (728x90)">
+                              Leaderboard (728x90)
+                            </option>
+                            <option value="Banner (468x60)">
+                              Banner (468x60)
+                            </option>
+                            <option value="Half banner (234x60)">
+                              Half banner (234x60)
+                            </option>
+                            <option value="Button (125x125)">
+                              Button (125x125)
+                            </option>
+                            <option value="Skyscraper (120x600)">
+                              Skyscraper (120x600)
+                            </option>
+                            <option value="Small rectangle (180x150)">
+                              Small rectangle (180x150)
+                            </option>
+                            <option value="Vertical banner (120x240)">
+                              Vertical banner (120x240)
+                            </option>
+                            <option value="Small square (200x250)">
+                              Small square (200x250)
+                            </option>
+                            <option value="Square (250x250)">
+                              Square (250x250)
+                            </option>
+                            <option value="Wide skyscraper (160x600)">
+                              Wide skyscraper (160x600)
+                            </option>
+                            <option value="Medium rectangle (300x250)">
+                              Medium rectangle (300x250)
+                            </option>
+                            <option value="Large rectangle (336x280)">
+                              Large rectangle (336x280)
+                            </option>
+                            <option value="Half page (300x600)">
+                              Half page (300x600)
+                            </option>
+                            <option value="Portrait (300x1050)">
+                              Portrait (300x1050)
+                            </option>
+                            <option value="Mobile banner (320x50)">
+                              Mobile banner (320x50)
+                            </option>
+                            <option value="Large leaderboard (970x90)">
+                              Large leaderboard (970x90)
+                            </option>
+                            <option value="Billboard (970x250)">
+                              Billboard (970x250)
+                            </option>
+                          </select>
+                        </span>
+                      </label>
+                    </p>
+                    <p>
+                      <label>
+                        Duration
+                        <br />
+                        <span class="wpcf7-form-control-wrap duration">
+                          <input
+                            name="duration"
+                            id="duration"
+                            type="text"
+                            size="40"
+                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                            spellcheck="false"
+                            data-ms-editor="true"
+                          />
+                        </span>
+                      </label>
+                    </p>
+                    <p>
+                      <input
+                        type="submit"
+                        class="submit submit-button wpcf7-form-control wpcf7-submit btn btn-primary btn-small-rounded"
+                        value="Send"
+                      />
+                    </p>
+                  </div>
+                </div>
+                <p>
+                  *for further details contact
+                  <a href="" class="font-weight-bold">
+                    advertising@newsmeter.in
+                  </a>
+                  *
+                </p>
+              </form>
+            </div>
+          </div>
+          <script>
+            document.addEventListener('RESOURCES_LOADED', function (e) {
+              init()
+            })
+            if (window.themeResourceLoaded) {
+              init()
+            }
+            function init() {
+              $('.submit-button').on('click', function () {
+                var $form = $('#advertise_form')
+                $.ajax({
+                  url: 'https://newsmeter.in/ContentCreator',
+                  type: 'post',
+                  dataType: 'application/json',
+                  headers: {
+                    's-id':
+                      'zrPFMHSXdJKt5OQvUNyaoyDzBwKnTCTtYAdXFN80pU8T2CELtfbakHmi8OPj1uwq',
+                  },
+                  data: $form.serialize(),
+                  success: function (data) {
+                    $form.html(
+                      '<div class="thankyou"> Thank you for contacting us</div>',
+                    )
+                  },
+                  error: function (data) {
+                    $form.html(
+                      '<div class="thankyou">Thank you for contacting us</div> ',
+                    )
+                  },
+                  complete: function (data) {
+                    $form.html(
+                      '<div class="thankyou"> Thank you for contacting us</div>',
+                    )
+                  },
+                })
+              })
+            }
+          </script>
+          <style>
+            p {
+              font-size: 16px;
+              font-family: Roboto, sans-serif;
+            }
+            label {
+              font-weight: bold;
+            }
+          </style>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="img-footer">
+          <img src="../img/footer.png" alt="" />
+          <div class="join-us">
+            <p>Join us in Our Fight Against Mis-Information</p>
+            <button class="btn btn-danger">Join</button>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="follow">
+            <p style="color: aliceblue; font-size: 17px;">Follow Us On</p>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-primary btn-fb">
+                <i class="bi bi-facebook"></i>
+              </button>
+              <button type="button" class="btn btn-danger btn-insta">
+                <i class="bi bi-instagram"></i>
+              </button>
+              <button type="button" class="btn btn-primary">
+                <i class="bi bi-twitter"></i>
+              </button>
+              <button type="button" class="btn btn-danger">
+                <i class="bi bi-youtube"></i>
+              </button>
+            </div>
+          </div>
+          <div class="ColumN">
+            <a class="nav-link active" href="#">About NewsMeter</a>
+            <a class="nav-link" href="#">Editorial Staff</a>
+            <a class="nav-link" href="#">Fact Check Methodology</a>
+          </div>
+          <div class="ColumN">
+            <a class="nav-link" style="color: aliceblue;">Terms&Condition</a>
+            <a class="nav-link active" href="#">Correction Policy</a>
+            <a class="nav-link" href="#">Privacy Policy</a>
+            <a class="nav-link" href="#">Cookie Policy</a>
+          </div>
+          <div class="ColumN">
+            <a class="nav-link" style="color: aliceblue;">
+              Non Partnership Policy
+            </a>
+            <a class="nav-link active" href="#">Grievance Addressal</a>
+            <a class="nav-link" href="#">Contact News Meter</a>
+            <a class="nav-link" href="#">Advertise With Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid py-2 bg-dark">
+        <p class="text-center mb-0 text-white text-left">
+          &copy; 2023 All rights reserved
+        </p>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/sidebr.js"></script>
+    <script src="../js/sticky-header.js"></script>
+  </body>
+</html>

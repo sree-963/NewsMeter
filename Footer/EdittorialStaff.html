@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Newmeter</title>
+
+    <!-- //font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- roboto fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link href="../css/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!---------------------------sidebar-start ---------------------------------->
+    <div class="sidenav" id="mySidenav">
+      <div class="d-flex sidenav-header justify-content-end">
+        <!-- <a href="#" class=""><img src="./img/newsmeter-logo.png" class="img-fluid" /></a> -->
+        <button
+          type="button"
+          class="closebtn btn btn-light"
+          onclick="closeNav()"
+        >
+          <i class="bi bi-x-lg"></i>
+        </button>
+      </div>
+
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="../TopStories.html">TOP STORIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Hyderabad.html">HYDERABAD</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Crime.html">CRIME</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../FactCheckEnglish.html">
+            FACT CHECK ENGLISH
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../ConsumerVoice.html">CONSUMER VOICE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../DataStrories.html">DATA STORIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../StatielliteJournalism.html">
+            SATELLITE JOURNALISM
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../Health.html">HEALTH</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Educationand jobs.html">
+            EDUCATION/JOBS
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../BusinessandTechJobs.html">
+            BUSINESS/TECH & STARTUPS
+          </a>
+        </li>
+        <div class="Dropdown">
+          <button class="Dropbtn">
+            REGIONAL
+            <span class="fa fa-caret-down"></span>
+          </button>
+          <div class="Dropdown-Content">
+            <a class="nav-link" href="../FactCheckEnglish.html">
+              Andhra Pradesh
+            </a>
+            <a class="nav-link" href="#">Hyderabad</a>
+            <a class="nav-link" href="#">South India</a>
+            <a class="nav-link" href="#">Telangana</a>
+            <a class="nav-link" href="#">Tirupathi</a>
+            <a class="nav-link" href="#">Vishakapatnam</a>
+            <a class="nav-link" href="#">Vijayawada/Amaravati</a>
+            <a class="nav-link" href="#">Warangal</a>
+            <a class="nav-link" href="#">World / NRI News</a>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <!------------------------sidebar-End--------------------------------------->
+    <!------------------------Main-content-start--------------------------------------->
+    <div id="main  border">
+      <!------------------------Top-Banner-End--------------------------------------->
+      <!------------------------Header-start--------------------------------------->
+      <div class="container px-0">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- <img class="add-banner shadow-sm" src="./img/banner-ad-example-online.png" alt="Advertisement"> -->
+          </div>
+
+          <div class="telugu-btn">
+            <button type="button" class="btn btn-danger" href="#">
+              Telugu
+            </button>
+          </div>
+          <div class="icfn-logo">
+            <a href="#"><img src="../img/icfn-logo.png" class="w-100" /></a>
+          </div>
+        </div>
+      </div>
+      <!------------------------Top-Banner-End--------------------------------------->
+      <!------------------------Header-start--------------------------------------->
+      <section id="mainNav">
+        <!------------------------Header-End--------------------------------------->
+        <!------------------------Navigation Links start--------------------------------------->
+        <div class="container-fluid px-0">
+          <nav
+            class="navbar navbar-expand-md navbar-light main-nav bg-white border-bottom"
+          >
+            <a
+              class="menu btn btn-danger shadow-sm mr-3"
+              href="#"
+              onclick="openNav()"
+            >
+              <i class="bi bi-list"></i>
+            </a>
+            <a class="navbar-brand">
+              <img
+                class="img"
+                src="../img/newsmeter-logo.png"
+                class="logo"
+                alt="logo"
+              />
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul
+                class="navbar-nav ml-auto center-item-space pt-4 justify-content-center align-items-center"
+              >
+                <li class="nav-item">
+                  <a class="nav-link" href="../TopStories.html">TOP STORIES</a>
+                </li>
+                <!--<li class="nav-item">
+                <a class="nav-link" href="#">Politics</a>
+              </li>-->
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    FACT CHECK
+                    <span class="fa fa-caret-down"></span>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="../FactCheckEnglish.html">Fact Check English</a>
+                    <a href="#">Fact Check Malayalam</a>
+                    <a href="#">Fact Check Tamil</a>
+                    <a href="#">Fact Check Kannada</a>
+                    <a href="#">Fact Check Health</a>
+                  </div>
+                </div>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../Entertainment.html">
+                    ENTERTAINMENT
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../Health.html">HEALTH</a>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-danger">Subscribe</button>
+                </li>
+                <li class="nav-item">
+                  <a class="pl-2 fa fa-search"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <div
+                      class="btn-group"
+                      role="group"
+                      aria-label="Basic example"
+                    >
+                      <button type="button" class="btn btn-primary btn-fb">
+                        <i class="bi bi-facebook"></i>
+                      </button>
+                      <button type="button" class="btn btn-danger btn-insta">
+                        <i class="bi bi-instagram"></i>
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        <i class="bi bi-twitter"></i>
+                      </button>
+                      <button type="button" class="btn btn-danger">
+                        <i class="bi bi-youtube"></i>
+                      </button>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+
+      <!------------------------slider-content-start--------------------------------------->
+      <div class="container my-5">
+        <div class="row justify-content-center align-items-start mb-3">
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/02/28/316649-new-project-24.webp"
+                  class="img-fluid d-block mx-auto presentaion-img"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Coreena Enet Suares - Editor
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/07/05/323754-316748-new-project-27-1.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Kaniza Garari - Executive Editor
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/03/02/316748-new-project-27-1.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Sri Lakshmi - Principal Correspondent
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2023/03/16/341544-new-project-17.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Anoushka Caroline Williams
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2023/03/16/341579-new-project-19.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Nikisha Uddagiri
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/03/02/316771-new-project-27-19.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Megha - Multi- Media Journalist
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/03/01/316688-new-project-27-4.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Ram Naresh Kumar Saladi - SEO and Tech
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/03/01/316690-new-project-27-5.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Prof. Nageshwar K
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/03/01/316691-new-project-27-6.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  M Sridhar Acharyulu
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/03/01/316692-new-project-27-8.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Jinka Nagaraju
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/03/02/316763-new-project-27-15.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  CR Gowri Shanker
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/03/02/316764-new-project-27-16.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Harikiran Kodaganti - Tech Contributor
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/03/02/316768-new-project-27-18.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Sadhna VJ
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/03/02/316750-new-project-27-4.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  TJ Reddy
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/03/02/316766-new-project-27-17.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Subhasree Ray
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/03/02/316752-new-project-27-6.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Dr. Mohan Bhandari
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/03/02/316753-new-project-27-7.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Dr Ravi Andrews
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/03/02/316754-new-project-27-9.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Dr S Jeevananda Reddy
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/03/02/316756-new-project-27-10.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  J.S. Ifthekhar
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/08/22/326813-316759-new-project-27-12.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Bhavana Sharma
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/08/30/327353-rdescontroller-1.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Naveen Nayak
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/10/15/330717-image.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Sumavarsha kandula
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/03/02/316749-new-project-27-3.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Nimisha - Multi- Media Journalist
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <a href="">
+                <img
+                  src="https://newsmeter.in/h-upload/2022/03/01/316683-new-project-27-1.webp"
+                  class="img-fluid d-block mx-auto"
+                  alt="presentation"
+                />
+              </a>
+              <div class="presentation-headline py-3">
+                <a href="">
+                  Amrutha - Senior Reporter
+                </a>
+              </div>
+            </div>
+          </div>
+          
+            <h2>Fact Check Team:</h2>
+            <div class="row justify-content-center align-items-start mb-3">
+              <div class="col-lg-4">
+                <div class="card border-0">
+                  <a href="">
+                    <img
+                      src="https://newsmeter.in/h-upload/2022/09/07/327923-316649-new-project-24.webp"
+                      class="img-fluid d-block mx-auto presentaion-img"
+                      alt="presentation"
+                    />
+                  </a>
+                  <div class="presentation-headline py-3">
+                    <a href="">
+                      Atisha Rai (Sub Editor for Fact Check)
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card border-0">
+                  <a href="">
+                    <img
+                      src="https://newsmeter.in/h-upload/2022/09/07/327924-316649-new-project-24-1.webp"
+                      class="img-fluid d-block mx-auto presentaion-img"
+                      alt="presentation"
+                    />
+                  </a>
+                  <div class="presentation-headline py-3">
+                    <a href="https://newsmeter.in/Sunanda">Sunanda Naik</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card border-0">
+                  <a href="https://newsmeter.in/HABEEB-RAHMAN-YP">
+                    <img
+                      src="https://newsmeter.in/h-upload/2022/09/07/327926-316649-new-project-24-2.webp"
+                      class="img-fluid d-block mx-auto presentaion-img"
+                      alt="presentation"
+                    />
+                  </a>
+                  <div class="presentation-headline py-3">
+                    <a href="">
+                      HABEEB RAHMAN YP
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-center align-items-start mb-3">
+              <div class="col-lg-4">
+                <div class="card border-0">
+                  <a href="">
+                    <img
+                      src="https://newsmeter.in/h-upload/2022/09/07/327927-316649-new-project-24-3.webp"
+                      class="img-fluid d-block mx-auto presentaion-img"
+                      alt="presentation"
+                    />
+                  </a>
+                  <div class="presentation-headline py-3">
+                    <a href="">
+                      Md Mahfooz Alam
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card border-0">
+                  <a href="">
+                    <img
+                      src="https://newsmeter.in/h-upload/2022/09/07/327929-316649-new-project-24-4.webp"
+                      class="img-fluid d-block mx-auto presentaion-img"
+                      alt="presentation"
+                    />
+                  </a>
+                  <div class="presentation-headline py-3">
+                    <a href="">Ahamed Ali</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card border-0">
+                  <a href="">
+                    <img
+                      src="https://newsmeter.in/h-upload/2023/03/19/341791-ee-1.webp"
+                      class="img-fluid d-block mx-auto presentaion-img"
+                      alt="presentation"
+                    />
+                  </a>
+                  <div class="presentation-headline py-3">
+                    <a href="">
+                      Srinivasa Mata
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="img-footer">
+          <img src="../img/footer.png" alt="" />
+          <div class="join-us">
+            <p>Join us in Our Fight Against Mis-Information</p>
+            <button class="btn btn-danger">Join</button>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="follow">
+            <p style="color: aliceblue; font-size: 17px;">Follow Us On</p>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-primary btn-fb">
+                <i class="bi bi-facebook"></i>
+              </button>
+              <button type="button" class="btn btn-danger btn-insta">
+                <i class="bi bi-instagram"></i>
+              </button>
+              <button type="button" class="btn btn-primary">
+                <i class="bi bi-twitter"></i>
+              </button>
+              <button type="button" class="btn btn-danger">
+                <i class="bi bi-youtube"></i>
+              </button>
+            </div>
+          </div>
+          <div class="ColumN">
+            <a class="nav-link active" href="#">About NewsMeter</a>
+            <a class="nav-link" href="#">Editorial Staff</a>
+            <a class="nav-link" href="#">Fact Check Methodology</a>
+          </div>
+          <div class="ColumN">
+            <a class="nav-link" style="color: aliceblue;">Terms&Condition</a>
+            <a class="nav-link active" href="#">Correction Policy</a>
+            <a class="nav-link" href="#">Privacy Policy</a>
+            <a class="nav-link" href="#">Cookie Policy</a>
+          </div>
+          <div class="ColumN">
+            <a class="nav-link" style="color: aliceblue;">
+              Non Partnership Policy
+            </a>
+            <a class="nav-link active" href="#">Grievance Addressal</a>
+            <a class="nav-link" href="#">Contact News Meter</a>
+            <a class="nav-link" href="#">Advertise With Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid py-2 bg-dark">
+        <p class="text-center mb-0 text-white text-left">
+          &copy; 2023 All rights reserved
+        </p>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/sidebr.js"></script>
+    <script src="../js/sticky-header.js"></script>
+  </body>
+</html>

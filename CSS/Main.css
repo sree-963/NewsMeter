@@ -856,16 +856,35 @@ li {
   padding: 21rem 0 0 0;
   background-color: white;
 }
+
+/* //FooterLinksPage */
+.font a{
+  color: rgba(255, 5, 5, 0.973);
+  font-weight: bold;
+}
+
 @media(max-width:450px){
   .Entertainment{
     padding: 0px 0 0 0;
   }
+  .googleform{
+  width: 100%;
+  }
+  .iframe{
+    width: 100%;
+  }
 }
+
+
+
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media (max-width: 950px) {
   .img-footer {
     justify-content: center;
     gap: 5rem;
+  }
+  .googleform{
+    width: 100%;
   }
 }
 

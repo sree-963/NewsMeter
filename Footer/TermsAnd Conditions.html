@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Newmeter</title>
+
+    <!-- //font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- roboto fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link href="../css/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!---------------------------sidebar-start ---------------------------------->
+    <div class="sidenav" id="mySidenav">
+      <div class="d-flex sidenav-header justify-content-end">
+        <!-- <a href="#" class=""><img src="./img/newsmeter-logo.png" class="img-fluid" /></a> -->
+        <button
+          type="button"
+          class="closebtn btn btn-light"
+          onclick="closeNav()"
+        >
+          <i class="bi bi-x-lg"></i>
+        </button>
+      </div>
+
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="../TopStories.html">TOP STORIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Hyderabad.html">HYDERABAD</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Crime.html">CRIME</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../FactCheckEnglish.html">
+            FACT CHECK ENGLISH
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../ConsumerVoice.html">CONSUMER VOICE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../DataStrories.html">DATA STORIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../StatielliteJournalism.html">
+            SATELLITE JOURNALISM
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../Health.html">HEALTH</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Educationand jobs.html">
+            EDUCATION/JOBS
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../BusinessandTechJobs.html">
+            BUSINESS/TECH & STARTUPS
+          </a>
+        </li>
+        <div class="Dropdown">
+          <button class="Dropbtn">
+            REGIONAL
+            <span class="fa fa-caret-down"></span>
+          </button>
+          <div class="Dropdown-Content">
+            <a class="nav-link" href="../FactCheckEnglish.html">
+              Andhra Pradesh
+            </a>
+            <a class="nav-link" href="#">Hyderabad</a>
+            <a class="nav-link" href="#">South India</a>
+            <a class="nav-link" href="#">Telangana</a>
+            <a class="nav-link" href="#">Tirupathi</a>
+            <a class="nav-link" href="#">Vishakapatnam</a>
+            <a class="nav-link" href="#">Vijayawada/Amaravati</a>
+            <a class="nav-link" href="#">Warangal</a>
+            <a class="nav-link" href="#">World / NRI News</a>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <!------------------------sidebar-End--------------------------------------->
+    <!------------------------Main-content-start--------------------------------------->
+    <div id="main  border">
+      <!------------------------Top-Banner-End--------------------------------------->
+      <!------------------------Header-start--------------------------------------->
+      <div class="container px-0">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- <img class="add-banner shadow-sm" src="./img/banner-ad-example-online.png" alt="Advertisement"> -->
+          </div>
+
+          <div class="telugu-btn">
+            <button type="button" class="btn btn-danger" href="#">
+              Telugu
+            </button>
+          </div>
+          <div class="icfn-logo">
+            <a href="#"><img src="../img/icfn-logo.png" class="w-100" /></a>
+          </div>
+        </div>
+      </div>
+      <!------------------------Top-Banner-End--------------------------------------->
+      <!------------------------Header-start--------------------------------------->
+      <section id="mainNav">
+        <!------------------------Header-End--------------------------------------->
+        <!------------------------Navigation Links start--------------------------------------->
+        <div class="container-fluid px-0">
+          <nav
+            class="navbar navbar-expand-md navbar-light main-nav bg-white border-bottom"
+          >
+            <a
+              class="menu btn btn-danger shadow-sm mr-3"
+              href="#"
+              onclick="openNav()"
+            >
+              <i class="bi bi-list"></i>
+            </a>
+            <a class="navbar-brand">
+              <img
+                class="img"
+                src="../img/newsmeter-logo.png"
+                class="logo"
+                alt="logo"
+              />
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul
+                class="navbar-nav ml-auto center-item-space pt-4 justify-content-center align-items-center"
+              >
+                <li class="nav-item">
+                  <a class="nav-link" href="../TopStories.html">TOP STORIES</a>
+                </li>
+                <!--<li class="nav-item">
+                <a class="nav-link" href="#">Politics</a>
+              </li>-->
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    FACT CHECK
+                    <span class="fa fa-caret-down"></span>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="../FactCheckEnglish.html">Fact Check English</a>
+                    <a href="#">Fact Check Malayalam</a>
+                    <a href="#">Fact Check Tamil</a>
+                    <a href="#">Fact Check Kannada</a>
+                    <a href="#">Fact Check Health</a>
+                  </div>
+                </div>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../Entertainment.html">
+                    ENTERTAINMENT
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../Health.html">HEALTH</a>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-danger">Subscribe</button>
+                </li>
+                <li class="nav-item">
+                  <a class="pl-2 fa fa-search"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <div
+                      class="btn-group"
+                      role="group"
+                      aria-label="Basic example"
+                    >
+                      <button type="button" class="btn btn-primary btn-fb">
+                        <i class="bi bi-facebook"></i>
+                      </button>
+                      <button type="button" class="btn btn-danger btn-insta">
+                        <i class="bi bi-instagram"></i>
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        <i class="bi bi-twitter"></i>
+                      </button>
+                      <button type="button" class="btn btn-danger">
+                        <i class="bi bi-youtube"></i>
+                      </button>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="col-md-12 center-block">
+          <div class="static_page_content">
+            <p>
+              <b
+                style="
+                  font-family: inherit;
+                  font-weight: 500;
+                  line-height: 7rem;
+                  color: inherit;
+                  font-size: 38px;
+                "
+              >
+                Terms &amp; Conditions
+              </b>
+            </p>
+            <p><b>User Agreement</b></p>
+            <p></p>
+            <div class="pasted-from-word-wrapper">
+              <p>
+                <b>Registration data:</b>
+                <br />
+              </p>
+              <p>
+                These Terms of Use govern your use of the websites, content and
+                community services offered through
+                <a href="https://newsmeter.in">
+                  <font color="#ff0000">https://newsmeter.in</font>
+                </a>
+                (“Site”), any mobile or internet connected device or otherwise
+                (the “the Service”).
+                <br />
+                <br />
+                These terms of use (Terms) constitute a legally binding
+                agreement between you and the Company regarding your use of the
+                web site and / or app i.e.,
+                <a href="https://newsmeter.in">
+                  <p class="font-weight-bold font" color="#ff0000">https://newsmeter.in</p>
+                </a>
+                (the Site) and any services offered by the company including but
+                not limited to delivery of content via the Site, any mobile or
+                internet connected device or otherwise (the “the Service”).
+                <br />
+                <br />
+                By accessing the Site or Service you agree to be bound by these
+                Terms. You hereby represent and warrant to the Company that you
+                are at least eighteen (18) years of age or above and are capable
+                of entering, performing and adhering to these Terms and that you
+                agree to be bound by the following terms and conditions.
+              </p>
+              <p>
+                While individuals under the age of 18 may utilise the Service of
+                the site, they shall do so only with the involvement &amp;
+                guidance of their parents and / or legal guardians, under such
+                Parent /Legal guardian’s registered account.
+                <br />
+              </p>
+              <p>
+                You agree to register prior to uploading any content and / or
+                comment and any other use or services of this site and provide
+                your details including but not limited to complete name, age,
+                email address, residential address, contact number.
+                <br />
+                <br />
+                Definition of “User” or “You”: means any person who accesses or
+                avails of this site of the Company for the purpose of hosting,
+                publishing, sharing, transacting, displaying or uploading
+                information or views and includes other persons jointly
+                participating in using the site of the Company.
+              </p>
+              <p><br /></p>
+              <p>
+                <b>We May Discontinue or Suspend our Site or Terminate Use</b>
+              </p>
+              <p>
+                We reserve the right at any time and from time to time to modify
+                or discontinue, temporarily or permanently, our site (or any
+                part thereof) with or without notice without any liability
+                whatsoever. Fifth Estate Digital PVT LTD reserves the right to
+                suspend / cancel, or discontinue any or all channels,
+                categories, products or service or any part thereof at any time
+                without notice, make modifications and alterations in any or all
+                of the content, products and services contained on the site
+                without prior notice.
+                <br />
+                <br />
+                Fifth Estate Digital PVT LTD shall not be liable to you or any
+                third party for any such modification, suspension or
+                discontinuance of our site. In addition, we reserve the right to
+                terminate your access to our site for any reason, and to take
+                any other actions that Fifth Estate Digital PVT LTD, in its sole
+                discretion, believes to be in the interest of our company and of
+                our users as a whole.
+                <br />
+                <br />
+                Our site (including all text, photographs, graphics, video and
+                audio content contained on our site) is protected by copyright
+                as a collective work or compilation under the copyright laws of
+                India and other countries, and we (subject to the rights of our
+                licensors and licensees under applicable agreements,
+                understandings and arrangements) have all rights therein. Hence,
+                all articles, blogs, videos, content and other elements
+                comprising our site are also copyrighted works, and we (subject
+                to the rights of our licensors and licensees under applicable
+                agreements, understandings and arrangements) have all rights
+                therein. You must abide by all copyright notices / restrictions
+                on our site.
+              </p>
+              <p>
+                <b><br /></b>
+              </p>
+              <p>
+                <b>Copyright and Trademarks</b>
+                <br />
+              </p>
+              <p>
+                Unless otherwise stated, copyright and all intellectual property
+                rights in all material presented on the site (including but not
+                limited to text, audio, video or graphical images), trademarks
+                and logos appearing on this site are the property of Newsmeter,
+                its parent, affiliates and associates (subject to the rights of
+                our licensors and licensees etc. under applicable agreements,
+                understandings and arrangements) and are protected under
+                applicable Indian laws. You agree not to use any framing
+                techniques to enclose any trademark or logo or other proprietary
+                information of Newsmeter; or remove, conceal or obliterate any
+                copyright or other proprietary notice or any credit-line or
+                date-line on other mark or source identifier included on the
+                Site / Service, including without limitation, the size, color,
+                location or style of all proprietary marks. Any infringement
+                shall be vigorously defended and pursued to the fullest extent
+                permitted by law.
+                <b></b>
+              </p>
+              <p></p>
+              <p>
+                <b>Restricted Use of Content</b>
+                <b></b>
+              </p>
+              <p>
+                You may not copy, reproduce, distribute, publish, enter into a
+                database, display, perform, modify, create derivative works
+                from, transmit or in any way exploit any part of our site or any
+                content thereon. You may not distribute any part of this site or
+                any content thereon over any network, including, without
+                limitation, a local area network, or sell or offer it for sale.
+                In addition, these files may not be used to construct any kind
+                of database.
+                <br />
+                <br />
+                We are concerned about the integrity of our site when it is
+                viewed in a setting created by a third party that includes
+                advertising or other materials that we have not authorized to be
+                displayed with the content of our site. Neither you nor any
+                third party shall make use of the contents of our site in any
+                manner that constitutes an infringement of our rights, including
+                copyright.
+                <br />
+                <br />
+                Newsmeter grants you permission to only access and make personal
+                use of the Site and You agree not to, directly or indirectly
+                download or modify / alter / change / amend / vary / transform /
+                revise / translate / copy / publish / distribute or otherwise
+                disseminate any content on Newsmeter’s Site / Service, or any
+                portion of it; or delete or fail to display any promotional
+                taglines included in the Site / Service either directly or
+                indirectly, except with the express consent of Newsmeter, or
+                decompile, reverse engineer or disassemble any software or other
+                products or processes accessible at the Sites.
+                <br />
+                <br />
+                However, you may print or download extracts from these pages for
+                your personal / individual, non-commercial use only provided you
+                keep intact all copyright and other proprietary notices. You
+                must not retain any copies of these pages saved to disk or to
+                any other storage medium except for the purposes of using the
+                same for subsequent viewing purposes or to print extracts for
+                personal / individual use.
+                <br />
+                <br />
+                Newsmeter forbids you from any attempts to resell or put to
+                commercial use any part of the Site; any collection and use of
+                any product listings, descriptions, or prices; any derivative
+                use of the Site or its contents; any downloading or copying of
+                account information for the benefit of any other merchant; any
+                renting, leasing, or otherwise transferring rights to the Site /
+                Service; displaying the name, logo, trademark or other
+                identifier of another person (except for newsmeter.in) in such a
+                manner as to give the viewer the impression that such other
+                person is a publisher or distributor of the Service on the Site,
+                or any data gathering or extraction tools; or any use of meta
+                tags.
+                <br />
+                <br />
+                You may not (whether directly or through the use of any software
+                program) create a database in electronic or structured manual
+                form by regularly or systematically downloading and storing all
+                or any part of the pages from this site.
+                <br />
+                <br />
+                No part of the Site may be reproduced or transmitted to or
+                stored in any other web site, nor may any of its pages or part
+                thereof be disseminated in any electronic or non-electronic
+                form, nor included in any public or private electronic retrieval
+                system or service without prior written permission. Requests to
+                republish Newsmeter's material for distribution should be
+                addressed to
+                <a href="mailto:fifthestatedigital1@gmail.com">
+                  <p class="font-weight-bold font">fifthestatedigital1@gmail.com</p>
+                </a>
+                or
+                <a href="mailto:newsmeter.g@gmail.com">
+                  <p class="font-weight-bold font">newsmeter.g@gmail.com</p>
+                </a>
+              </p>
+              <p></p>
+              <p>
+                <b>Material Posted/transmitted at Newsmeter’s Site</b>
+                <br />
+              </p>
+              <p>
+                All information, data, text, software, music, sound,
+                photographs, graphics, video, messages or other materials
+                (“Content”), whether publicly or privately transmitted / posted,
+                is the sole responsibility of the person from where such content
+                is originated (the Originator). By Posting any material which
+                contains images, photographs, pictures or that are otherwise
+                graphical in whole or in part (“Images”), you warrant and
+                represent that (a) you are the copyright owner of such Images,
+                or that the copyright owner of such Images has granted you
+                permission to use such Images or any content and / or images
+                contained in such Images consistent with the manner and purpose
+                of your use and as otherwise permitted by these Terms of Use and
+                the Services, (b) you have the rights necessary to grant the
+                licenses and sublicenses described in these Terms of Use, and
+                (c) that each person depicted in such Images, if any, has
+                provided consent to the use of the Images as set forth in these
+                Terms of Use, including, by way of limitation, the distribution,
+                public display and reproduction of such Images.
+                <b></b>
+              </p>
+              <p>
+                <br />
+                You represent that you have valid rights and title in any and
+                all Content / Images that you submit on the Site, that you have
+                not infringed on any IPR belonging to any party and further that
+                you will indemnify Newsmeter or its affiliates for all claims
+                arising out of any content that you post on the Site.
+                <br />
+                <br />
+                Newsmeter accepts no responsibility for the said Content /
+                Images. However, you understand that all Content / Images posted
+                by you becomes the property of Newsmeter and you agree to grant
+                / assign to Newsmeter and its affiliates, a non-exclusive,
+                royalty free, perpetual, irrevocable and sub-licenseable right
+                to use, reproduce, modify, adapt, publish, translate, create
+                derivative works from, distribute, perform and display such
+                Content / Images (in whole or part) worldwide and / or to
+                incorporate it in other works in any form, media, or technology
+                now known or later developed throughout the world.
+                <br />
+                <br />
+                You represent that you are a responsible adult (18 years or
+                above) and you shall be solely responsible for all Content that
+                you upload post or otherwise transmit .
+                <br />
+                <br />
+                Newsmeter endeavours to provide a web platform for various
+                community interactions for persons to interact and exchange
+                views with each other. Members of the general public posts
+                content on such services, and therefore the accuracy, integrity
+                or quality of such content cannot be guaranteed. You understand
+                that by using such services, you may be exposed to objectionable
+                matter.
+                <br />
+                <br />
+                You may not send, submit, post, or otherwise transmit, material
+                or messages that contain software virus, or any other files that
+                are designed to interrupt, destroy, and negatively affect in any
+                manner whatsoever, any electronic equipment in connection with
+                the use of this Site, or other user’s ability to engage in real
+                time exchanges.
+              </p>
+              <p>
+                <b><br /></b>
+              </p>
+              <p>
+                <b>
+                  Not Responsible For and Not Necessarily Hold the Opinions of
+                  our Contributors / Bloggers / Commenters, etc.
+                </b>
+                <br />
+              </p>
+              <p>
+                Opinions and other statements expressed by users and third
+                parties (e.g., bloggers) are theirs alone, not opinions of
+                Newsmeter. Newsmeter is not responsible for the accuracy and
+                completeness of Blogger / Contributor content, neither does it
+                endorse or the guarantee the same, nor accept any obligation or
+                liability for the same. Newsmeter and its affiliates,
+                successors, assigns, employees, agents, directors, officers and
+                shareholders do not undertake or assume any duty to monitor its
+                site for inappropriate or unlawful content.
+                <b></b>
+              </p>
+              <p>
+                Newsmeter and its affiliates, successors, assigns, employees,
+                agents, directors, officers and shareholders assume no
+                responsibility or liability which may arise from the content
+                thereof, including, but not limited to, claims for defamation,
+                libel, slander, infringement, invasion of privacy and publicity
+                rights, obscenity, pornography, profanity, fraud, or
+                misrepresentation.
+                <br />
+                <br />
+                Notwithstanding the foregoing, Newsmeter reserves the right to
+                block or remove communications, postings or materials at any
+                time in its sole discretion.
+              </p>
+              <p><b>Not Responsible for Linked Sites</b></p>
+              <p>
+                We are not responsible for the availability or content of other
+                services that may be linked to our site. Because we have no
+                control over such services, you acknowledge and agree that we
+                are not responsible for the availability of such external
+                services, and that we do not endorse and are not responsible or
+                liable for any content, accuracy, quality, advertising, products
+                or other materials on or available from such services. You
+                further acknowledge and agree that we shall not be responsible
+                or liable, directly or indirectly, for any damage or loss caused
+                or alleged to be caused by or in connection with the use of or
+                reliance on any content, goods or services available on or
+                through such services.
+              </p>
+              <p></p>
+              <p>
+                <b>Prohibited Activities</b>
+                <b></b>
+              </p>
+              <p>
+                As a condition of your use of the Services, you will not use the
+                Services for any purpose that is unlawful or prohibited by these
+                terms, conditions, and notices.
+                <br />
+                <br />
+                You shall not post, display, upload, modify, publish, transmit,
+                update or share any information on the Site, that:
+                <br />
+                <br />
+                a) Belongs to another person and to which you do not have any
+                right to;
+                <br />
+                <br />
+                b) Is grossly harmful, harassing, blasphemous, defamatory,
+                obscene, pornographic, paedophilic, libelous, invasive of
+                another's privacy, hateful, or racially, ethnically
+                objectionable, disparaging, relating or encouraging money
+                laundering or gambling, or otherwise unlawful in any manner
+                whatever;
+                <br />
+                <br />
+                c) Harm minors in any way;
+                <br />
+                <br />
+                d) Infringes any patent, trademark, copyright or other
+                proprietary rights;
+                <br />
+                <br />
+                e) Violates any law for the time being in force;
+                <br />
+                <br />
+                f) Deceives or misleads the addressee about the origin of such
+                messages or communicates any information which is grossly
+                offensive or menacing in nature;
+                <br />
+                <br />
+                g) Impersonate another person;
+                <br />
+                <br />
+                h) Contains software viruses or any other computer code, files
+                or programs designed to interrupt, destroy or limit the
+                functionality of any computer resource;
+                <br />
+                <br />
+                i) Threatens the unity, integrity, defence, security or
+                sovereignty of India, friendly relations with foreign states, or
+                public order or causes incitement to the commission of any
+                cognisable offence or prevents investigation of any offence or
+                is insulting any other nation.
+                <br />
+                <br />
+                j) Results in Advertising or solicitation to anyone to buy or
+                sell products or services, or to make donations of any kind.
+                <br />
+                <br />
+                k) Promotes mail fraud, multi-level marketing (pyramid) schemes
+                or other illegal or fraudulent activities.
+                <br />
+                <br />
+                l) Discloses any personally identifying information or private
+                information about any third parties without their express
+                consent.
+                <br />
+                <br />
+                In addition, you are prohibited from doing anything on the Site
+                or in respect of the Services that:-
+                <br />
+                <br />
+                m) Results in spamming, phishing or password harvesting email
+                addresses that have been posted by other users of the Sites.
+                <br />
+                <br />
+                n) Uses or attempt to use another person's account, password or
+                services.
+                <br />
+                <br />
+                o) Disrupts, interferes with or otherwise violates the security
+                of the Sites or any services, accounts, passwords, servers or
+                networks related to the Site
+                <br />
+                <br />
+                p) Sends repeated messages to another user or repeat postings of
+                the same message under the same or multiple subjects or engage
+                in cyber stalking or become a nuisance for other users.
+                <br />
+                <br />
+                q) Damages, disables, overburdens, or impairs Newsmeter’s
+                servers, or the network(s) connected to Newsmeter’s servers, or
+                interferes with any other party's use and enjoyment of any
+                Services.
+                <br />
+                <br />
+                r) Attempts to gain unauthorized access to any Services, other
+                accounts, computer systems or to any of the Services, through
+                hacking, password mining or any other means.
+                <br />
+                <br />
+                s) Obtains or attempts to obtain any materials or information
+                through any means not intentionally made available through the
+                Services.
+              </p>
+              <p></p>
+              <p>
+                <b>Sharing User Details</b>
+                <b></b>
+              </p>
+              <p>
+                You agree that in the event we receive a subpoena issued by a
+                court or from a law enforcement or government agency, we shall
+                comply with such subpoenas without your consent or prior notice
+                to you and may disclose your IP address, username, name, IP
+                location or other information in response thereto. This is to be
+                read along with the
+                <a href="https://newsmeter.in/privacy-policy/">
+                  Privacy Policy.
+                </a>
+              </p>
+              <p>
+                <b>Indemnity</b>
+                <br />
+              </p>
+              <p>
+                You agree to indemnify and hold harmless Newsmeter and its
+                affiliates, and their respective members, directors, officers,
+                managers, employees, shareholders, agents, and licensors and
+                content providers, from and against all losses, expenses,
+                damages and costs, including attorneys’ fees and from all claims
+                including but not limited to claims for defamation, trade
+                disparagment, privacy and intellectual property infringement and
+                damages or resulting from any violation by you of these Terms
+                and Conditions or any breach by you of your representations and
+                warranties hereunder including in respect of content posted or
+                information provided by you for Newsmeter’s use or information
+                or material posted or transmitted through your password account
+                even if not posted or transmitted by you We reserve the right to
+                take over the exclusive defense of any claim for which we are
+                entitled to indemnification hereunder. In such event, you shall
+                provide us with such cooperation as is reasonably requested by
+                us.
+                <b></b>
+              </p>
+              <p></p>
+              <p>
+                <b>Liability</b>
+                <b></b>
+              </p>
+              <p>
+                The Sites include links and pointers to Internet sites, content
+                and services provided by third parties. Newsmeter’s linking to
+                any third party sites does not imply an endorsement or
+                sponsorship of such sites or the information, products or
+                services offered on or through the sites. In addition, the
+                Newsmeter does not operate or control in any respect any
+                information, products or services that third parties may provide
+                on or through the Sites or on web sites linked to by
+                Newsmeter.The Newsmeter and its affiliates, and their respective
+                members, directors, officers, managers, employees, shareholders,
+                agents and licensors are not liable for incidental, indirect,
+                consequential, special, punitive, or exemplary damages of any
+                kind, including, without limitation, lost revenues or profits,
+                loss of business or loss of data, in any way related to this
+                site or for any claim, loss or injury based on errors,
+                omissions, interruptions or other inaccuracies in our site
+                (including, without limitation, as a result of breach of any
+                warranty or other term of these Terms and Conditions).
+              </p>
+              <p></p>
+              <p>
+                <b>Disclaimer</b>
+                <b></b>
+              </p>
+              <p>
+                USE OF THE SITES IS AT YOUR OWN RISK. THE MATERIALS,
+                INFORMATION, PRODUCTS AND SERVICES OFFERED ON OR THROUGH THE
+                SITES AND ANY THIRD-PARTY SITES ARE PROVIDED ON “AS IS. BASIS
+                AND WITHOUT WARRANTIES OF ANY KIND EITHER EXPRESS OR IMPLIED.”
+                WE DO NOT WARRANT THAT OUR SITE WILL BE UNINTERRUPTED OR
+                ERROR-FREE. THERE MAY BE DELAYS, OMISSIONS, INTERRUPTIONS AND
+                INACCURACIES IN THE NEWS, INFORMATION OR OTHER MATERIALS
+                AVAILABLE THROUGH OUR SITE. WE DO NOT MAKE ANY WARRANTIES,
+                EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THOSE OF
+                MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, WITH
+                RESPECT TO OUR SITE OR ANY INFORMATION OR GOODS THAT ARE
+                AVAILABLE OR ADVERTISED OR SOLD THROUGH OUR SITE. WE DO NOT MAKE
+                ANY REPRESENTATIONS, NOR DO WE ENDORSE THE ACCURACY,
+                COMPLETENESS, TIMELINESS OR RELIABILITY OF ANY ADVICE, OPINION,
+                STATEMENT OR OTHER MATERIAL OR DATABASE DISPLAYED, UPLOADED OR
+                DISTRIBUTED ON THIS SITE OR AVAILABLE THROUGH LINKS ON OUR SITE.
+                WE RESERVE THE RIGHT TO CORRECT ANY ERRORS OR OMISSIONS ON OUR
+                SITE. ALTHOUGH WE INTEND TO TAKE REASONABLE STEPS TO PREVENT THE
+                INTRODUCTION OF VIRUSES, WORMS, “TROJAN HORSES” OR OTHER
+                DESTRUCTIVE MATERIALS TO OUR SITE, WE DO NOT GUARANTEE OR
+                WARRANT THAT OUR SITE OR MATERIALS THAT MAY BE DOWNLOADED FROM
+                OUR SITE DO NOT CONTAIN SUCH DESTRUCTIVE FEATURES. WE ARE NOT
+                LIABLE FOR ANY DAMAGES OR HARM ATTRIBUTABLE TO SUCH FEATURES. IF
+                YOU RELY ON OUR SITE AND ANY MATERIALS AVAILABLE THROUGH OUR
+                SITE, YOU DO SO SOLELY AT YOUR OWN RISK.
+                <br />
+                <br />
+                OUR SITE MAY CONTAIN VARIOUS COMBINATIONS OF TEXT, IMAGES,
+                AUDIOVISUAL PRODUCTIONS, OPINIONS, STATEMENTS, FACTS, ARTICLES,
+                MARKET DATA, STOCK QUOTES OR OTHER INFORMATION CREATED BY US OR
+                BY THIRD-PARTIES. DUE TO THE NUMBER OF SOURCES FROM WHICH
+                CONTENT ON OUR SITE IS OBTAINED, AND THE INHERENT HAZARDS OF
+                ELECTRONIC DISTRIBUTION, THERE MAY BE DELAYS, OMISSIONS OR
+                INACCURACIES IN SUCH CONTENT. ACCORDINGLY, SUCH CONTENT,
+                INCLUDING MARKET DATA, IS FOR YOUR REFERENCE ONLY AND SHOULD NOT
+                BE RELIED UPON BY YOU FOR ANY PURPOSE. SUCH CONTENT IS NOT
+                INTENDED FOR THE PURPOSE OF TAX OR INVESTMENT ADVICE AND IT DOES
+                NOT ADVOCATE THE PURCHASE OR SALE OF ANY SECURITY OR INVESTMENT.
+                INFORMATION CREATED BY THIRD PARTIES THAT YOU MAY ACCESS ON OUR
+                SITE OR THROUGH LINKS IS NOT ADOPTED OR ENDORSED BY US.
+              </p>
+              <p></p>
+              <p>
+                <b>Disclosures, Violation And Termination</b>
+                <b></b>
+              </p>
+              <p>
+                You understand that the Newsmeter has no obligation to monitor
+                any bulletin boards, chat rooms, or other areas of the Sites
+                through which users can supply information or material.
+                Newsmeter reserves the right at all times to disclose any
+                information as necessary to satisfy any law, regulation or
+                governmental request, or to refuse to post or to remove any
+                information or materials, in whole or in part, that in the
+                Newsmeter’s sole discretion are objectionable or in violation of
+                these Terms of Use.
+                <br />
+                <br />
+                Newsmeter may terminate or restrict your use of the Sites or any
+                part of the Sites at any time for any reason without notice. In
+                the event of termination, you are no longer authorized to access
+                the part of the Sites affected by such termination or
+                restriction.
+                <br />
+                <br />
+                Any Content uploaded by you shall be subject to relevant laws
+                and may disabled, or and may be subject to investigation under
+                appropriate laws. Furthermore, if you are found to be in
+                non-compliance with the laws and regulations, these terms, or
+                the privacy policy of the Site, we may terminate your account /
+                block your access to / usage of the Site, fully or partially,
+                and we reserve the right to immediately remove any non-compliant
+                Content / comment uploaded by you without any liability and
+                shall further have the right to take recourse to such remedies
+                as would be available to the Newsmeter under the applicable
+                laws.
+              </p>
+              <p></p>
+              <p>
+                <b>Miscellaneous</b>
+                <b></b>
+              </p>
+              <p>
+                These Terms of Use shall be governed by and construed in
+                accordance with the laws of India without giving effect to any
+                of its conflicts of law provisions. You agree that any cause of
+                action relating to your use of the Sites must be filed in the
+                courts located of New Delhi in India.
+                <br />
+                <br />
+                Newsmeter may transfer its rights and obligations under the
+                Terms of Use at any time without notice.
+                <br />
+                <br />
+                Any failure of Newsmeter to enforce or exercise any provision of
+                these Terms of Use shall not constitute a waiver of that right
+                or provision. In the event of termination of these Terms of Use
+                for any reason, the provisions entitled Disclaimers, Liability,
+                Liability, Indemnification, and other provisions for which
+                survival is equitable or appropriate, shall survive.
+              </p>
+
+              <p></p>
+              <p>
+                <b>We May Discontinue or Suspend our Site or Terminate Use</b>
+                <br />
+              </p>
+              <p>
+                We reserve the right at any time and from time to time to modify
+                or discontinue, temporarily or permanently, our site (or any
+                part thereof) with or without notice. You agree that Newsmeter
+                shall not be liable to you or any third party for any such
+                modification, suspension or discontinuance of our site. In
+                addition, we reserve the right to terminate your access to our
+                site for any reason, and to take any other actions that
+                Newsmeter, in its sole discretion with or without notice
+                (including on account of violation of this Agreement or legal
+                considerations), believes to be in the interest of our company
+                and of our users as a whole. All provisions of this Agreement
+                which by their nature should survive termination shall survive
+                termination, including, without limitation, ownership
+                provisions, warranty disclaimers, indemnity and limitations of
+                liability.
+                <b></b>
+              </p>
+              <p>
+                <b>Content Copyrights and Responsibility of Contributors.</b>
+              </p>
+              <p>
+                If you operate a blog, comment on a blog, post material to the
+                Website, post links on the Website, or otherwise make (or allow
+                any third party to make) material available by means of the
+                Website (any such material, “Content”), you are entirely
+                responsible for the content of, and any harm resulting from,
+                that Content. That is the case regardless of what form the
+                Content takes, which includes, but is not limited to text,
+                photo, video, audio, or code. By making Content available, you
+                represent and warrant that your content does not violate these
+                terms or the Privacy Guidelines or Terms and Conditions of User
+                Agreement or any applicable laws. newsmeter has the right
+                (though not the obligation) to, in the Newsmeter sole discretion
+                (i) refuse or remove any content that, in the Newsmeter
+                reasonable opinion, violates any Newsmeter policy or is in any
+                way harmful or objectionable or unlawful, or includes any of the
+                Prohibited Activities mentioned in the Terms and Conditions of
+                the User Agreement (ii) terminate or deny access to and use of
+                the Website to any individual or entity for any reason, in the
+                Newsmeter’s sole discretion. Newsmeter has no obligation to
+                provide a refund of any amounts previously paid, if any.
+                Newsmeter shall have the right to moderate the comment threads
+                on the Blog.
+                <br />
+                <br />
+                Your Works will be original and solely created by you, with us
+                being deemed the owner of all rights now known or hereafter
+                devised (including copyrights and extensions and renewals of
+                copyrights) in and to the Work, with the right to commercially
+                exploit and make all uses of the Work in perpetuity worldwide
+                and make changes in each Work in any media or forum. Without
+                further obligation to you and without limitation, we may use,
+                reproduce, publish, sell, perform, distribute, archive, display,
+                exhibit, edit, change, translate, reformat, add to, take from,
+                reformat, make derivative works from, the Work in any manner and
+                in any medium now known or as may evolve in the future. We may
+                also authorize and control the exploitation of the same and to
+                sue in respect of infringement of any such right, title and
+                interest so assigned.
+                <br />
+                <br />
+                (a) Our site (including all text, photographs, graphics, video
+                and audio content contained on our site) is protected by
+                copyright as a collective work or compilation under the
+                copyright laws of India and other countries, and we have all
+                rights therein. All individual articles, blogs, videos, content
+                and other elements comprising our site are also copyrighted
+                works, and we (subject to the rights of our licensors and
+                licensees under applicable agreements, understandings and
+                arrangements) have all rights therein. You must abide by
+                copyright notices or restrictions contained on our site.
+                <br />
+                <br />
+                (b) By posting or submitting content on or to our site
+                (regardless of the form or medium with respect to such content,
+                whether text, videos, photographs, audio or otherwise), you are
+                giving us, and our affiliates, agents and third party
+                contractors the right to display or publish such content on our
+                site and its affiliated publications (either in the form
+                submitted or in the form of a derivative or adapted work), to
+                store such content, and to distribute such content and use such
+                content for promotional and marketing purposes.
+                <br />
+                <br />
+                Further, with respect to any submissions to us made by you from
+                time to time, you understand and agree that we may, or may
+                permit users to, compile, re-edit, adapt or modify your
+                submission, or create derivative works therefrom, either on a
+                stand-alone basis or in combination with other submissions, and
+                you shall have no rights with respect thereto and we or our
+                licensees shall be free to display and publish the same (as so
+                compiled, re-edited, adapted, modified or derived) for any
+                period.
+                <br />
+                <br />
+                (c) You shall be solely responsible for your own submissions and
+                the consequences of posting or publishing them. In connection
+                with each of your submissions, you affirm, represent, and/or
+                warrant that: (i) you own or have the necessary licenses,
+                rights, consents, and permissions to use and authorize us to use
+                all patent, trademark, trade secret, copyright or other
+                proprietary rights in and to any and all such submissions to
+                enable inclusion and use of such submissions in the manner
+                contemplated by us and these Terms and Conditions; and (ii) you
+                have the written consent, release, and/or permission of each and
+                every identifiable individual person in such submissions to use
+                the name or likeness of each and every such identifiable
+                individual person to enable inclusion and use of such
+                submissions in the manner contemplated by us and these Terms and
+                Conditions. Further, you agree that you will not: (iii) submit
+                material that is copyrighted, protected by trade secret or
+                otherwise subject to third party proprietary rights, including
+                privacy and publicity rights, unless you are the owner of such
+                rights or have permission from their rightful owner to post the
+                material and to grant us all of the rights granted herein; (iv)
+                publish falsehoods or misrepresentations that could damage us or
+                any third party; (v) submit material that is unlawful, obscene,
+                defamatory, libelous, threatening, pornographic, harassing,
+                hateful, racially or ethnically offensive, or encourages conduct
+                that would be considered a criminal offense, give rise to
+                criminal or civil liability, violate any law, or is otherwise
+                inappropriate; or (vi) post advertisements or solicitations of
+                business. We reserve the right to remove or not publish
+                submissions without prior notice. You understand that when you
+                submit content in any form to The Newsmeter we may authorize
+                such content to be distributed or syndicated to or published on
+                other Newsmeter-branded environments.
+                <br />
+                <br />
+
+                If you delete Content, you must intimate Newsmeter and the
+                Newsmeter will use reasonable efforts to remove it from the
+                Website, but you acknowledge that caching or references to the
+                Content may not be made immediately unavailable.
+              </p>
+              <p><b>Intellectual Property</b></p>
+
+              <p>
+                Newsmeter, the logo and all other trademarks, service marks,
+                graphics and logos used in connection with the Newsmeter or the
+                Website are trademarks or registered trademarks of the Newsmeter
+                or the Newsmeter’s licensors. Other trademarks, service marks,
+                graphics and logos used in connection with the Website may be
+                the trademarks of other third parties. Your use of the Website
+                grants you no right or license to reproduce or otherwise use any
+                the Newsmeter or third-party trademarks.
+              </p>
+              <p></p>
+              <p>
+                <b>Advertisements</b>
+                <b></b>
+              </p>
+
+              <p>
+                Newsmeter reserves the right to display advertisements on your
+                blog.
+              </p>
+              <p></p>
+              <p>
+                <b>Confidentiality of Information</b>
+                <b></b>
+              </p>
+              <p>
+                You will keep in confidence &amp; protect from disclosure any
+                confidential and proprietary information concerning the Company
+                that you may exposed to during your engagement with the Company.
+                You will not use any such information for any purpose that is
+                detrimental to Company.
+                <br />
+                <br />
+                Not Responsible For and Do Not Necessarily Hold the Opinions
+                Expressed by Our Bloggers / Content Contributors, etc.
+                <br />
+                <br />
+                Opinions and other statements expressed by Contributors /
+                Bloggers / users are theirs alone, not opinions of Newsmeter.
+                <br />
+                <br />
+                You are solely responsible for your content by way of accuracy
+                and completeness, and
+                <a name="_Hlk73210695" id="_Hlk73210695">Newsmeter</a>
+                does not necessarily endorse it.
+                <br />
+                <br />
+                You acknowledge that by providing you with the ability to view
+                and distribute content through our site, Newsmeter is not
+                undertaking any obligation or liability relating to the content.
+                <br />
+                <br />
+                Newsmeter and its affiliates, successors, assigns and their
+                respective employees, agents, directors, officers and
+                shareholders do not undertake or assume any duty to monitor our
+                site for inappropriate or unlawful content.
+                <br />
+                <br />
+                Newsmeter and its affiliates, successors, assigns and their
+                respective, employees, agents, directors, officers and
+                shareholders assume no responsibility or liability which may
+                arise from the content thereof, including, but not limited to,
+                claims for defamation, libel, slander, infringement, invasion of
+                privacy and publicity rights, obscenity, pornography, profanity,
+                fraud, or misrepresentation or claims that content violates
+                applicable laws and/or are covered under Prohibited Activities
+                specifically mentioned in the Terms and Conditions of the User
+                Agreement.
+                <br />
+                <br />
+                Newsmeter reserves the right to block or remove communications,
+                postings or materials at any time in its sole discretion.
+                <br />
+                <br />
+                Newsmeter accepts no liability regarding any unauthorised use of
+                Blogs.
+              </p>
+              <p>
+                Fifth Estate Digital Private Limited represented by Promotors
+                publishes newsmeter online.
+              </p>
+              <p>
+                The Editor of Newsmeter is responsible for the selection of
+                content published on the site including Text, Images and Videos.
+              </p>
+              <p>
+                The Courts at Hyderabad shall have exclusive jurisdiction over
+                any dispute arising out of your use of the Service or any other
+                litigations.
+              </p>
+            </div>
+            <style>
+              p {
+                margin: 0 0 25px;
+                font-size: 16px;
+                color: #0d0d0d;
+                font-family: Roboto, sans-serif;
+              }
+            </style>
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="img-footer">
+          <img src="../img/footer.png" alt="" />
+          <div class="join-us">
+            <p>Join us in Our Fight Against Mis-Information</p>
+            <button class="btn btn-danger">Join</button>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="follow">
+            <p style="color: aliceblue; font-size: 17px;">Follow Us On</p>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-primary btn-fb">
+                <i class="bi bi-facebook"></i>
+              </button>
+              <button type="button" class="btn btn-danger btn-insta">
+                <i class="bi bi-instagram"></i>
+              </button>
+              <button type="button" class="btn btn-primary">
+                <i class="bi bi-twitter"></i>
+              </button>
+              <button type="button" class="btn btn-danger">
+                <i class="bi bi-youtube"></i>
+              </button>
+            </div>
+          </div>
+          <div class="ColumN">
+            <a class="nav-link active" href="#">About NewsMeter</a>
+            <a class="nav-link" href="#">Editorial Staff</a>
+            <a class="nav-link" href="#">Fact Check Methodology</a>
+          </div>
+          <div class="ColumN">
+            <a class="nav-link" style="color: aliceblue;">Terms&Condition</a>
+            <a class="nav-link active" href="#">Correction Policy</a>
+            <a class="nav-link" href="#">Privacy Policy</a>
+            <a class="nav-link" href="#">Cookie Policy</a>
+          </div>
+          <div class="ColumN">
+            <a class="nav-link" style="color: aliceblue;">
+              Non Partnership Policy
+            </a>
+            <a class="nav-link active" href="#">Grievance Addressal</a>
+            <a class="nav-link" href="#">Contact News Meter</a>
+            <a class="nav-link" href="#">Advertise With Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid py-2 bg-dark">
+        <p class="text-center mb-0 text-white text-left">
+          &copy; 2023 All rights reserved
+        </p>
+      </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="../js/sidebr.js"></script>
+  <script src="../js/sticky-header.js"></script>
+
+
+  </body>
+</html>

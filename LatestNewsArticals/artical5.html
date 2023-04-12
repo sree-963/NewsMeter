@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Newmeter</title>
+
+<!-- //font awesome cdn link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- roboto fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="../css/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <!---------------------------sidebar-start ---------------------------------->
+  <div class="sidenav" id="mySidenav">
+    <div class="d-flex sidenav-header justify-content-end">
+      <!-- <a href="#" class=""><img src="./img/newsmeter-logo.png" class="img-fluid" /></a> -->
+      <button type="button" class="closebtn btn btn-light" onclick="closeNav()">
+        <i class="bi bi-x-lg"></i></button>
+    </div>
+
+    <ul class="nav flex-column">
+
+    <li class="nav-item">
+      <a class="nav-link active" href="../TopStories.html">TOP STORIES</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../Hyderabad.html">HYDERABAD</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../Crime.html">CRIME</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="../FactCheckEnglish.html">FACT CHECK ENGLISH</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../ConsumerVoice.html">CONSUMER VOICE</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../DataStrories.html">DATA STORIES</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../StatielliteJournalism.html">SATELLITE JOURNALISM</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="../Health.html">HEALTH</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../Educationand jobs.html">EDUCATION/JOBS</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="../BusinessandTechJobs.html">BUSINESS/TECH & STARTUPS</a>
+    </li>
+    <div class="Dropdown">
+      <button class="Dropbtn">REGIONAL <span class="fa fa-caret-down"></span></button>
+      <div class="Dropdown-Content">
+        <a class="nav-link" href="../FactCheckEnglish.html">Andhra Pradesh</a>
+        <a class="nav-link" href="#">Hyderabad</a>
+        <a class="nav-link" href="#">South India</a>
+        <a class="nav-link" href="#">Telangana</a>
+        <a class="nav-link" href="#">Tirupathi</a>
+        <a class="nav-link" href="#">Vishakapatnam</a>
+        <a class="nav-link" href="#">Vijayawada/Amaravati</a>
+        <a class="nav-link" href="#">Warangal</a>
+        <a class="nav-link" href="#">World / NRI News</a>
+      </div>
+    </div>
+  </ul>
+
+  </div>
+  <!------------------------sidebar-End--------------------------------------->
+  <!------------------------Main-content-start--------------------------------------->
+  <div id="main  border">
+
+    <!------------------------Top-Banner-End--------------------------------------->
+    <!------------------------Header-start--------------------------------------->
+    <div class="container px-0">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- <img class="add-banner shadow-sm" src="./img/banner-ad-example-online.png" alt="Advertisement"> -->
+        </div>
+
+        <div class="telugu-btn">
+          <button type="button" class="btn btn-danger" href="#">Telugu</button>
+        </div>
+        <div class="icfn-logo">
+          <a href="#"><img src="../img/icfn-logo.png" class="w-100" /></a>
+        </div>
+      </div>
+    </div>
+    <!------------------------Top-Banner-End--------------------------------------->
+    <!------------------------Header-start--------------------------------------->
+    <section id="mainNav">
+
+
+      <!------------------------Header-End--------------------------------------->
+      <!------------------------Navigation Links start--------------------------------------->
+      <div class="container-fluid px-0">
+        <nav class="navbar navbar-expand-md navbar-light  main-nav bg-white border-bottom">
+
+
+
+          <a class="menu btn btn-danger shadow-sm  mr-3" href="#" onclick="openNav()"><i class="bi bi-list"></i></a>
+          <a class="navbar-brand">
+            <img class="img" src="../img/newsmeter-logo.png" class="logo" alt="logo"></a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto center-item-space pt-4 justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="../TopStories.html">TOP STORIES</a>
+              </li>
+              <!--<li class="nav-item">
+                <a class="nav-link" href="#">Politics</a>
+              </li>-->
+              <div class="dropdown">
+                <button class="dropbtn">FACT CHECK <span class="fa fa-caret-down"></span></button>
+                <div class="dropdown-content">
+                  <a href="../FactCheckEnglish.html">Fact Check English</a>
+                  <a href="#">Fact Check Malayalam</a>
+                  <a href="#">Fact Check Tamil</a>
+                  <a href="#">Fact Check Kannada</a>
+                  <a href="#">Fact Check Health</a>
+                </div>
+              </div>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../Entertainment.html">ENTERTAINMENT</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../Health.html"> HEALTH</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-danger">Subscribe</button>
+              </li>
+              <li class="nav-item">
+                <a class=" pl-2 fa fa-search"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary btn-fb"><i class="bi bi-facebook"></i></button>
+                    <button type="button" class="btn btn-danger btn-insta"><i class="bi bi-instagram"></i></button>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-twitter"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="bi bi-youtube"></i></button>
+
+                  </div>
+                </a>
+              </li>
+             
+            </ul>
+ 
+          </div>
+
+        </nav>
+      </div>
+    </section>
+    
+      <!------------------------slider-content-start--------------------------------------->
+      
+      <div class="custom_container align-items-center my-3">
+        
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8">
+              
+                <h1 class="col-lg-12 my-5"> <a href="" class=''>Hyderabad: Clamour grows for state’s takeover of Nizam’s Rubats in Saudi Arabia</a></h1>
+                <h2 class="col-lg-12 newsdescription my-4">   Nazer of Nizam’s Rubat had arranged accommodation for almost 1095 pilgrims in three buildings taken on hire in Makkah during the Haj season 2019   </h2>
+                <span class="text-left col-lg-12"> By <a href="" class="text-danger"> Newsmeter Network
+                    </a></span>Published on 12 Apr 2023 12:00 PM
+
+                <div class="row justify-content-between"
+                    style="margin-bottom: 2rem!important;margin-top: 2rem!important">
+                    <!--mb-5-->
+                    <div class="col-lg-11">
+                      <div class="text-right mb-3">
+                        <a href=""><button type="button" class="btn btn-primary btn-fb facebook-color mx-1"><i class="bi bi-facebook"></i></button></a>
+                        <a href=""><button type="button" class="btn btn-success btn-insta whatsapp-color mx-1"><i class="bi bi-whatsapp"></i></button></a>
+                        <a href=""><button type="button" class="btn btn-primary twitter-color mx-1"><i class="bi bi-twitter"></i></button></a>
+                        <a href=""><button type="button" class="btn btn-primary linkedin-color mx-1"><i class="bi bi-linkedin"></i></button></a>
+                        <a href=""><button type="button" class="btn btn-warning ml-1 koo-social">
+                          <img src="https://newsmeter.in/images/social/Koo_Logo_white.png" width="15px" height="auto"></button></a>
+                      </div>
+                      
+                        <img src="https://newsmeter.in/h-upload/2023/04/11/343494-2023-04-11-121025.webp"
+                          style="width:100%" class="img-fluid d-block mx-auto presentaion-img" alt="presentation">
+                    </div>
+
+                    <div class="col-lg-11 news-story my-4">
+                       <h4 class="py-3 news-story">
+                        <p>Hyderabad: Free accommodation to pilgrims of erstwhile Hyderabad state seems not possible this time also as the authorities of the Telangana State Haj Committee and office-bearers of Nizam Religious Trust are not in a position to communicate with Hussain Al Shareef,  Nazer (Administrator) of Rubat in Makkah and Madina.</p>
+                        <p>It is learned that the Nizam Rubat in Makkah was converted into a lodge and leased out. Nizam’s Rubat provided free accommodation to a certain number of pilgrims belonging to 42 districts of Telangana, Karnataka, and Maharashtra which were part of the erstwhile Hyderabad State.</p>
+                       
+                        <p>According to officials of the State Haj Committee, Nazer of Nizam’s Rubat had arranged accommodation for almost 1095 pilgrims in three buildings taken on hire in Makkah during the Haj season 2019. Afterward, the pilgrims were denied a free stay in the Rubat. During 2020 and 2021 foreign pilgrims were not allowed due to the Covid-19 pandemic.</p>
+                        <p>Accommodation in Rubath was not done during the Haj 2022 due to prevailed uncertainty. However, this time State Haj Committee tried to contact Nazer of Rubath but proved futile so far. It is pertinent to mention that those pilgrims getting accommodation at Nizam’s Rubath need not pay the charges of accommodation to the Haj Committee which will be between rupees 40,000 to 50,000.</p><div class="hide inside-post-ad-before-before" id="inside_post_content_ad_2_before_before"></div><div class="hide inside-post-ad-before" id="inside_post_content_ad_2_before"></div><div class="inside-post-ad-2 inside-post-ad ads_common_inside_post" id="inside_post_content_ad_2"><!-- telugu_inside_ad_1 -->  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4279065369960563" data-ad-slot="3082643541" data-ad-format="auto" data-full-width-responsive="true"></ins>  <script>       (adsbygoogle = window.adsbygoogle || []).push({});  </script></div><div class="hide inside-post-ad-after" id="inside_post_content_ad_2_after"></div><p>Chairman Telangana State Haj Committee Mohammed Saleem said they are trying to get in touch with Nazer Rubath, but he is not responding properly. “At this juncture, we are not in a position to say that pilgrims of the erstwhile Hyderabad State will get an opportunity of a free stay,” he said.</p><p>He said they will convene a meeting with the office-bearers of Nizam Trust to sort out the issue. In case the pilgrims were refused free accommodation then they will refer the matter to the Chief Minister requesting him to intervene and ensure free accommodation.</p><div class="hide inside-post-ad-before-before" id="inside_post_content_ad_3_before_before"></div><div class="hide inside-post-ad-before" id="inside_post_content_ad_3_before"></div><div class="hide inside-post-ad-3 inside-post-ad ads_common_inside_post" id="inside_post_content_ad_3"></div><div class="hide inside-post-ad-after" id="inside_post_content_ad_3_after"></div><p>President Bazm e Taraq, Moulana Syed Saifullah Hussaini Baquari expressed displeasure over the information about converting Nizam Rubat into a lodge and refusal to accommodate pilgrims from 3 southern states. He said no one has the right to change the purpose.</p><p>He asked Azmath Jah and the state government to intervene in the matter and ensure that the pilgrims of the erstwhile Hyderabad state get free accommodation during Haj and non-Haj seasons. He demanded the state government raise the matter with Indian Embassy in Riyadh and get administrative control of the Rubats of Makkah and Madina. He said Hussain Shareef is misusing the Waqf Institution and taking advantage of Saudi rules.  </p><p>Nizam’s Rubats are accommodation buildings for the pilgrims to Makkah purchased in 1860 by the fifth Nizam Mir Tahniyat Ali Khan Siddiqui Bahadur for the benefit of the pilgrims of the Asaf Jahi dynasty. Actually, there were 42 Rubath buildings but now only one building exists in  Makkah located within a diameter of 2 km from the Grand Mosque.</p></h4>
+    
+                    </div>
+
+                    <div class="my-5">
+
+                        <a href="">
+                            <button type="button" class="m-2 btn btn-outline-danger">heatWave
+                            </button></a>
+                        <a href="">
+                            <button type="button" class="m-2 btn btn-outline-danger">telangana weather
+                            </button></a>
+                            <a href="">
+                                <button type="button" class="m-2 btn btn-outline-danger">summer
+                                </button></a>
+                            
+                    </div>
+                </div>
+           
+            </div>
+            <div class="Entertainment col-lg-4 mt-3 ">
+                <div class="mb-4 row">
+                    <div class="col-lg-12">
+                        <h2 class="block-title title-border">
+                            <span class="title-bg">
+                                Latest News
+                            </span>
+                        </h2>
+
+                    </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-lg-6">
+                        <img src="https://newsmeter.in/h-upload/2023/04/12/500x300_343553-2023-04-12-113653.webp"
+                            class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                    </div>
+                    <div class="col-lg-6 presentation-headline pl-lg-0">
+                        <a>
+                            Heatwave grips Telangana: MeT says light rains may occur on April 15</a>
+                    </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-lg-6">
+                        <img src="https://newsmeter.in/h-upload/2023/04/12/500x300_343550-untitled-design-77.webp"
+                            class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                    </div>
+                    <div class="col-lg-6 presentation-headline pl-lg-0">
+                        <a>
+                            Christians did not pray at Warangal’s Thousand Pillar Temple</a>
+                    </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-lg-6">
+                        <img src="https://newsmeter.in/h-upload/2023/04/12/500x300_343548-2023-04-12-103142.webp"
+                            class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                    </div>
+                    <div class="col-lg-6 presentation-headline pl-lg-0">
+                        <a>
+                            Severe heatwave hits Andhra: People asked to stay indoors from 11 am to 3 pm </a>
+                    </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-lg-6">
+                        <img src="https://newsmeter.in/h-upload/2023/04/11/500x300_343524-2023-04-11-175000.webp"
+                            class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                    </div>
+                    <div class="col-lg-6 presentation-headline pl-lg-0">
+                        <a>
+                            Apple to open its first retail store in India next week
+                        </a>
+                    </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-lg-6">
+                        <img src="https://newsmeter.in/h-upload/2023/04/12/500x300_343544-2023-04-12-091135.webp"
+                            class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                    </div>
+                    <div class="col-lg-6 presentation-headline pl-lg-0">
+                        <a>
+                            Viveka murder case: Petitioner's counsel says CBI relying on hearsay</a>
+                    </div>
+                </div>
+                <div class="mb-4 row">
+                    <div class="col-lg-6">
+                        <img src="https://newsmeter.in/h-upload/2023/03/23/500x300_342061-2023-03-23-152946.webp"
+                            class="img-fluid d-block mx-uto presentaion-img" alt="presentation">
+                    </div>
+                    <div class="col-lg-6 presentation-headline pl-lg-0">
+                        <a>
+                            KCR’s 'Iftar Daawat': Check traffic diversions before commuting in Hyderabad on Wednesday</a>
+                    </div>
+                </div>
+                <div class="section-heading mb-3">
+                    <a href="">
+                    <h2 class="block-title title-border">
+                        <span class="title-bg">Video stories</span>
+                    </h2>
+                </a>
+            </div>
+            <div id="carouselExampleIndicators" height="" data-ride="carousel" class="carousel slide hyderbad-carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img data-class="h-custom-image" height="200px" width="100%" class="img-fluid mx-auto" src="https://newsmeter.in/h-upload/2023/04/02/750x450_342878-web.webp",="" data-src="https://newsmeter.in/h-upload/2023/04/02/750x450_342878-web.webp" alt="Intertidal Walks: Come, take a stroll on Vizag beach to explore rich marine life" 
+                    title="Intertidal Walks: Come, take a stroll on Vizag beach to explore rich marine life" old-src="/images/placeholder.jpg"></div>
+
+                <div class="carousel-item">
+                    <img data-class="h-custom-image" height="200px" width="100%" class="img-fluid mx-auto" src="https://newsmeter.in/h-upload/2023/03/25/750x450_342283-web.webp" ,="" data-src="https://newsmeter.in/h-upload/2023/04/01/750x450_342807-web.webp" alt=""
+                     title="Rampuri Chaku: A 20-foot Rampuri knife installed in Uttar Pradesh"></div>
+
+                <div class="carousel-item">
+                    <img data-class="h-custom-image" height="200px" width="100%" class="img-fluid mx-auto" src="https://newsmeter.in/h-upload/2023/03/30/750x450_342645-web.webp" ,="" 
+                    data-src="https://newsmeter.in/h-upload/2023/03/31/750x450_342706-web.webp" alt=""
+                     title="Hyderabadi Swiggy user spent whopping Rs 6L on 8,428 plates of idlis"></div>
+
+                     <div class="carousel-item"><img data-class="h-custom-image" src="/images/placeholder.jpg" ,=""
+                         data-src="https://newsmeter.in/h-upload/2023/03/25/750x450_342283-web.webp" alt=""
+                          title="Memories and Magnets: Two Hyderabadis explore the world through magnets"></div></div>
+
+                          <a href="#carouselExampleIndicators" role="button" data-slide="prev" class="carousel-control-prev"><span aria-hidden="true" class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a href="#carouselExampleIndicators" role="button" data-slide="next" class="carousel-control-next"><span aria-hidden="true" class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div class="footer">
+      <div class="img-footer">
+        <img src="../img/footer.png" alt="">
+        <div class="join-us">
+          <p>Join us in Our Fight Against Mis-Information</p>
+          <button class="btn btn-danger">Join</button>
+        </div>
+      </div>
+      <div class="footer-links">
+       <div class="follow">
+        <p style="color:aliceblue; font-size: 17px;">Follow Us On </p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-primary btn-fb"><i class="bi bi-facebook"></i></button>
+          <button type="button" class="btn btn-danger btn-insta"><i class="bi bi-instagram"></i></button>
+          <button type="button" class="btn btn-primary"><i class="bi bi-twitter"></i></button>
+          <button type="button" class="btn btn-danger"><i class="bi bi-youtube"></i></button>
+        </div>
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link active" href="#">About NewsMeter</a>
+          <a class="nav-link" href="#">Editorial Staff</a>
+          <a class="nav-link" href="#">Fact Check Methodology</a>
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link" style="color:aliceblue">Terms&Condition</a>
+          <a class="nav-link active" href="#">Correction Policy</a>
+          <a class="nav-link" href="#">Privacy Policy</a>
+          <a class="nav-link" href="#">Cookie Policy</a>
+        </div>
+        <div class=" ColumN">
+          <a class="nav-link" style="color:aliceblue">Non Partnership Policy</a>
+          <a class="nav-link active" href="#">Grievance Addressal</a>
+          <a class="nav-link" href="#">Contact News Meter</a>
+          <a class="nav-link" href="#">Advertise With Us</a>
+  
+  
+  
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-2 bg-dark">
+      <p class="text-center mb-0 text-white text-left">&copy; 2023 All rights reserved</p>
+
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="../js/sidebr.js"></script>
+  <script src="../js/sticky-header.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Newmeter</title>
+
+    <!-- //font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- roboto fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link href="../css/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!---------------------------sidebar-start ---------------------------------->
+    <div class="sidenav" id="mySidenav">
+      <div class="d-flex sidenav-header justify-content-end">
+        <!-- <a href="#" class=""><img src="./img/newsmeter-logo.png" class="img-fluid" /></a> -->
+        <button
+          type="button"
+          class="closebtn btn btn-light"
+          onclick="closeNav()"
+        >
+          <i class="bi bi-x-lg"></i>
+        </button>
+      </div>
+
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="../TopStories.html">TOP STORIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Hyderabad.html">HYDERABAD</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Crime.html">CRIME</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../FactCheckEnglish.html">
+            FACT CHECK ENGLISH
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../ConsumerVoice.html">CONSUMER VOICE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../DataStrories.html">DATA STORIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../StatielliteJournalism.html">
+            SATELLITE JOURNALISM
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../Health.html">HEALTH</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Educationand jobs.html">
+            EDUCATION/JOBS
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../BusinessandTechJobs.html">
+            BUSINESS/TECH & STARTUPS
+          </a>
+        </li>
+        <div class="Dropdown">
+          <button class="Dropbtn">
+            REGIONAL
+            <span class="fa fa-caret-down"></span>
+          </button>
+          <div class="Dropdown-Content">
+            <a class="nav-link" href="../FactCheckEnglish.html">
+              Andhra Pradesh
+            </a>
+            <a class="nav-link" href="#">Hyderabad</a>
+            <a class="nav-link" href="#">South India</a>
+            <a class="nav-link" href="#">Telangana</a>
+            <a class="nav-link" href="#">Tirupathi</a>
+            <a class="nav-link" href="#">Vishakapatnam</a>
+            <a class="nav-link" href="#">Vijayawada/Amaravati</a>
+            <a class="nav-link" href="#">Warangal</a>
+            <a class="nav-link" href="#">World / NRI News</a>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <!------------------------sidebar-End--------------------------------------->
+    <!------------------------Main-content-start--------------------------------------->
+    <div id="main  border">
+     
+      <!------------------------Header-start--------------------------------------->
+      <div class="container px-0">
+        <div class="row">
+          <div class="col-lg-12">
+            
+          </div>
+
+          <div class="telugu-btn">
+            <button type="button" class="btn btn-danger" href="#">
+              Telugu
+            </button>
+          </div>
+          <div class="icfn-logo">
+            <a href="#"><img src="../img/icfn-logo.png" class="w-100" /></a>
+          </div>
+        </div>
+      </div>
+      
+      <section id="mainNav">
+        <!------------------------Navigation Links start--------------------------------------->
+        <div class="container-fluid px-0">
+          <nav
+            class="navbar navbar-expand-md navbar-light main-nav bg-white border-bottom"
+          >
+            <a
+              class="menu btn btn-danger shadow-sm mr-3"
+              href="#"
+              onclick="openNav()"
+            >
+              <i class="bi bi-list"></i>
+            </a>
+            <a class="navbar-brand">
+              <img
+                class="img"
+                src="../img/newsmeter-logo.png"
+                class="logo"
+                alt="logo"
+              />
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul
+                class="navbar-nav ml-auto center-item-space pt-4 justify-content-center align-items-center"
+              >
+                <li class="nav-item">
+                  <a class="nav-link" href="../TopStories.html">TOP STORIES</a>
+                </li>
+               
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    FACT CHECK
+                    <span class="fa fa-caret-down"></span>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="../FactCheckEnglish.html">Fact Check English</a>
+                    <a href="#">Fact Check Malayalam</a>
+                    <a href="#">Fact Check Tamil</a>
+                    <a href="#">Fact Check Kannada</a>
+                    <a href="#">Fact Check Health</a>
+                  </div>
+                </div>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../Entertainment.html">
+                    ENTERTAINMENT
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../Health.html">HEALTH</a>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-danger">Subscribe</button>
+                </li>
+                <li class="nav-item">
+                  <a class="pl-2 fa fa-search"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <div
+                      class="btn-group"
+                      role="group"
+                      aria-label="Basic example"
+                    >
+                      <button type="button" class="btn btn-primary btn-fb">
+                        <i class="bi bi-facebook"></i>
+                      </button>
+                      <button type="button" class="btn btn-danger btn-insta">
+                        <i class="bi bi-instagram"></i>
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        <i class="bi bi-twitter"></i>
+                      </button>
+                      <button type="button" class="btn btn-danger">
+                        <i class="bi bi-youtube"></i>
+                      </button>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="static_page_content">
+          <b
+            style="
+              font-family: inherit;
+              font-weight: 500;
+              line-height: 7rem;
+              color: inherit;
+              font-size: 38px;
+            "
+          >
+            Cookie Policy
+          </b>
+          <span style="font-size: 36px;"></span>
+          <p>
+            <span style="font-size: 17px;">
+              NewsMeter understands that privacy is important to you, and we are
+              committed to being transparent about the information you provide
+              us.
+            </span>
+          </p>
+          <p>
+            <span style="font-size: 17px;"></span>
+          </p>
+          <p>
+            <span style="font-size: 17px;">
+              This Cookies Policy explains to you how and why our company uses
+              cookies.
+            </span>
+          </p>
+          <p>
+            <span style="font-size: 17px;"></span>
+          </p>
+          <p>
+            <span style="font-size: 17px;">
+              <b>WHAT DOES COOKIE POLICY MEAN</b>
+            </span>
+          </p>
+          <p>
+            <span style="font-size: 17px;">
+              Cookies are small text files that the website saves locally to
+              your mobile or computer, which allows sites to store and use
+              information during your visit. When you revisit the website, your
+              device can communicate with our website and the website can read
+              the information held in those cookies.
+            </span>
+          </p>
+          <p><span style="font-size: 17px;"></span></p>
+          <p>
+            <span style="font-size: 17px;"><b>HOW WE USE COOKIES</b></span>
+          </p>
+          <p>
+            <span style="font-size: 17px;">
+              We use cookies to help you efficiently browse our websites and to
+              save your time by not having to re-enter your details/preferences
+              each time you visit.
+            </span>
+          </p>
+          <p>
+            <span style="font-size: 17px;">
+              Cookies allow us to provide you with information and show you
+              content relevant to you.
+            </span>
+          </p>
+          <p>
+            <span style="font-size: 17px;">
+              We also use cookies to analyse how our customers interact with our
+              websites so that we can improve the customer journey.
+            </span>
+          </p>
+          <p>
+            <span style="font-size: 17px;">
+              We use cookies for various purposes, such as:
+            </span>
+          </p>
+          <p>
+            <span style="font-size: 17px;">
+              To identify your browser and device
+            </span>
+          </p>
+          <p>
+            <span style="font-size: 17px;">To determine your location</span>
+          </p>
+          <p>
+            <span style="font-size: 17px;"><b>MANAGE YOUR COOKIES</b></span>
+          </p>
+          <p>
+            <span style="font-size: 17px;">
+              You can choose to accept or decline cookies in your browser
+              settings. Be aware that this may affect your browsing experience
+              or even prevent you from using certain services such as those with
+              a secure login which require cookies to be to work. You can manage
+              it in cookies setting through Internet Explorer, Firefox, Chrome,
+              and Safari.
+            </span>
+          </p>
+          <p><span style="font-size: 17px;"></span></p>
+          <p>
+            <span style="font-size: 17px;">
+              For more information on cookies, visit About
+            </span>
+            <a href="" class="font-weight-bold">
+              <span style="font-size: 17px;">Cookies</span>
+            </a>
+            <span style="font-size: 17px;">.</span>
+          </p>
+          <style>
+            p {
+              font-size: 16px;
+              color: #0d0d0d;
+              font-family: Roboto, sans-serif;
+              margin: 0 0 25px;
+            }
+          </style>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="img-footer">
+          <img src="../img/footer.png" alt="" />
+          <div class="join-us">
+            <p>Join us in Our Fight Against Mis-Information</p>
+            <button class="btn btn-danger">Join</button>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="follow">
+            <p style="color: aliceblue; font-size: 17px;">Follow Us On</p>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-primary btn-fb">
+                <i class="bi bi-facebook"></i>
+              </button>
+              <button type="button" class="btn btn-danger btn-insta">
+                <i class="bi bi-instagram"></i>
+              </button>
+              <button type="button" class="btn btn-primary">
+                <i class="bi bi-twitter"></i>
+              </button>
+              <button type="button" class="btn btn-danger">
+                <i class="bi bi-youtube"></i>
+              </button>
+            </div>
+          </div>
+          <div class="ColumN">
+            <a class="nav-link active" href="#">About NewsMeter</a>
+            <a class="nav-link" href="#">Editorial Staff</a>
+            <a class="nav-link" href="#">Fact Check Methodology</a>
+          </div>
+          <div class="ColumN">
+            <a class="nav-link" style="color: aliceblue;">Terms&Condition</a>
+            <a class="nav-link active" href="#">Correction Policy</a>
+            <a class="nav-link" href="#">Privacy Policy</a>
+            <a class="nav-link" href="#">Cookie Policy</a>
+          </div>
+          <div class="ColumN">
+            <a class="nav-link" style="color: aliceblue;">
+              Non Partnership Policy
+            </a>
+            <a class="nav-link active" href="#">Grievance Addressal</a>
+            <a class="nav-link" href="#">Contact News Meter</a>
+            <a class="nav-link" href="#">Advertise With Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid py-2 bg-dark">
+        <p class="text-center mb-0 text-white text-left">
+          &copy; 2023 All rights reserved
+        </p>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/sidebr.js"></script>
+    <script src="../js/sticky-header.js"></script>
+  </body>
+</html>

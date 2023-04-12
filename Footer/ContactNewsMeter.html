@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Newmeter</title>
+
+    <!-- //font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- roboto fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link href="../css/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!---------------------------sidebar-start ---------------------------------->
+    <div class="sidenav" id="mySidenav">
+      <div class="d-flex sidenav-header justify-content-end">
+        <!-- <a href="#" class=""><img src="./img/newsmeter-logo.png" class="img-fluid" /></a> -->
+        <button
+          type="button"
+          class="closebtn btn btn-light"
+          onclick="closeNav()"
+        >
+          <i class="bi bi-x-lg"></i>
+        </button>
+      </div>
+
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="../TopStories.html">TOP STORIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Hyderabad.html">HYDERABAD</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Crime.html">CRIME</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../FactCheckEnglish.html">
+            FACT CHECK ENGLISH
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../ConsumerVoice.html">CONSUMER VOICE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../DataStrories.html">DATA STORIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../StatielliteJournalism.html">
+            SATELLITE JOURNALISM
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../Health.html">HEALTH</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Educationand jobs.html">
+            EDUCATION/JOBS
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../BusinessandTechJobs.html">
+            BUSINESS/TECH & STARTUPS
+          </a>
+        </li>
+        <div class="Dropdown">
+          <button class="Dropbtn">
+            REGIONAL
+            <span class="fa fa-caret-down"></span>
+          </button>
+          <div class="Dropdown-Content">
+            <a class="nav-link" href="../FactCheckEnglish.html">
+              Andhra Pradesh
+            </a>
+            <a class="nav-link" href="#">Hyderabad</a>
+            <a class="nav-link" href="#">South India</a>
+            <a class="nav-link" href="#">Telangana</a>
+            <a class="nav-link" href="#">Tirupathi</a>
+            <a class="nav-link" href="#">Vishakapatnam</a>
+            <a class="nav-link" href="#">Vijayawada/Amaravati</a>
+            <a class="nav-link" href="#">Warangal</a>
+            <a class="nav-link" href="#">World / NRI News</a>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <!------------------------sidebar-End--------------------------------------->
+    <!------------------------Main-content-start--------------------------------------->
+    <div id="main  border">
+      <!------------------------Header-start--------------------------------------->
+      <div class="container px-0">
+        <div class="row">
+          <div class="col-lg-12"></div>
+
+          <div class="telugu-btn">
+            <button type="button" class="btn btn-danger" href="#">
+              Telugu
+            </button>
+          </div>
+          <div class="icfn-logo">
+            <a href="#"><img src="../img/icfn-logo.png" class="w-100" /></a>
+          </div>
+        </div>
+      </div>
+
+      <section id="mainNav">
+        <!------------------------Navigation Links start--------------------------------------->
+        <div class="container-fluid px-0">
+          <nav
+            class="navbar navbar-expand-md navbar-light main-nav bg-white border-bottom"
+          >
+            <a
+              class="menu btn btn-danger shadow-sm mr-3"
+              href="#"
+              onclick="openNav()"
+            >
+              <i class="bi bi-list"></i>
+            </a>
+            <a class="navbar-brand">
+              <img
+                class="img"
+                src="../img/newsmeter-logo.png"
+                class="logo"
+                alt="logo"
+              />
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul
+                class="navbar-nav ml-auto center-item-space pt-4 justify-content-center align-items-center"
+              >
+                <li class="nav-item">
+                  <a class="nav-link" href="../TopStories.html">TOP STORIES</a>
+                </li>
+
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    FACT CHECK
+                    <span class="fa fa-caret-down"></span>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="../FactCheckEnglish.html">Fact Check English</a>
+                    <a href="#">Fact Check Malayalam</a>
+                    <a href="#">Fact Check Tamil</a>
+                    <a href="#">Fact Check Kannada</a>
+                    <a href="#">Fact Check Health</a>
+                  </div>
+                </div>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../Entertainment.html">
+                    ENTERTAINMENT
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../Health.html">HEALTH</a>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-danger">Subscribe</button>
+                </li>
+                <li class="nav-item">
+                  <a class="pl-2 fa fa-search"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <div
+                      class="btn-group"
+                      role="group"
+                      aria-label="Basic example"
+                    >
+                      <button type="button" class="btn btn-primary btn-fb">
+                        <i class="bi bi-facebook"></i>
+                      </button>
+                      <button type="button" class="btn btn-danger btn-insta">
+                        <i class="bi bi-instagram"></i>
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        <i class="bi bi-twitter"></i>
+                      </button>
+                      <button type="button" class="btn btn-danger">
+                        <i class="bi bi-youtube"></i>
+                      </button>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="static_page_content">
+          <b
+            style="
+              font-family: inherit;
+              font-weight: 500;
+              line-height: 7rem;
+              color: inherit;
+              font-size: 38px;
+            "
+          >
+            Contact NewsMeter
+          </b>
+
+          <div class="col-sm-12">
+            <div class="contact-info row1 mb30">
+              <h2 class="color-primary" style="color: red;">
+                <p>
+                  <span
+                    style="
+                      color: red;
+                      font-family: inherit;
+                      background-color: rgb(255, 255, 255);
+                    "
+                  >
+                    Contact Info
+                  </span>
+                  <br />
+                </p>
+              </h2>
+              <div class="row">
+                <div class="col-sm-6 col-md-4">
+                  <div class="row1 item address">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
+                      style="height: 32px;"
+                    >
+                      <path
+                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
+                      ></path>
+                    </svg>
+                    H.No.1-98/6/J/81, 5th Floor, Plot.No.81, S Y No.67 Jubliee
+                    Enclave, Hitech City, Madhapur Hyderabad Hyderabad TG 500081
+                    IN
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="row1 item mail">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      style="height: 27px;"
+                    >
+                      <path
+                        d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
+                      ></path>
+                    </svg>
+                    &nbsp;editor@newsmeter.in
+                    <br />
+                    advertising@newsmeter.in
+                  </div>
+                  <p class="m0">&nbsp;</p>
+                  <div class="row1 item phone"></div>
+                </div>
+              </div>
+              <p class="m0"><br /></p>
+              <div class="contact-form row1">
+                <h2 class="color-primary" style="color: red;">
+                  Get in touch with us
+                </h2>
+                <div
+                  role="form"
+                  class="wpcf7"
+                  id="wpcf7-f7071-p3571-o1"
+                  lang="en-US"
+                  dir="ltr"
+                >
+                  <div
+                    class="screen-reader-response"
+                    role="alert"
+                    aria-live="polite"
+                  ></div>
+                  <form id="user_form" class="wpcf7-form init">
+                    <input
+                      class="form-control"
+                      type="hidden"
+                      name="form_name"
+                      value="contact_us"
+                      style="display: none;"
+                    />
+                    <div class="row">
+                      <div class="input-box col-sm-6 mb15">
+                        <label>
+                          Your Name (required)
+                          <br />
+                          <span class="wpcf7-form-control-wrap your-name">
+                            <input
+                              type="text"
+                              size="40"
+                              class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                              name="user_name"
+                              spellcheck="false"
+                              data-ms-editor="true"
+                            />
+                          </span>
+                        </label>
+                      </div>
+                      <div class="input-box col-sm-6 mb15">
+                        <label>
+                          Your Email (required)
+                          <br />
+                          <span class="wpcf7-form-control-wrap your-email">
+                            <input
+                              type="email"
+                              size="40"
+                              class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                              name="user_email"
+                            />
+                          </span>
+                        </label>
+                      </div>
+                      <div class="input-box col-sm-6 mb15">
+                        <label>
+                          Phone Number
+                          <br />
+                          <span class="wpcf7-form-control-wrap your-phone">
+                            <input
+                              type="tel"
+                              size="40"
+                              class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel"
+                              name="user_phone"
+                            />
+                          </span>
+                        </label>
+                      </div>
+                      <div class="input-box col-sm-6 mb15">
+                        <label>
+                          Subject
+                          <br />
+                          <span class="wpcf7-form-control-wrap your-subject">
+                            <input
+                              type="text"
+                              size="40"
+                              class="wpcf7-form-control wpcf7-text"
+                              name="user_subject"
+                              spellcheck="false"
+                              data-ms-editor="true"
+                            />
+                          </span>
+                        </label>
+                      </div>
+                      <div class="textarea col-sm-12 mb15">
+                        <label>
+                          Your Message
+                          <br />
+                          <span class="wpcf7-form-control-wrap your-message">
+                            <textarea
+                              cols="43"
+                              rows="10"
+                              class="wpcf7-form-control wpcf7-textarea"
+                              name="user_message"
+                              spellcheck="false"
+                              data-ms-editor="true"
+                            ></textarea>
+                          </span>
+                        </label>
+                      </div>
+                    </div>
+                    <input
+                      type="submit"
+                      class="submit submit-button wpcf7-form-control wpcf7-submit btn btn-primary btn-small-rounded js-btn-submit-contact mb-5"
+                      value="Submit"
+                    />
+                  </form>
+                </div>
+                <script>
+                  document.addEventListener('RESOURCES_LOADED', function (e) {
+                    initContact()
+                  })
+                  if (window.themeResourceLoaded) {
+                    initContact()
+                  }
+                  function initContact() {
+                    $('.submit-button').on('click', function () {
+                      var $form = $('#user_form')
+                      $.ajax({
+                        url: 'https://newsmeter.in/ContentCreator',
+                        type: 'post',
+                        dataType: 'application/json',
+                        headers: {
+                          's-id':
+                            'zrPFMHSXdJKt5OQvUNyaoyDzBwKnTCTtYAdXFN80pU8T2CELtfbakHmi8OPj1uwq',
+                        },
+                        data: $form.serialize(),
+                        success: function (data) {
+                          $form.html(
+                            '<div class="thankyou"> Thank you for contacting us</div>',
+                          )
+                        },
+                        error: function (data) {
+                          $form.html(
+                            '<div class="thankyou">Thank you for contacting us</div> ',
+                          )
+                        },
+                        complete: function (data) {
+                          $form.html(
+                            '<div class="thankyou"> Thank you for contacting us</div>',
+                          )
+                        },
+                      })
+                    })
+                  }
+                </script>
+              </div>
+            </div>
+          </div>
+          <style>
+            p {
+              font-size: 16px;
+              font-family: Roboto, sans-serif;
+              margin: 0 0 25px;
+            }
+            .is-custom-title {
+              margin-top: 28px;
+            }
+          </style>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="img-footer">
+          <img src="../img/footer.png" alt="" />
+          <div class="join-us">
+            <p>Join us in Our Fight Against Mis-Information</p>
+            <button class="btn btn-danger">Join</button>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="follow">
+            <p style="color: aliceblue; font-size: 17px;">Follow Us On</p>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-primary btn-fb">
+                <i class="bi bi-facebook"></i>
+              </button>
+              <button type="button" class="btn btn-danger btn-insta">
+                <i class="bi bi-instagram"></i>
+              </button>
+              <button type="button" class="btn btn-primary">
+                <i class="bi bi-twitter"></i>
+              </button>
+              <button type="button" class="btn btn-danger">
+                <i class="bi bi-youtube"></i>
+              </button>
+            </div>
+          </div>
+          <div class="ColumN">
+            <a class="nav-link active" href="#">About NewsMeter</a>
+            <a class="nav-link" href="#">Editorial Staff</a>
+            <a class="nav-link" href="#">Fact Check Methodology</a>
+          </div>
+          <div class="ColumN">
+            <a class="nav-link" style="color: aliceblue;">Terms&Condition</a>
+            <a class="nav-link active" href="#">Correction Policy</a>
+            <a class="nav-link" href="#">Privacy Policy</a>
+            <a class="nav-link" href="#">Cookie Policy</a>
+          </div>
+          <div class="ColumN">
+            <a class="nav-link" style="color: aliceblue;">
+              Non Partnership Policy
+            </a>
+            <a class="nav-link active" href="#">Grievance Addressal</a>
+            <a class="nav-link" href="#">Contact News Meter</a>
+            <a class="nav-link" href="#">Advertise With Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid py-2 bg-dark">
+        <p class="text-center mb-0 text-white text-left">
+          &copy; 2023 All rights reserved
+        </p>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/sidebr.js"></script>
+    <script src="../js/sticky-header.js"></script>
+  </body>
+</html>

@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Newmeter</title>
+
+    <!-- //font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- roboto fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link href="../css/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!---------------------------sidebar-start ---------------------------------->
+    <div class="sidenav" id="mySidenav">
+      <div class="d-flex sidenav-header justify-content-end">
+        <!-- <a href="#" class=""><img src="./img/newsmeter-logo.png" class="img-fluid" /></a> -->
+        <button
+          type="button"
+          class="closebtn btn btn-light"
+          onclick="closeNav()"
+        >
+          <i class="bi bi-x-lg"></i>
+        </button>
+      </div>
+
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="../TopStories.html">TOP STORIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Hyderabad.html">HYDERABAD</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Crime.html">CRIME</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../FactCheckEnglish.html">
+            FACT CHECK ENGLISH
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../ConsumerVoice.html">CONSUMER VOICE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../DataStrories.html">DATA STORIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../StatielliteJournalism.html">
+            SATELLITE JOURNALISM
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../Health.html">HEALTH</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Educationand jobs.html">
+            EDUCATION/JOBS
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../BusinessandTechJobs.html">
+            BUSINESS/TECH & STARTUPS
+          </a>
+        </li>
+        <div class="Dropdown">
+          <button class="Dropbtn">
+            REGIONAL
+            <span class="fa fa-caret-down"></span>
+          </button>
+          <div class="Dropdown-Content">
+            <a class="nav-link" href="../FactCheckEnglish.html">
+              Andhra Pradesh
+            </a>
+            <a class="nav-link" href="#">Hyderabad</a>
+            <a class="nav-link" href="#">South India</a>
+            <a class="nav-link" href="#">Telangana</a>
+            <a class="nav-link" href="#">Tirupathi</a>
+            <a class="nav-link" href="#">Vishakapatnam</a>
+            <a class="nav-link" href="#">Vijayawada/Amaravati</a>
+            <a class="nav-link" href="#">Warangal</a>
+            <a class="nav-link" href="#">World / NRI News</a>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <!------------------------sidebar-End--------------------------------------->
+    <!------------------------Main-content-start--------------------------------------->
+    <div id="main  border">
+      <!------------------------Top-Banner-End--------------------------------------->
+      <!------------------------Header-start--------------------------------------->
+      <div class="container px-0">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- <img class="add-banner shadow-sm" src="./img/banner-ad-example-online.png" alt="Advertisement"> -->
+          </div>
+
+          <div class="telugu-btn">
+            <button type="button" class="btn btn-danger" href="#">
+              Telugu
+            </button>
+          </div>
+          <div class="icfn-logo">
+            <a href="#"><img src="../img/icfn-logo.png" class="w-100" /></a>
+          </div>
+        </div>
+      </div>
+      <!------------------------Top-Banner-End--------------------------------------->
+      <!------------------------Header-start--------------------------------------->
+      <section id="mainNav">
+        <!------------------------Header-End--------------------------------------->
+        <!------------------------Navigation Links start--------------------------------------->
+        <div class="container-fluid px-0">
+          <nav
+            class="navbar navbar-expand-md navbar-light main-nav bg-white border-bottom"
+          >
+            <a
+              class="menu btn btn-danger shadow-sm mr-3"
+              href="#"
+              onclick="openNav()"
+            >
+              <i class="bi bi-list"></i>
+            </a>
+            <a class="navbar-brand">
+              <img
+                class="img"
+                src="../img/newsmeter-logo.png"
+                class="logo"
+                alt="logo"
+              />
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul
+                class="navbar-nav ml-auto center-item-space pt-4 justify-content-center align-items-center"
+              >
+                <li class="nav-item">
+                  <a class="nav-link" href="../TopStories.html">TOP STORIES</a>
+                </li>
+                <!--<li class="nav-item">
+                <a class="nav-link" href="#">Politics</a>
+              </li>-->
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    FACT CHECK
+                    <span class="fa fa-caret-down"></span>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="../FactCheckEnglish.html">Fact Check English</a>
+                    <a href="#">Fact Check Malayalam</a>
+                    <a href="#">Fact Check Tamil</a>
+                    <a href="#">Fact Check Kannada</a>
+                    <a href="#">Fact Check Health</a>
+                  </div>
+                </div>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../Entertainment.html">
+                    ENTERTAINMENT
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../Lifestyle.html">LIFE STYLE</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="../Health.html">HEALTH</a>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-danger">Subscribe</button>
+                </li>
+                <li class="nav-item">
+                  <a class="pl-2 fa fa-search"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <div
+                      class="btn-group"
+                      role="group"
+                      aria-label="Basic example"
+                    >
+                      <button type="button" class="btn btn-primary btn-fb">
+                        <i class="bi bi-facebook"></i>
+                      </button>
+                      <button type="button" class="btn btn-danger btn-insta">
+                        <i class="bi bi-instagram"></i>
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        <i class="bi bi-twitter"></i>
+                      </button>
+                      <button type="button" class="btn btn-danger">
+                        <i class="bi bi-youtube"></i>
+                      </button>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+      <style>           
+        .container {
+          max-width: 100%;
+        }
+      </style>
+      <div class="container-fluid">
+        <div class="container">
+          <div class="primary margin-15">
+            <div class="row">
+              <div class="col-md-12 center-block"></div>
+              <div class="col-md-12 center-block">
+                <div class="static_page_content">
+                  <b
+                    style="
+                      font-family: inherit;
+                      font-weight: 500;
+                      line-height: 7rem;
+                      color: inherit;
+                      font-size: 38px;
+                    "
+                  >
+                    Fact Check Methodology
+                  </b>
+                  <div class="col-md-12 center-block">
+                    <h1 class="page-title">
+                      <span style="font-size: 20px;">Fact Check</span>
+                    </h1>
+
+                    <p>
+                      NewsMeter fact checkers have a primary responsibility to
+                      factcheck claims with fair and objective methodology
+                      without bias. These stories are reviewed by one or more
+                      factcheck editors and then posted on the website.
+                    </p>
+                    <h2>
+                      <span style="font-size: 26px;">
+                        Fact Check Methodology:
+                      </span>
+                    </h2>
+                    <h3>1. Selection of a claim to Fact check:</h3>
+                    <p>
+                      We monitor different social media platforms and verify the
+                      authenticity of the viral news. The tweets, statements and
+                      posts of politicians and influencers from various walks of
+                      life are monitored. Several users message us directly or
+                      tag us on tweets with some claims which need verification.
+                      We ensure that there is no political bias in selecting the
+                      claims to be fact-checked.
+                    </p>
+                    <p>
+                      We maintain clear standards across our fact checks by
+                      selecting trending topics that are aimed at misleading the
+                      public in favor of a political party or an individual or
+                      those aimed at creating unnecessary panic among all.
+                    </p>
+                    <p>
+                      NewsMeter keeps an eye on regular editorial news and
+                      messages in the mainstream media and also social media
+                      platforms. We do not make any judgment of our own, whether
+                      they merit coverage based on their perceived importance,
+                      degree of controversy or superficiality.
+                    </p>
+                    <p>
+                      We take up a claim for fact-checking without any bias or
+                      political affinity. Process is strictly followed for every
+                      fact check and all the claims, whether offensive or
+                      elusive, are taken up for study. We thoroughly examine a
+                      claim and try to explain it with layman words so that a
+                      reader can understand the fact without much difficulty.
+                    </p>
+                    <h3>2. Verification of the claim:</h3>
+                    <p>
+                      Thorough analysis of the origin and context of the claim
+                      are done. Date of origin of the claim is crucial, the
+                      source of the claim needs to be a reliable one. Images are
+                      searched using Google reverse image search to backtrack
+                      the earliest date they were posted. In case of videos, we
+                      use online tools like Invid, to extract the keyframes from
+                      the video and then those pictures are used for reverse
+                      image search. Any kind of manipulation, such as photoshop,
+                      can be found out using this technique.&nbsp;Official press
+                      releases, posts or tweets of official and verified social
+                      media handles are also used.
+                    </p>
+                    <p>
+                      Claims from various languages can also be checked by
+                      translating the content to any desirable language by using
+                      translating tools like Google translate etc. Features like
+                      Geolocation, Maps, Street view etc are used to identify
+                      the location of the image or video.
+                    </p>
+                    <p>
+                      Various search engines like Yandex, Bing, Baidu, Tineye
+                      along with Google are used to find and analyze the origin
+                      of the claims shared.
+                    </p>
+                    <h3>3. Research:</h3>
+                    <p>
+                      Publicly available resources such as News releases from
+                      authentic news agencies, reputed media websites are used
+                      in the verification process. Evidence in the form of
+                      pictures, videos are sorted and presented to either
+                      support or refute the claim made.
+                    </p>
+                    <p>
+                      For the understanding of the user, the techniques used for
+                      fact-checking are listed and presented well, links of the
+                      resources used are hyperlinked in the story to make it
+                      authentic.
+                    </p>
+                    <h3>4. Fact Check:</h3>
+                    <p>Based on the research done, the claim is concluded as</p>
+                    <ul>
+                      <li>True</li>
+                      <li>Partly True</li>
+                      <li>False</li>
+                      <li>Misleading</li>
+                    </ul>
+                    <p>
+                      Some claims which cannot be fact checked, due to lack of
+                      enough evidence, will be pronounced as Unverified.
+                    </p>
+                    We at NewsMeter, make sure to provide you with accurate and
+                    reliable information each time we post our stories. However
+                    if you find any discrepancy in our stories or would like to
+                    correct certain information, please do write to us at
+                    newsmeter.info@gmail.com with the related article and
+                    subject line. We assure you that we will update the changes
+                    wherever necessary within 48 hours. NewsMeter also welcomes
+                    feedbacks from its users be it on social media platforms or
+                    on its website.
+                  </div>
+                  <div class="col-md-12 center-block">
+                    If there are any major corrections in the articles or if any
+                    figures are misrepresented. Please notify us on our mail
+                    account so that we may update the change wherever necessary.
+                    <h2 style="color: red;">
+                      Promoters and funding sources of NewsMeter
+                    </h2>
+                    <h3>Funding</h3>
+                   
+                    Newsmeter is mostly self-funded through the Investments from
+                    promoters. Around 35 per cent of operational costs are borne
+                    through the investments from promoters. Both fact check unit
+                    and editorial team operates independently.
+                  </div>
+                  <div class="col-md-12 center-block">
+                    <br />
+                    Newsmeter also receives funding(revenue) through
+                    advertisements from Google Adsense, Taboola, Columbia and
+                    other advertisers.
+                    <a
+                      href="https://newsmeter.in/pdf_upload/pdf_upload-298725.pdf"
+                    >
+                      <p style=" color:#ff0000" class="font-weight-bold">
+                        Audited revenue details 2019-2020
+                      </p>
+                    </a>
+                    . 2020-2021 financials results are yet to be audited.
+                    Tentatively in 2020-2021 too revenues are similar to the
+                    previous year. Around 65 per cent of operational costs are
+                    borne through the advertisement revenue. None of the
+                    advertisers has any role in deciding the selection of claims
+                    for a fact check or findings to be published or in editorial
+                    policy. We are a free and separate fact-checking unit that
+                    acts independently.
+                  </div>
+                  <div class="col-md-12 center-block">
+                    <br />
+                    Newsmeter receives nominal revenue from news aggregator like
+                    daily hunt who pick up our stories. We do not provide any
+                    content separately to any news aggregators. All the news
+                    stories published on the site are picked up by them
+                    automatically with RSS feed. News aggregators has no role in
+                    deciding the editorial policy or selection of news stories
+                    or fact check to be published on Website. Moreover the
+                    revenue generated from news aggregators is insignificant
+                    amounting to less than 3 per cent of operational
+                    costs/budget and they have no influence on either fact
+                    checking or editorial.Newsmeter doesn’t receive any funding
+                    from local or foreign state or political sources.
+                  </div>
+                  <style>
+                    p {
+                      font-size: 16px;
+                      color: #0d0d0d;
+                      font-family: Roboto, sans-serif;
+                      margin: 0 0 25px;
+                    }
+                   
+
+                  </style>
+                  <p>
+                    <b
+                      style="
+                        font-family: inherit;
+                        font-weight: 500;
+                        line-height: 5.2rem;
+                        color: inherit;
+                        font-size: 38px;
+                      "
+                    >
+                      Correction Policy
+                    </b>
+                  </p>
+                  <p></p>
+                  <p>
+                    <span style="font-size: 17px;">
+                      In Journalism, there has always been a tension between
+                      getting it first and getting it right.
+                    </span>
+                    <br />
+                  </p>
+                  <p><span style="font-size: 17px;"></span></p>
+                  <p>
+                    <span style="font-size: 17px;">
+                      We at NewsMeter, make sure to provide you with accurate
+                      and reliable information each time we post our stories.
+                      However if you find any discrepancy in our stories or
+                      would like to correct certain information, please do write
+                      to us at
+                    </span>
+                    <a href="mailto: newsmeter.info@gmail.com ">
+                      <span style="font-size: 17px;"></span>
+                    </a>
+                    <a href="mailto: editor@newsmeter.in">&nbsp;</a>
+                    <a href="mailto: editor@newsmeter.in">
+                      <p class="font-weight-bold font">editor@newsmeter.in</p>
+                    </a>
+                    <p class="font-weight-bold font">
+                      <a href="mailto: editor@newsmeter.in">&nbsp;</a>
+                    </p>
+                    <span style="font-size: 17px;">
+                      with the related article and subject line. We assure you
+                      that we will update the changes wherever necessary within
+                      48 hours. NewsMeter also welcomes feedbacks from its users
+                      be it on social media platforms or on its website.
+                    </span>
+                  </p>
+                  <p>
+                    For complaints about potential non-compliance regarding the
+                    Code of Principles, you can utilize
+                    <a
+                      href="https://ifcncodeofprinciples.poynter.org/complaints-policy"
+                    >
+                      <p class="font-weight-bold font" color="#ff0000">IFCN complaints policy</p>
+                    </a>
+                    .
+                  </p>
+                  <p>
+                    <span style="font-size: 17px;">
+                      If there are any major corrections in the articles or if
+                      any figures are misrepresented. Please notify us on our
+                      mail account so that we may update the change wherever
+                      necessary.
+                    </span>
+                  </p>
+                  <p>
+                    <b>Corrections List:</b>
+                    <br />
+                  </p>
+                  <p>
+                    1) 
+                    <span style="font-size: 17px;">
+                      The first version stated few mistakes in the story.
+                    </span>
+                  </p>
+                  <p>
+                    <span style="font-size: 17px;">
+                      Mr. Philipe Haydon is the Ex-CEO of Himalaya company
+                    </span>
+                    <br />
+                  </p>
+                  <p>
+                    <span style="font-size: 17px;">
+                      Najeeb Manal is the CEO- Americas region at Himalaya
+                      Herbal Healthcare
+                    </span>
+                  </p>
+                  <p>
+                    <span style="font-size: 17px;">Corrected News Report:</span>
+                  </p>
+                  <p>
+                    <a
+                      href="https://newsmeter.in/fact-check-is-owner-of-himalaya-global-holdings-funding-islamic-jihad/"
+                    >
+                      <p class="font-weight-bold font">
+                        https://newsmeter.in/fact-check-is-owner-of-himalaya-global-holdings-funding-islamic-jihad/
+                      </p>
+                    </a>
+                  </p>
+                  <p>
+                    <span style="font-size: 17px;">
+                      2) We updated the links in the article on March 8, 2021
+                    </span>
+                  </p>
+                  <p>
+                    <span style="font-size: 17px;">Updated News Report:</span>
+                  </p>
+                  <p>
+                    <a
+                      href="https://newsmeter.in/fact-check/fact-check-no-9969777888-is-not-telangana-polices-helpline-number-for-women-674696"
+                    >
+                      <p class="font-weight-bold font">
+                        <span style="font-size: 17px;">
+                          https://newsmeter.in/fact-check/fact-check-no-9969777888-is-not-telangana-polices-helpline-number-for-women-674696
+                        </span>
+                    </p>
+                    </a>
+                  </p>
+                  <p>
+                    <span style="font-size: 17px;">
+                      3) As we have received a communication from VHP-A that the
+                      Governor of Florida indeed declared it as Hindu Heritage
+                      Month and the document is genuine, we have updated the
+                      article to TRUE from Misleading.
+                    </span>
+                  </p>
+                  <p><span style="font-size: 17px;">Updated Report:</span></p>
+                  <p>
+                    <a
+                      href="https://newsmeter.in/fact-check/fact-check-us-hindu-groups-have-declared-october-hindu-heritage-month-not-florida-governor-683395"
+                    >
+                      <p class="font-weight-bold font">
+                        https://newsmeter.in/fact-check/fact-check-us-hindu-groups-have-declared-october-hindu-heritage-month-not-florida-governor-683395
+                      </p>
+                    </a>
+                    <br />
+                  </p>
+                  <style>
+                    p {
+                      margin: 0 0 25px;
+                      font-size: 16px;
+                      color: #0d0d0d;
+                      font-family: Roboto, sans-serif;
+                    }
+                  </style>
+                  <p></p>
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="img-footer">
+          <img src="../img/footer.png" alt="" />
+          <div class="join-us">
+            <p>Join us in Our Fight Against Mis-Information</p>
+            <button class="btn btn-danger">Join</button>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="follow">
+            <p style="color: aliceblue; font-size: 17px;">Follow Us On</p>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-primary btn-fb">
+                <i class="bi bi-facebook"></i>
+              </button>
+              <button type="button" class="btn btn-danger btn-insta">
+                <i class="bi bi-instagram"></i>
+              </button>
+              <button type="button" class="btn btn-primary">
+                <i class="bi bi-twitter"></i>
+              </button>
+              <button type="button" class="btn btn-danger">
+                <i class="bi bi-youtube"></i>
+              </button>
+            </div>
+          </div>
+          <div class="ColumN">
+            <a class="nav-link active" href="#">About NewsMeter</a>
+            <a class="nav-link" href="#">Editorial Staff</a>
+            <a class="nav-link" href="#">Fact Check Methodology</a>
+          </div>
+          <div class="ColumN">
+            <a class="nav-link" style="color: aliceblue;">Terms&Condition</a>
+            <a class="nav-link active" href="#">Correction Policy</a>
+            <a class="nav-link" href="#">Privacy Policy</a>
+            <a class="nav-link" href="#">Cookie Policy</a>
+          </div>
+          <div class="ColumN">
+            <a class="nav-link" style="color: aliceblue;">
+              Non Partnership Policy
+            </a>
+            <a class="nav-link active" href="#">Grievance Addressal</a>
+            <a class="nav-link" href="#">Contact News Meter</a>
+            <a class="nav-link" href="#">Advertise With Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid py-2 bg-dark">
+        <p class="text-center mb-0 text-white text-left">
+          &copy; 2023 All rights reserved
+        </p>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="../js/sidebr.js"></script>
+  <script src="../js/sticky-header.js"></script>
+
+
+  </body>
+</html>
